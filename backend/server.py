@@ -76,7 +76,8 @@ def analyze_receipt():
             "Only include information you can clearly see. Use \"NA\" for missing values. "
             "Format all prices as decimal numbers without currency symbols. "
             "Keep item names exactly as written on receipt. and give back json. "
-            "If a value does not exist or cannot be parsed, return \"na\" for it."
+            "If a value does not exist or cannot be parsed, return \"na\" for it. and keep the order of fields of json intact"
+            
         )["answer"]
         
         # Try to parse the response as JSON
