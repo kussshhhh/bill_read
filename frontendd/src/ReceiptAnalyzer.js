@@ -6,6 +6,7 @@ function ReceiptAnalyzer() {
   const [response, setResponse] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [imagePreview, setImagePreview] = useState(null);
 
   const backendUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000';
 
@@ -14,6 +15,7 @@ function ReceiptAnalyzer() {
 
     setIsLoading(true);
     setError(null);
+    setImagePreview(URL.createObjectURL(acceptedFiles[0]));
 
     const formData = new FormData();
     formData.append('image', acceptedFiles[0]); // Correct field name based on your backend
@@ -52,6 +54,13 @@ function ReceiptAnalyzer() {
           <p>Drag 'n' drop a receipt image here, or click to select a file</p>
         )}
       </div>
+
+      {imagePreview && (
+        <div style={styles.imagePreview}>
+          <h3>Uploaded Image:</h3>
+          <img src={imagePreview} alt="Uploaded Receipt" style={{ maxWidth: '100%', maxHeight: '400px' }} />
+        </div>
+      )}
 
       {isLoading && (
         <div style={styles.message}>
@@ -120,6 +129,12 @@ const styles = {
     lineHeight: '1.4',
     maxHeight: '400px',
     overflowY: 'auto',
+  },
+  imagePreview: {
+    marginTop: '20px',
+    padding: '20px',
+    backgroundColor: '#f5f5f5',
+    borderRadius: '4px',
   },
 };
 
