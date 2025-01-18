@@ -1,0 +1,42 @@
+{
+    "name_of_establishment": "Lalo's Mexican",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Bottled Water",
+            "quantity": 1,
+            "price_per_item": 2.45,
+            "total_price": 2.45
+        },
+        {
+            "name": "Pollo Taco",
+            "quantity": 1,
+            "price_per_item": 4.95,
+            "total_price": 4.95
+        },
+        {
+            "name": "Carnitas Taco",
+            "quantity": 1,
+            "price_per_item": 4.95,
+            "total_price": 4.95
+        },
+        {
+            "name": "Sour Cream",
+            "quantity": 1,
+            "price_per_item": 1.25,
+            "total_price": 1.25
+        },
+        {
+            "name": "Chihuahua Cheese",
+            "quantity": 1,
+            "price_per_item": 1.25,
+            "total_price": 1.25
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 14.85,
+    "tax": 1.52,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 16.56
+}

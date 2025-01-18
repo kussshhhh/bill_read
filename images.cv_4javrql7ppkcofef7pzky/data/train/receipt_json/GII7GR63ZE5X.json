@@ -1,1 +1,48 @@
-{}
+{
+    "name_of_establishment": "Shake Shack",
+    "currency": "$",
+    "items": [
+        {
+            "name": "ShackBurger",
+            "quantity": 1,
+            "price_per_item": 5.19,
+            "total_price": 5.19
+        },
+        {
+            "name": "Smoke Shack",
+            "quantity": 1,
+            "price_per_item": 6.69,
+            "total_price": 6.69
+        },
+        {
+            "name": "cheese fries",
+            "quantity": 1,
+            "price_per_item": 3.95,
+            "total_price": 3.95
+        },
+        {
+            "name": "REG Soda (2 @2.75)",
+            "quantity": 2,
+            "price_per_item": 2.75,
+            "total_price": 5.50
+        },
+        {
+            "name": "(2)REG Rootbeer",
+            "quantity": 2,
+            "price_per_item": 2.25,
+            "total_price": 4.50
+        },
+        {
+            "name": "REG Iced Tea",
+            "quantity": 1,
+            "price_per_item": 2.25,
+            "total_price": 2.25
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 23.58,
+    "tax": 1.89,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 25.47
+}

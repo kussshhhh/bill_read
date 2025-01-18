@@ -1,5 +1,72 @@
 {
-   "SUBTOTAL": 132.25,
-    "TAX": 9.76,
-    "TOTAL": 142.01
+    "name_of_establishment": "MARIANACCI'S RESTAURANT",
+    "currency": "$",
+    "items": [
+        {
+            "name": "PREM WHITE",
+            "quantity": 1,
+            "price_per_item": 10.75,
+            "total_price": 10.75
+        },
+        {
+            "name": "PREM RED",
+            "quantity": 1,
+            "price_per_item": 10.75,
+            "total_price": 10.75
+        },
+        {
+            "name": "DIET SDA",
+            "quantity": 1,
+            "price_per_item": 3.75,
+            "total_price": 3.75
+        },
+        {
+            "name": "7 UP",
+            "quantity": 1,
+            "price_per_item": 3.25,
+            "total_price": 3.25
+        },
+        {
+            "name": "VONG RIPIENE",
+            "quantity": 1,
+            "price_per_item": 9.75,
+            "total_price": 9.75
+        },
+        {
+            "name": "Chicken Parm",
+            "quantity": 1,
+            "price_per_item": 21.75,
+            "total_price": 21.75
+        },
+        {
+            "name": "SCAMPI MILAN25.75",
+            "quantity": 1,
+            "price_per_item": 25.75,
+            "total_price": 25.75
+        },
+        {
+            "name": "LING VONG",
+            "quantity": 1,
+            "price_per_item": 22.75,
+            "total_price": 22.75
+        },
+        {
+            "name": "1/2 PASTA SP16.75",
+            "quantity": 1,
+            "price_per_item": 16.75,
+            "total_price": 16.75
+        },
+        {
+            "name": "DIET SDA",
+            "quantity": 1,
+            "price_per_item": 3.75,
+            "total_price": 3.75
+        }
+    ],
+    "number_of_items": 9,
+    "subtotal": 132.25,
+    "tax": 9.76,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 142.01
 }

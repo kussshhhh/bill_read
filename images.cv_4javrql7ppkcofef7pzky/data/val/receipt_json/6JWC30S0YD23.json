@@ -1,0 +1,48 @@
+{
+  "name_of_establishment": "Trinity Restaurant",
+  "currency": "$",
+  "items": [
+    {
+      "name": "Quesadilla",
+      "quantity": 1,
+      "price_per_item": 11.00,
+      "total_price": 11.00
+    },
+    {
+      "name": "Pot Roast",
+      "quantity": 1,
+      "price_per_item": 18.00,
+      "total_price": 18.00
+    },
+    {
+      "name": "Fish An Chips",
+      "quantity": 1,
+      "price_per_item": 16.00,
+      "total_price": 16.00
+    },
+    {
+      "name": "Side Salad",
+      "quantity": 1,
+      "price_per_item": 4.00,
+      "total_price": 4.00
+    },
+    {
+      "name": "Dft Shock top",
+      "quantity": 1,
+      "price_per_item": 5.50,
+      "total_price": 5.50
+    },
+    {
+      "name": "Dft Guiness",
+      "quantity": 2,
+      "price_per_item": 15.00,
+      "total_price": 30.00
+    }
+  ],
+  "number_of_items": 6,
+  "subtotal": 69.50,
+  "tax": 6.00,
+  "tip": "NA",
+  "additional_charges": "NA",
+  "total": 75.50
+}

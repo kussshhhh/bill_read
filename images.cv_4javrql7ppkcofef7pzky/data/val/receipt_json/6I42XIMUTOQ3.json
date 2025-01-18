@@ -1,0 +1,42 @@
+{
+    "name_of_establishment": "Amici Conyers",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Coke",
+            "quantity": 2,
+            "price_per_item": 2.29,
+            "total_price": 4.58
+        },
+        {
+            "name": "Margherita Calzone",
+            "quantity": 1,
+            "price_per_item": 11.99,
+            "total_price": 11.99
+        },
+        {
+            "name": "Side Caesar",
+            "quantity": 1,
+            "price_per_item": 4.99,
+            "total_price": 4.99
+        },
+        {
+            "name": "Db1 Stack Cheeseburger",
+            "quantity": 1,
+            "price_per_item": 8.99,
+            "total_price": 8.99
+        },
+        {
+            "name": "Bacon",
+            "quantity": 2,
+            "price_per_item": 0.99,
+            "total_price": 1.98
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 31.54,
+    "tax": 2.21,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 33.75
+}

@@ -1,0 +1,54 @@
+{
+    "name_of_establishment": "MIGUELS MEXICAN",
+    "currency": "$",
+    "items": [
+        {
+            "name": "WATER",
+            "quantity": 3,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "CRAB SUIZA",
+            "quantity": 1,
+            "price_per_item": 13.25,
+            "total_price": 13.25
+        },
+        {
+            "name": "SHRIMP VERACRUZ",
+            "quantity": 1,
+            "price_per_item": 14.95,
+            "total_price": 14.95
+        },
+        {
+            "name": "ENCHILADA",
+            "quantity": 1,
+            "price_per_item": 4.95,
+            "total_price": 4.95
+        },
+        {
+            "name": "FAJITA BF",
+            "quantity": 1,
+            "price_per_item": 13.95,
+            "total_price": 13.95
+        },
+        {
+            "name": "**TAKE OUT**",
+            "quantity": 1,
+            "price_per_item": 0.25,
+            "total_price": 0.25
+        },
+        {
+            "name": "HH MIGUELS MARGARIT @ 3.38",
+            "quantity": 4,
+            "price_per_item": 3.38,
+            "total_price": 13.52
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 60.87,
+    "tax": 4.27,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 65.14
+}

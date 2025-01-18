@@ -1,1 +1,78 @@
-{}
+{
+  "name_of_establishment": "Gordon Ramsay Steak",
+  "currency": "$",
+  "items": [
+    {
+      "name": "Pimm's Cup",
+      "quantity": 1,
+      "price_per_item": 14.00,
+      "total_price": 14.00
+    },
+    {
+      "name": "The Drifter",
+      "quantity": 2,
+      "price_per_item": 14.00,
+      "total_price": 28.00
+    },
+    {
+      "name": "Kobe Beef Slider",
+      "quantity": 1,
+      "price_per_item": 18.00,
+      "total_price": 18.00
+    },
+    {
+      "name": "New York",
+      "quantity": 1,
+      "price_per_item": 63.00,
+      "total_price": 63.00
+    },
+    {
+      "name": "Amer Kobe Filet",
+      "quantity": 1,
+      "price_per_item": 79.00,
+      "total_price": 79.00
+    },
+    {
+      "name": "Lobster Tail",
+      "quantity": 1,
+      "price_per_item": 38.00,
+      "total_price": 38.00
+    },
+    {
+      "name": "Potato Puree",
+      "quantity": 1,
+      "price_per_item": 12.00,
+      "total_price": 12.00
+    },
+    {
+      "name": "Grilled Asparagus",
+      "quantity": 1,
+      "price_per_item": 13.00,
+      "total_price": 13.00
+    },
+    {
+      "name": "Peppercorn",
+      "quantity": 1,
+      "price_per_item": 6.00,
+      "total_price": 6.00
+    },
+    {
+      "name": "Pepsi",
+      "quantity": 1,
+      "price_per_item": 6.00,
+      "total_price": 6.00
+    },
+    {
+      "name": "Choc Pot De Crem",
+      "quantity": 1,
+      "price_per_item": 13.00,
+      "total_price": 13.00
+    }
+  ],
+  "number_of_items": 11,
+  "subtotal": 290.00,
+  "tax": 23.49,
+  "tip": "NA",
+  "additional_charges": "NA",
+  "total": 313.49
+}

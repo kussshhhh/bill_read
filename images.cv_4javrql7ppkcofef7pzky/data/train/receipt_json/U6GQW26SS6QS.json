@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "CHATPATA RESTAURANT INC",
+    "currency": "$",
+    "items": [
+        {
+            "name": "6.5 Chicken Korma",
+            "quantity": 1,
+            "price_per_item": 11.95,
+            "total_price": 11.95
+        },
+        {
+            "name": "10.1 Naan (Plain Naan",
+            "quantity": 1,
+            "price_per_item": 1.95,
+            "total_price": 1.95
+        },
+        {
+            "name": "13.1 Kheer",
+            "quantity": 1,
+            "price_per_item": 3.95,
+            "total_price": 3.95
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 17.85,
+    "tax": 1.25,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 19.10
+}

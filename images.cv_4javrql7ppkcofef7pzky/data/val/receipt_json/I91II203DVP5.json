@@ -1,0 +1,18 @@
+{
+    "name_of_establishment": "Golden Panda Buffet",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Adult Dinner Soda",
+            "quantity": 2,
+            "price_per_item": 23.98,
+            "total_price": 47.96
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 27.36,
+    "tax": 2.60,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 29.96
+}

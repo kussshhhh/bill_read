@@ -1,0 +1,24 @@
+{
+    "name_of_establishment": "BRASAS RESTAURANT",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Chicken Torta",
+            "quantity": 1,
+            "price_per_item": 6.50,
+            "total_price": 6.50
+        },
+        {
+            "name": "Horchata",
+            "quantity": 1,
+            "price_per_item": 2.00,
+            "total_price": 2.00
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 9.00,
+    "tax": 0.97,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 9.97
+}

@@ -1,1 +1,36 @@
-{}
+{
+    "name_of_establishment": "Chef Wang",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Scallion Pancake",
+            "quantity": 1,
+            "price_per_item": 5.25,
+            "total_price": 5.25
+        },
+        {
+            "name": "Little Juicy Pork Buns",
+            "quantity": 1,
+            "price_per_item": 9.95,
+            "total_price": 9.95
+        },
+        {
+            "name": "Beef w Bak Choy (L)",
+            "quantity": 1,
+            "price_per_item": 8.75,
+            "total_price": 8.75
+        },
+        {
+            "name": "Hunan Beef (L)",
+            "quantity": 1,
+            "price_per_item": 8.75,
+            "total_price": 8.75
+        }
+    ],
+    "number_of_items": 4,
+    "subtotal": 32.70,
+    "tax": 2.82,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 35.52
+}

@@ -1,0 +1,33 @@
+```
+{
+    "name_of_establishment": "COLUMBUS RESTAURANT",
+    "currency": "$",
+    "items": [
+        {
+            "name": "2 FBD BLUE MARGARI",
+            "quantity": 2,
+            "price_per_item": 55.00,
+            "total_price": 110.00
+        },
+        {
+            "name": "1 CHEESE BURGER",
+            "quantity": 1,
+            "price_per_item": 14.50,
+            "total_price": 14.50
+        },
+        {
+            "name": "1 CHICKEN MARSALA",
+            "quantity": 1,
+            "price_per_item": 16.50,
+            "total_price": 16.50
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 141.00,
+    "tax": 10.01,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 184.47
+}
+```
+only json nothing else

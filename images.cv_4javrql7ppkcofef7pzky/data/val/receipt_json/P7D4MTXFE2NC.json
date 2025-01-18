@@ -1,0 +1,54 @@
+{
+    "name_of_establishment": "STA Miami Beach",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Avion Silver RX margarita rx",
+            "quantity": 1,
+            "price_per_item": 16.00,
+            "total_price": 16.00
+        },
+        {
+            "name": "Staub Silver RX margarita rx",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "Avion Silver RX margarita rx",
+            "quantity": 1,
+            "price_per_item": 16.00,
+            "total_price": 16.00
+        },
+        {
+            "name": "DA Delmonico 14 Truffle Fries",
+            "quantity": 1,
+            "price_per_item": 13.00,
+            "total_price": 13.00
+        },
+        {
+            "name": "Mac/Cheese",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "Asparagus",
+            "quantity": 1,
+            "price_per_item": 13.00,
+            "total_price": 13.00
+        },
+        {
+            "name": "BAKED COOKIE",
+            "quantity": 1,
+            "price_per_item": 10.00,
+            "total_price": 10.00
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 142.00,
+    "tax": 7.70,
+    "tip": "na",
+    "additional_charges": 2.84,
+    "total": 154.78
+}

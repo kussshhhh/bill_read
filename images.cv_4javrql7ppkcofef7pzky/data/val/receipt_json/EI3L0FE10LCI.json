@@ -1,0 +1,24 @@
+{
+    "name_of_establishment": "HIRO JAPANESE RESTAURANT",
+    "currency": "$",
+    "items": [
+        {
+            "name": "(L)Ton Katsu",
+            "quantity": 1,
+            "price_per_item": 8.95,
+            "total_price": 8.95
+        },
+        {
+            "name": "(L) Makimono",
+            "quantity": 1,
+            "price_per_item": 6.95,
+            "total_price": 6.95
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 15.90,
+    "tax": 1.28,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 17.18
+}

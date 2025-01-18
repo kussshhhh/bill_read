@@ -1,1 +1,18 @@
-{}
+{
+    "name_of_establishment": "Golden Coin",
+    "currency": "$",
+    "items": [
+        {
+            "name": "1 Plt Lunch 2 Choices",
+            "quantity": 1,
+            "price_per_item": 9.79,
+            "total_price": 9.79
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 9.79,
+    "tax": 0.46,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 10.25
+}

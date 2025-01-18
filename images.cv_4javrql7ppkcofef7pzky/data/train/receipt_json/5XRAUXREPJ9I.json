@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "RED & HOT II",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Vegetable Roll Egg Roll",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "L35.Sesame chicken",
+            "quantity": 2,
+            "price_per_item": 13.90,
+            "total_price": 27.80
+        },
+        {
+            "name": "(L)Veg Spare Ribs .BBS",
+            "quantity": 1,
+            "price_per_item": 7.65,
+            "total_price": 7.65
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 35.45,
+    "tax": 1.91,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 23.46
+}

@@ -1,0 +1,24 @@
+{
+    "name_of_establishment": "Primo Family Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "3 Prem Glass 87.50",
+            "quantity": 3,
+            "price_per_item": 22.50,
+            "total_price": 67.50
+        },
+        {
+            "name": "1 MED Veggie 927.00",
+            "quantity": 1,
+            "price_per_item": 27.00,
+            "total_price": 27.00
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 32.47,
+    "tax": 2.97,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 32.47
+}

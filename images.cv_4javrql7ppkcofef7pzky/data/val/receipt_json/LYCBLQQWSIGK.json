@@ -1,0 +1,42 @@
+{
+    "name_of_establishment": "New Delhi Indian Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "House Wine White Glass",
+            "quantity": 1,
+            "price_per_item": 3.00,
+            "total_price": 3.00
+        },
+        {
+            "name": "Vegetable Shorba",
+            "quantity": 1,
+            "price_per_item": 2.50,
+            "total_price": 2.50
+        },
+        {
+            "name": "Garlic Naan",
+            "quantity": 1,
+            "price_per_item": 2.00,
+            "total_price": 2.00
+        },
+        {
+            "name": "Kari Pakora",
+            "quantity": 1,
+            "price_per_item": 4.50,
+            "total_price": 4.50
+        },
+        {
+            "name": "Angkor Beer with Meal",
+            "quantity": 3,
+            "price_per_item": 0.50,
+            "total_price": 1.50
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 13.00,
+    "tax": "na",
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 13.00
+}

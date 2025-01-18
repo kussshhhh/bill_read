@@ -1,0 +1,60 @@
+{
+    "name_of_establishment": "Nunzia",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Tartare di Tonno",
+            "quantity": 1,
+            "price_per_item": 17.00,
+            "total_price": 17.00
+        },
+        {
+            "name": "Linguine Scampi",
+            "quantity": 1,
+            "price_per_item": 20.00,
+            "total_price": 20.00
+        },
+        {
+            "name": "Branzino",
+            "quantity": 1,
+            "price_per_item": 28.00,
+            "total_price": 28.00
+        },
+        {
+            "name": "Pizza Americana",
+            "quantity": 1,
+            "price_per_item": 14.00,
+            "total_price": 14.00
+        },
+        {
+            "name": "Carrot Cake",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "G1 Sangiovese",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "G1 Merlot",
+            "quantity": 1,
+            "price_per_item": 13.00,
+            "total_price": 13.00
+        },
+        {
+            "name": "Misc Food",
+            "quantity": 1,
+            "price_per_item": 2.00,
+            "total_price": 2.00
+        }
+    ],
+    "number_of_items": 8,
+    "subtotal": 118.00,
+    "tax": 10.33,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 128.33
+}

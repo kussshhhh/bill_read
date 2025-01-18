@@ -1,1 +1,24 @@
-{}
+{
+    "name_of_establishment": "Chili's Grill & Bar",
+    "currency": "$",
+    "items": [
+        {
+            "name": "TRIPLE DIPPER CHICKEN WAFFLE64",
+            "quantity": 1,
+            "price_per_item": 11.89,
+            "total_price": 11.89
+        },
+        {
+            "name": "TRIPLE DIPPER",
+            "quantity": 1,
+            "price_per_item": 12.19,
+            "total_price": 12.19
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 24.08,
+    "tax": 2.29,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 26.37
+}

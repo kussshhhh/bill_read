@@ -1,1 +1,60 @@
-{}
+{
+    "name_of_establishment": "Yauatcha",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Tender Branch Hibiscus",
+            "quantity": 1,
+            "price_per_item": 8.00,
+            "total_price": 8.00
+        },
+        {
+            "name": "Seafood Puff",
+            "quantity": 1,
+            "price_per_item": 10.80,
+            "total_price": 10.80
+        },
+        {
+            "name": "Sesame Prawn Toast",
+            "quantity": 1,
+            "price_per_item": 11.80,
+            "total_price": 11.80
+        },
+        {
+            "name": "Beancurd Prawn Cheung Fun",
+            "quantity": 1,
+            "price_per_item": 10.80,
+            "total_price": 10.80
+        },
+        {
+            "name": "XO Scallop Dumpling",
+            "quantity": 1,
+            "price_per_item": 8.80,
+            "total_price": 8.80
+        },
+        {
+            "name": "Poached Beijing Dumpling",
+            "quantity": 1,
+            "price_per_item": 5.80,
+            "total_price": 5.80
+        },
+        {
+            "name": "Spinach Dumpling",
+            "quantity": 1,
+            "price_per_item": 6.80,
+            "total_price": 6.80
+        },
+        {
+            "name": "Tea Smoked Pork Ribs",
+            "quantity": 1,
+            "price_per_item": 22.00,
+            "total_price": 22.00
+        }
+    ],
+    "number_of_items": 8,
+    "subtotal": 84.80,
+    "tax": 3.82,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 88.62
+}

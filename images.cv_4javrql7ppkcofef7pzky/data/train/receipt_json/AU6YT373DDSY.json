@@ -1,26 +1,50 @@
+```
 {
-   "Date":  " 01\/13\/2012",
-   "Time":  "10:16 PM",
-     "Server": "Andrew",
-     "Location": " Blue Bear Tavern",
-     "Items": [
-         "Crimini",
-         "Salami",
-         "Olives",
-         "Lrg ClamsMussels",
-         "Reg Ketel One",
-         "House Cab"
-     ],
-     "Price": [
-         3.00,
-         3.00,
-         3.00,
-         14.00,
-         52.00,
-         6.00
-     ],
-     "Subtotal": 81.00,
-     "Philly liquor tax": 0.50,
-     "Philly pa sales tax": 1.84,
-     "Total": 83.44
- }
+    "name_of_establishment": "Blue Bear Tavern",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Crimini",
+            "quantity": 1,
+            "price_per_item": 3.00,
+            "total_price": 3.00
+        },
+        {
+            "name": "Salami",
+            "quantity": 1,
+            "price_per_item": 3.00,
+            "total_price": 3.00
+        },
+        {
+            "name": "Olives",
+            "quantity": 1,
+            "price_per_item": 3.00,
+            "total_price": 3.00
+        },
+        {
+            "name": "Lrg Clams\mussels",
+            "quantity": 1,
+            "price_per_item": 14.00,
+            "total_price": 14.00
+        },
+        {
+            "name": "Reg Kete\ One",
+            "quantity": 4,
+            "price_per_item": 52.00,
+            "total_price": 52.00
+        },
+        {
+            "name": "House Cab",
+            "quantity": 1,
+            "price_per_item": 6.00,
+            "total_price": 6.00
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 81.00,
+    "tax": 1.84,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 83.44
+}
+```

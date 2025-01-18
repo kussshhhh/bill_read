@@ -1,0 +1,30 @@
+{
+    "name_of_establishment": "Gourdough's Public House",
+    "currency": "$",
+    "items": [
+        {
+            "name": "FREEBIRD",
+            "quantity": 1,
+            "price_per_item": 5.50,
+            "total_price": 5.50
+        },
+        {
+            "name": "ICE CREAM",
+            "quantity": 1,
+            "price_per_item": 2.00,
+            "total_price": 2.00
+        },
+        {
+            "name": "LONESTAR",
+            "quantity": 1,
+            "price_per_item": 3.50,
+            "total_price": 3.50
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 11.00,
+    "tax": 0.91,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 11.91
+}

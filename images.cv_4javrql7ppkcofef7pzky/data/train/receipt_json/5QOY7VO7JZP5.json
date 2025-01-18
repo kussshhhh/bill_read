@@ -1,1 +1,24 @@
-{}
+{
+    "name_of_establishment": "Crisfield Seafood Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Dinner Platters",
+            "quantity": 1,
+            "price_per_item": 27.00,
+            "total_price": 27.00
+        },
+        {
+            "name": "Extras",
+            "quantity": 1,
+            "price_per_item": 11.50,
+            "total_price": 11.50
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 38.50,
+    "tax": 2.31,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 42.74
+}

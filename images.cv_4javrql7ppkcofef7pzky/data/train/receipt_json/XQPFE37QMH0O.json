@@ -1,47 +1,30 @@
 {
-   "Restaurant Information":{
-      "name": "Yum's Restaurant",
-      "address": "12600 Lake Blvd, PO Box 5002, Laurel, MD 20708",
-      "Phone": "301-725-5002",
-      "Server": "Yumi",
-      "Order ID": "347",
-      "Date": "06/24/2018"
-   },
-   "Server Information": {
-      "Server": "Yumi",
-      "Shift Start": "04:19 PM"
-   },
-   "Food Ordered": [
-      {
-         "Item": "Steak Cheese Egg Rolls (2)",
-         "Quantity": "4.49",
-         "Price": "7.20"
-      },
-      {
-         "Item": "4 Wings w/ French Fries",
-         "Quantity": "4.49",
-         "Price": "7.20"
-      },
-      {
-         "Item": "4 Wings w/ French Fries",
-         "Quantity": "4.49",
-         "Price": "7.20"
-      },
-      {
-         "Item": "Homemade Full Half",
-         "Quantity": "1.89"
-      }
-   ],
-   "Totals": {
-      "Food Subtotal": "20.78",
-      "Bev Subtotal": "0.00",
-      "Food Tax": "1.25",
-      "Bev Tax": "0.00",
-      "Total": "22.03",
-      "Received": "22.03",
-      "Change": "0.00"
-   },
-   "Payment Information": {
-      "Payment Method": "PAID Cash"
-   }
+    "name_of_establishment": "Yum's Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Steak Cheese Egg Rolls (2)",
+            "quantity": 1,
+            "price_per_item": 4.49,
+            "total_price": 4.49
+        },
+        {
+            "name": "4 Wings w/ French Fries",
+            "quantity": 2,
+            "price_per_item": 7.20,
+            "total_price": 14.40
+        },
+        {
+            "name": "Homemade Half Half",
+            "quantity": 1,
+            "price_per_item": 1.89,
+            "total_price": 1.89
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 20.78,
+    "tax": 1.25,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 22.03
 }

@@ -1,1 +1,78 @@
-{}
+{
+    "name_of_establishment": "Zoca Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Flying Dog Numero Uno BTL",
+            "quantity": 1,
+            "price_per_item": 8.00,
+            "total_price": 8.00
+        },
+        {
+            "name": "House Recipe",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "Sandia Margarita (#13.00/ea)",
+            "quantity": 2,
+            "price_per_item": 13.00,
+            "total_price": 26.00
+        },
+        {
+            "name": "Totem Honey Bee",
+            "quantity": 1,
+            "price_per_item": 11.00,
+            "total_price": 11.00
+        },
+        {
+            "name": "Queso Fresco Guacamole",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "Queso Fundido Mexican Street Corn Dip",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "Salsa De Molcajete",
+            "quantity": 1,
+            "price_per_item": 8.00,
+            "total_price": 8.00
+        },
+        {
+            "name": "Taquitos Carne Asada (#15.00/ea)",
+            "quantity": 2,
+            "price_per_item": 15.00,
+            "total_price": 30.00
+        },
+        {
+            "name": "Taquitos Baja California Shrimp",
+            "quantity": 1,
+            "price_per_item": 14.00,
+            "total_price": 14.00
+        },
+        {
+            "name": "Mole Enchilada",
+            "quantity": 1,
+            "price_per_item": 19.00,
+            "total_price": 19.00
+        },
+        {
+            "name": "Quesadilla Chicken",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        }
+    ],
+    "number_of_items": 11,
+    "subtotal": 152.00,
+    "tax": "na",
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 152.00
+}

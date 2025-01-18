@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "730 Tavern Kitchen & Patio",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Manhattan (3 #16.00)",
+            "quantity": 3,
+            "price_per_item": 16.00,
+            "total_price": 48.00
+        },
+        {
+            "name": "Grey Goose (3 #9.50)",
+            "quantity": 3,
+            "price_per_item": 9.50,
+            "total_price": 28.50
+        },
+        {
+            "name": "Rocks (3 #1.00)",
+            "quantity": 3,
+            "price_per_item": 1.00,
+            "total_price": 3.00
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 79.50,
+    "tax": 5.57,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 85.07
+}

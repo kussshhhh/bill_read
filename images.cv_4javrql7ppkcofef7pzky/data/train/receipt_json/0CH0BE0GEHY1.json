@@ -1,1 +1,42 @@
-{}
+{
+    "name_of_establishment": "MOOYAH Burgers, Fries & Shakes #1999",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Little MOD Shake",
+            "quantity": 1,
+            "price_per_item": 2.99,
+            "total_price": 2.99
+        },
+        {
+            "name": "MOOYAH Burger",
+            "quantity": 1,
+            "price_per_item": 4.99,
+            "total_price": 4.99
+        },
+        {
+            "name": "MOOYAH American Cheese",
+            "quantity": 1,
+            "price_per_item": 0.70,
+            "total_price": 0.70
+        },
+        {
+            "name": "MOOYAH Sauce",
+            "quantity": 1,
+            "price_per_item": 0.70,
+            "total_price": 0.70
+        },
+        {
+            "name": ">Fried Onion Strings",
+            "quantity": 1,
+            "price_per_item": 3.29,
+            "total_price": 3.29
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 11.97,
+    "tax": 1.06,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 13.03
+}

@@ -1,0 +1,18 @@
+{
+    "name_of_establishment": "Rosebud on Rush",
+    "currency": "$",
+    "items": [
+        {
+            "name": "NA",
+            "quantity": "NA",
+            "price_per_item": "NA",
+            "total_price": "79.17"
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 79.17,
+    "tax": "NA",
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 79.17
+}

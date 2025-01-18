@@ -1,0 +1,30 @@
+{
+    "name_of_establishment": "The Place 2 Be",
+    "currency": "$",
+    "items": [
+        {
+            "name": "American Coffee",
+            "quantity": 2,
+            "price_per_item": 1.75,
+            "total_price": 3.5
+        },
+        {
+            "name": "Nutella Coconut Pancakes",
+            "quantity": 1,
+            "price_per_item": 8.00,
+            "total_price": 8.00
+        },
+        {
+            "name": "Cheddar Grits",
+            "quantity": 1,
+            "price_per_item": 10.00,
+            "total_price": 10.00
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 21.50,
+    "tax": 1.37,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 22.87
+}

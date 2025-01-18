@@ -1,0 +1,54 @@
+{
+    "name_of_establishment": "Panda Express #2614",
+    "currency": "$",
+    "items": [
+        {
+            "name": "CHOW MEIN-1/2",
+            "quantity": 2,
+            "price_per_item": 9.10,
+            "total_price": 18.20
+        },
+        {
+            "name": "BROCCOLI BEEF",
+            "quantity": 1,
+            "price_per_item": 9.10,
+            "total_price": 9.10
+        },
+        {
+            "name": "BEIJING BEEF",
+            "quantity": 1,
+            "price_per_item": 9.10,
+            "total_price": 9.10
+        },
+        {
+            "name": "CKN EGG ROLL",
+            "quantity": 1,
+            "price_per_item": 1.50,
+            "total_price": 1.50
+        },
+        {
+            "name": "KUNG PAO CKN",
+            "quantity": 1,
+            "price_per_item": 1.50,
+            "total_price": 1.50
+        },
+        {
+            "name": "GRILL TERIYAKI CKN",
+            "quantity": 2,
+            "price_per_item": 1.50,
+            "total_price": 3.00
+        },
+        {
+            "name": "PEPSI 20 OZ",
+            "quantity": 2,
+            "price_per_item": 2.00,
+            "total_price": 4.00
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 25.20,
+    "tax": 2.24,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 27.44
+}

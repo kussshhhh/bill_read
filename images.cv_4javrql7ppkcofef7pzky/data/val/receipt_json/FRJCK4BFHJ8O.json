@@ -1,0 +1,60 @@
+{
+    "name_of_establishment": "POPEYE'S",
+    "currency": "$",
+    "items": [
+        {
+            "name": "REG CAJ FRIES",
+            "quantity": 1,
+            "price_per_item": 3.49,
+            "total_price": 3.49
+        },
+        {
+            "name": "#11/ POP SHRIMP/COMBO",
+            "quantity": 1,
+            "price_per_item": 8.49,
+            "total_price": 8.49
+        },
+        {
+            "name": "REG CAJ FRIES",
+            "quantity": 1,
+            "price_per_item": 3.69,
+            "total_price": 3.69
+        },
+        {
+            "name": "#6 3 TENDER ML",
+            "quantity": 1,
+            "price_per_item": 6.69,
+            "total_price": 6.69
+        },
+        {
+            "name": "REG MACHEESE",
+            "quantity": 1,
+            "price_per_item": 3.69,
+            "total_price": 3.69
+        },
+        {
+            "name": "#6 3 TENDER ML",
+            "quantity": 1,
+            "price_per_item": 6.69,
+            "total_price": 6.69
+        },
+        {
+            "name": "REG CAJ FRIES",
+            "quantity": 1,
+            "price_per_item": 3.69,
+            "total_price": 3.69
+        },
+        {
+            "name": "#5 5 WING COMBO",
+            "quantity": 1,
+            "price_per_item": 9.99,
+            "total_price": 9.99
+        }
+    ],
+    "number_of_items": 8,
+    "subtotal": 46.72,
+    "tax": 3.78,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 50.50
+}

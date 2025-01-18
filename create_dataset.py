@@ -4,36 +4,38 @@ import time
 from groq import Groq
 
 # Groq API configuration
-API_KEY = "your_groq_api_key"  # Replace with your Groq API key
+API_KEY = ""  # Replace with your Groq API key
 
 # Updated Prompt Template
 PROMPT_TEMPLATE = """
-Extract the following information from the image and return it in this exact JSON format:
-{
-  "restaurant_name": "na",
-  "bill_number": "na",
-  "date": "na",
-  "time": "na",
-  "currency": "na",
-  "items": [
-    {
-      "item_name": "na",
-      "quantity": "na",
-      "unit_price": "na",
-      "total_price": "na"
-    }
-  ],
-  "subtotal": "na",
-  "tax_percentage": "na",
-  "tip_percentage": "na",
-  "tip_amount": "na",
-  "additional_charges": "na",
-  "tax_amount": "na",
-  "total_amount": "na",
-  "payment_method": "na",
-  "table_number": "na"
-}
+ Analyze this receipt and respond ONLY with these exact details in this format:
+                {
+                    "name_of_establishment": "name of store/restaurant",
+                    "currency": "$" or any other,
+                    "items": [
+                        {
+                            "name": "item name",
+                            "quantity": number,
+                            "price_per_item": price,
+                            "total_price": quantity * price
+                        }
+                    ],
+                    "number_of_items": total count of unique items,
+                    "subtotal": subtotal amount,
+                    "tax": tax amount or "NA" if none,
+                    "tip": tip amount or "NA" if none,
+                    "additional_charges": additional charges or "NA" if none,
+                    "total": final total amount
+                }
+                
+                Only include information you can clearly see. Use "NA" for missing values.
+                Format all prices as decimal numbers without currency symbols.
+                Keep item names exactly as written on receipt. and give back json
+
 If a value does not exist or cannot be parsed, return "na" for it.
+Return **only** this JSON format with no additional text.
+only JSON nothing else
+only json(very very important)
 """
 
 def encode_image(image_path):
@@ -57,7 +59,7 @@ def process_receipt_images(image_folder, json_folder):
             
             try:
                 # Check if 15 requests have been made in the last minute
-                if request_count >= 15:
+                if request_count >= 14:
                     elapsed_time = time.time() - start_time
                     if elapsed_time < 60:
                         time.sleep(60 - elapsed_time)  # Sleep to stay within the rate limit
@@ -72,7 +74,7 @@ def process_receipt_images(image_folder, json_folder):
                     {
                         "role": "user",
                         "content": [
-                            {"type": "text", "text": "Extract receipt information in JSON format."},
+                            {"type": "text", "text": PROMPT_TEMPLATE},
                             {
                                 "type": "image_url",
                                 "image_url": {
@@ -87,14 +89,14 @@ def process_receipt_images(image_folder, json_folder):
                 response = client.chat.completions.create(
                     model="llama-3.2-90b-vision-preview",
                     messages=messages,
-                    temperature=1,
+                    temperature=0.6,
                     max_completion_tokens=1024,
-                    top_p=1,
+                    # top_p=1,
                     stream=False,
-                    response_format={"type": "json_object"},
+                    # response_format={"type": "json_object"},
                     stop=None,
                 )
-                
+                print(response)
                 # Check for successful response
                 if response and response.choices:
                     # Save the returned JSON directly to the file in the correct format
@@ -112,7 +114,7 @@ def process_receipt_images(image_folder, json_folder):
 
 # Example usage:
 # Replace with the actual paths to your image and JSON folders
-image_folder_path = "/path/to/your/images"
-json_folder_path = "/path/to/your/jsons"
+image_folder_path = ""
+json_folder_path = ""
 
 process_receipt_images(image_folder_path, json_folder_path)

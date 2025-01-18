@@ -1,1 +1,84 @@
-{}
+{
+    "name_of_establishment": "CHELIM'S HAMBURGERS",
+    "currency": "$",
+    "items": [
+        {
+            "name": "6 OZ B SPC",
+            "quantity": 1,
+            "price_per_item": 9.80,
+            "total_price": 9.80
+        },
+        {
+            "name": "B CHZ B SPC",
+            "quantity": 1,
+            "price_per_item": 0.01,
+            "total_price": 0.01
+        },
+        {
+            "name": "no pickles",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "F FRIES - LRG",
+            "quantity": 2,
+            "price_per_item": 3.66,
+            "total_price": 7.32
+        },
+        {
+            "name": "CRISPY",
+            "quantity": 1,
+            "price_per_item": 3.66,
+            "total_price": 3.66
+        },
+        {
+            "name": "F FRIES - LRG",
+            "quantity": 1,
+            "price_per_item": 3.66,
+            "total_price": 3.66
+        },
+        {
+            "name": "CRISPY",
+            "quantity": 1,
+            "price_per_item": 3.66,
+            "total_price": 3.66
+        },
+        {
+            "name": "F FRIES - LRG",
+            "quantity": 1,
+            "price_per_item": 3.66,
+            "total_price": 3.66
+        },
+        {
+            "name": "CRISPY",
+            "quantity": 1,
+            "price_per_item": 2.15,
+            "total_price": 2.15
+        },
+        {
+            "name": "FRESH MCD DRINK",
+            "quantity": 1,
+            "price_per_item": 2.15,
+            "total_price": 2.15
+        },
+        {
+            "name": "horchata",
+            "quantity": 1,
+            "price_per_item": 1.57,
+            "total_price": 1.57
+        },
+        {
+            "name": "CHZ BURGER SPEC",
+            "quantity": 1,
+            "price_per_item": 1.57,
+            "total_price": 1.57
+        }
+    ],
+    "number_of_items": 11,
+    "subtotal": 28.31,
+    "tax": "na",
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 28.31
+}

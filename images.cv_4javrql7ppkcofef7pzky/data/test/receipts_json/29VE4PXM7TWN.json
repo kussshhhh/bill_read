@@ -1,0 +1,66 @@
+{
+    "name_of_establishment": "DEL FRISCO'S #8620",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Strip 16oz",
+            "quantity": 4,
+            "price_per_item": 69.50,
+            "total_price": 278.00
+        },
+        {
+            "name": "Ribeye Bone In",
+            "quantity": 1,
+            "price_per_item": 16.50,
+            "total_price": 16.50
+        },
+        {
+            "name": "Cauliflower",
+            "quantity": 1,
+            "price_per_item": 10.50,
+            "total_price": 10.50
+        },
+        {
+            "name": "Baked Potato",
+            "quantity": 1,
+            "price_per_item": 15.50,
+            "total_price": 15.50
+        },
+        {
+            "name": "Asparagus",
+            "quantity": 1,
+            "price_per_item": 14.50,
+            "total_price": 14.50
+        },
+        {
+            "name": "Onion Rings",
+            "quantity": 1,
+            "price_per_item": 16.00,
+            "total_price": 16.00
+        },
+        {
+            "name": "Sauteed Spinach",
+            "quantity": 1,
+            "price_per_item": 25.50,
+            "total_price": 25.50
+        },
+        {
+            "name": "VOSS Sparkling",
+            "quantity": 3,
+            "price_per_item": 24.00,
+            "total_price": 72.00
+        },
+        {
+            "name": "Coke Btl",
+            "quantity": 6,
+            "price_per_item": 4.00,
+            "total_price": 24.00
+        }
+    ],
+    "number_of_items": 9,
+    "subtotal": 404.00,
+    "tax": 35.86,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 439.86
+}

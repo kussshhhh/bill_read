@@ -1,1 +1,1 @@
-{}
+{"name_of_establishment": "Lin Buffet", "currency": "$", "items": [{"name": "Weekend Buffet", "quantity": 2, "price_per_item": 27.18, "total_price": 54.36}, {"name": "Drink", "quantity": 2, "price_per_item": 3.98, "total_price": 7.96}], "number_of_items": 2, "subtotal": 31.16, "tax": 2.57, "tip": "NA", "additional_charges": "NA", "total": 33.73}

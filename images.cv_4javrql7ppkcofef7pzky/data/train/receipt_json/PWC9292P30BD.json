@@ -1,1 +1,24 @@
-{}
+{
+  "name_of_establishment": "Taco Bell",
+  "currency": "$",
+  "items": [
+    {
+      "name": "Power Veg Bowl",
+      "quantity": 1,
+      "price_per_item": 5.62,
+      "total_price": 5.62
+    },
+    {
+      "name": "Rg Orange Crsh Fz",
+      "quantity": 1,
+      "price_per_item": 1.00,
+      "total_price": 1.00
+    }
+  ],
+  "number_of_items": 2,
+  "subtotal": 6.62,
+  "tax": 0.62,
+  "tip": "NA",
+  "additional_charges": "NA",
+  "total": 7.61
+}

@@ -1,1 +1,48 @@
-{}
+{
+    "name_of_establishment": "Akira",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Hi Chk Steak(K)",
+            "quantity": 1,
+            "price_per_item": 22.95,
+            "total_price": 22.95
+        },
+        {
+            "name": "Sushi Deluxe",
+            "quantity": 1,
+            "price_per_item": 20.75,
+            "total_price": 20.75
+        },
+        {
+            "name": "Glenmont Roll",
+            "quantity": 1,
+            "price_per_item": 15.95,
+            "total_price": 15.95
+        },
+        {
+            "name": "Philly R",
+            "quantity": 1,
+            "price_per_item": 6.50,
+            "total_price": 6.50
+        },
+        {
+            "name": "Sp Tuna R",
+            "quantity": 2,
+            "price_per_item": 6.50,
+            "total_price": 13.00
+        },
+        {
+            "name": "Salmon R",
+            "quantity": 1,
+            "price_per_item": 5.50,
+            "total_price": 5.50
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 86.65,
+    "tax": 6.93,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 93.58
+}

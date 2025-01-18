@@ -1,30 +1,36 @@
 {
-   "receipt_type": "cafe receipt",
-   "server": "Ana",
-   "table_number": "24/1",
-   "guests": 2,
-   "date": "06/24/2018",
-   "time": "8:00 PM",
-   "items": [
-      {
-         "item_name": "Coors Light",
-         "price": 5.00
-      },
-      {
-         "item_name": "Ice Tea",
-         "price": 3.25
-      },
-      {
-         "item_name": "Shrimp Fajita",
-         "price": 18.95
-      },
-      {
-         "item_name": "Stuffed Chicken",
-         "price": 17.95
-      }
-   ],
-   "subtotal": 45.15,
-   "tax": 2.75,
-   "balance_due": 47.90,
-   "total": 47.90
+    "name_of_establishment": "El Charro Cafe Ventana",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Coors Light",
+            "quantity": 1,
+            "price_per_item": 5.00,
+            "total_price": 5.00
+        },
+        {
+            "name": "Ice Tea",
+            "quantity": 1,
+            "price_per_item": 3.25,
+            "total_price": 3.25
+        },
+        {
+            "name": "Shrimp Fajita",
+            "quantity": 1,
+            "price_per_item": 18.95,
+            "total_price": 18.95
+        },
+        {
+            "name": "Stuffed Chicken",
+            "quantity": 1,
+            "price_per_item": 17.95,
+            "total_price": 17.95
+        }
+    ],
+    "number_of_items": 4,
+    "subtotal": 45.15,
+    "tax": 2.75,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 47.90
 }

@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "Taj",
+    "currency": "$",
+    "items": [
+        {
+            "name": "TIKKA MASALA CHICKEN (MURGH)",
+            "quantity": 1,
+            "price_per_item": 20.00,
+            "total_price": 20.00
+        },
+        {
+            "name": "PALAK (SPINACH) PANEER (CHEESE)",
+            "quantity": 1,
+            "price_per_item": 18.00,
+            "total_price": 18.00
+        },
+        {
+            "name": "VEGAN BENGAN BHARTA*",
+            "quantity": 1,
+            "price_per_item": 17.00,
+            "total_price": 17.00
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 55.00,
+    "tax": 3.30,
+    "tip": 3.30,
+    "additional_charges": "NA",
+    "total": 58.30
+}

@@ -1,0 +1,30 @@
+{
+    "name_of_establishment": "Wendy's Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Veggie Sandwich",
+            "quantity": 1,
+            "price_per_item": 5.99,
+            "total_price": 5.99
+        },
+        {
+            "name": "Small Fries",
+            "quantity": 1,
+            "price_per_item": 1.69,
+            "total_price": 1.69
+        },
+        {
+            "name": "Plain Potato",
+            "quantity": 1,
+            "price_per_item": 1.79,
+            "total_price": 1.79
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 9.47,
+    "tax": 0.52,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 10.00
+}

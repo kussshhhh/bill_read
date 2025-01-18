@@ -1,1 +1,36 @@
-{}
+{
+    "name_of_establishment": "1660 India Street",
+    "currency": "$",
+    "items": [
+        {
+            "name": "G1 Karma Cab Sauv",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "G1 Douglass Green SB",
+            "quantity": 1,
+            "price_per_item": 11.00,
+            "total_price": 11.00
+        },
+        {
+            "name": "PKLI Green Curry Scallops",
+            "quantity": 1,
+            "price_per_item": 27.95,
+            "total_price": 27.95
+        },
+        {
+            "name": "PKLI Piri Piri Chicken",
+            "quantity": 1,
+            "price_per_item": 23.75,
+            "total_price": 23.75
+        }
+    ],
+    "number_of_items": 4,
+    "subtotal": 74.70,
+    "tax": 6.00,
+    "tip": "na",
+    "additional_charges": 2.80,
+    "total": 83.50
+}

@@ -1,0 +1,24 @@
+{
+    "name_of_establishment": "River Village Family Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Apple French Toast",
+            "quantity": 1,
+            "price_per_item": 7.99,
+            "total_price": 7.99
+        },
+        {
+            "name": "Coffee",
+            "quantity": 1,
+            "price_per_item": 2.29,
+            "total_price": 2.29
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 10.28,
+    "tax": 0.62,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 10.90
+}

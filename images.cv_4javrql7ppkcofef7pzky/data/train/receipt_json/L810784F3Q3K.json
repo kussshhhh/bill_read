@@ -1,1 +1,18 @@
-{}
+{
+    "name_of_establishment": "Collector's Choice Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "1 Twisted Rueben",
+            "quantity": 1,
+            "price_per_item": 11.691,
+            "total_price": 11.691
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 11.69,
+    "tax": 1.14,
+    "tip": 13.53,
+    "additional_charges": "NA",
+    "total": 13.53
+}

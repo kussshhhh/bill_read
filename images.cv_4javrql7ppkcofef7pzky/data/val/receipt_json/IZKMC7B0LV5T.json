@@ -1,0 +1,30 @@
+{
+    "name_of_establishment": "OM INDIAN FOOD",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Vegetable Biryani",
+            "quantity": 1,
+            "price_per_item": 12.95,
+            "total_price": 12.95
+        },
+        {
+            "name": "Malai Kofta",
+            "quantity": 1,
+            "price_per_item": 12.95,
+            "total_price": 12.95
+        },
+        {
+            "name": "Onion Naan",
+            "quantity": 1,
+            "price_per_item": 3.95,
+            "total_price": 3.95
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 29.85,
+    "tax": 1.32,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 16.24
+}

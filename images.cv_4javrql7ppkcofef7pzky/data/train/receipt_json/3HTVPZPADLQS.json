@@ -1,1 +1,42 @@
-{}
+{
+    "name_of_establishment": "El Valle Mexican Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "GUACAMOLE DIP",
+            "quantity": 1,
+            "price_per_item": 3.99,
+            "total_price": 3.99
+        },
+        {
+            "name": "DIET COKE",
+            "quantity": 1,
+            "price_per_item": 2.15,
+            "total_price": 2.15
+        },
+        {
+            "name": "LUNCH FAJITAS",
+            "quantity": 1,
+            "price_per_item": 7.75,
+            "total_price": 7.75
+        },
+        {
+            "name": "TORTILLAS (3)",
+            "quantity": 1,
+            "price_per_item": 1.25,
+            "total_price": 1.25
+        },
+        {
+            "name": "SOUR CREAM",
+            "quantity": 1,
+            "price_per_item": 1.25,
+            "total_price": 1.25
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 16.39,
+    "tax": 1.36,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 17.75
+}

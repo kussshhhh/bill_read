@@ -1,0 +1,56 @@
+```
+{
+    "name_of_establishment": "BK SOUL FOOD & CATERING",
+    "currency": "$",
+    "items": [
+        {
+            "name": "WINGS (6)",
+            "quantity": 1,
+            "price_per_item": 12.50,
+            "total_price": 12.50
+        },
+        {
+            "name": "MAC & CHEESE",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "YAMS",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "SIDE (SM) x3",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "YAMS",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "MAC & CHEESE",
+            "quantity": 1,
+            "price_per_item": na,
+            "total_price": na
+        },
+        {
+            "name": "COLLARD GREENS",
+            "quantity": 1,
+            "price_per_item": na,
+            "total_price": na
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 24.50,
+    "tax": 2.17,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 26.67
+}
+```

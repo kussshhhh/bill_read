@@ -1,0 +1,18 @@
+{
+    "name_of_establishment": "Yogurtland",
+    "currency": "$",
+    "items": [
+        {
+            "name": "SHIPED",
+            "quantity": 1,
+            "price_per_item": 17.80,
+            "total_price": 17.80
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 17.80,
+    "tax": "NA",
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 17.80
+}

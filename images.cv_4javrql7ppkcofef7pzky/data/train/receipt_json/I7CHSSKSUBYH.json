@@ -1,33 +1,30 @@
 {
-   "store": "McDonald's Restaurant #3100",
-   "address": "1617 N Eastern Ave, Los Angeles, CA",
-   "phone": "323-264-7300",
-   "date": "2/27/2013",
-   "time": "3:08 PM",
-   "order": "97",
-   "items": [
-       {
-           "name": "Dbl Qtr Cheese- Special Request",
-           "price": 5.99,
-           "modifiers": [
-               {
-                   "name": "ADD Leaf Lettuce",
-                   "price": 0.25
-               },
-               {
-                   "name": "ADD Mac Sauce",
-                   "price": 0.40
-               }
-           ]
-       }
-   ],
-   "subtotal": 6.64,
-   "tax": 0.63,
-   "total": 7.27,
-   "payment": "Card",
-   "card_issuer": "BJW Debit Card",
-   "transaction_amount": 7.27,
-   "authorization": "039988",
-   "AID": "A000000004: 22 33",
-   "server": "KS# 2"
+    "name_of_establishment": "McDonald's",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Dbl Qtr Chees",
+            "quantity": 1,
+            "price_per_item": 5.99,
+            "total_price": 5.99
+        },
+        {
+            "name": "ADD Leaf Lett",
+            "quantity": 1,
+            "price_per_item": 0.25,
+            "total_price": 0.25
+        },
+        {
+            "name": "ADD Mac Sauce",
+            "quantity": 1,
+            "price_per_item": 0.40,
+            "total_price": 0.40
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 6.64,
+    "tax": 0.63,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 7.27
 }

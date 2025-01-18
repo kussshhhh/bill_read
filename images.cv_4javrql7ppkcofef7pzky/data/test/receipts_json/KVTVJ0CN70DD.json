@@ -1,0 +1,20 @@
+```
+{
+  "name_of_establishment": "El Gran Mar de Plata",
+  "currency": "$",
+  "items": [
+    {
+      "name": "1 Miller Lite",
+      "quantity": 1,
+      "price_per_item": 5.00,
+      "total_price": 5.00
+    }
+  ],
+  "number_of_items": 1,
+  "subtotal": 5.00,
+  "tax": 0.35,
+  "tip": "NA",
+  "additional_charges": "NA",
+  "total": 5.35
+}
+```

@@ -1,1 +1,42 @@
-{}
+{
+    "name_of_establishment": "Laurel Tavern Hermosa Beach",
+    "currency": "$",
+    "items": [
+        {
+            "name": "BTL BEER",
+            "quantity": 1,
+            "price_per_item": 5.00,
+            "total_price": 5.00
+        },
+        {
+            "name": "BRUSSELS SPROUTS",
+            "quantity": 1,
+            "price_per_item": 8.00,
+            "total_price": 8.00
+        },
+        {
+            "name": "CANTONESE TENDERS",
+            "quantity": 1,
+            "price_per_item": 11.00,
+            "total_price": 11.00
+        },
+        {
+            "name": "GRILLED CHEESE",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "ADD GARLIC FRIES",
+            "quantity": 1,
+            "price_per_item": 4.50,
+            "total_price": 4.50
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 40.50,
+    "tax": 3.85,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 44.35
+}

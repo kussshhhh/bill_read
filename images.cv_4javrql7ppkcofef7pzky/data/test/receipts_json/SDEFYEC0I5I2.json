@@ -1,0 +1,48 @@
+{
+    "name_of_establishment": "KICKIN KAJUN KAPOLEI",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Margarita",
+            "quantity": 1,
+            "price_per_item": 6.00,
+            "total_price": 6.00
+        },
+        {
+            "name": "Add Tequila",
+            "quantity": 1,
+            "price_per_item": 4.00,
+            "total_price": 4.00
+        },
+        {
+            "name": "Strawberry Daiquiri",
+            "quantity": 1,
+            "price_per_item": 6.00,
+            "total_price": 6.00
+        },
+        {
+            "name": "Add Vodka",
+            "quantity": 1,
+            "price_per_item": 4.00,
+            "total_price": 4.00
+        },
+        {
+            "name": "Snow Combo",
+            "quantity": 1,
+            "price_per_item": 54.00,
+            "total_price": 54.00
+        },
+        {
+            "name": "Kickin Sauce",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 74.00,
+    "tax": 3.49,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 77.49
+}

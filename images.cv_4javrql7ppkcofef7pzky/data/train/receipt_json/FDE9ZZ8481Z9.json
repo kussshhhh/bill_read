@@ -1,1 +1,48 @@
-{}
+{
+    "name_of_establishment": "Trattoria Saporito",
+    "currency": "$",
+    "items": [
+        {
+            "name": "STUFFED ARTICHOKE*",
+            "quantity": 1,
+            "price_per_item": 18.00,
+            "total_price": 18.00
+        },
+        {
+            "name": "BK FETT AL PORCINI*",
+            "quantity": 1,
+            "price_per_item": 36.00,
+            "total_price": 36.00
+        },
+        {
+            "name": "COSTOLETTE/ALLA/PAP*",
+            "quantity": 1,
+            "price_per_item": 42.00,
+            "total_price": 42.00
+        },
+        {
+            "name": "BROCCOLI RABE W/ GA*",
+            "quantity": 1,
+            "price_per_item": 10.50,
+            "total_price": 10.50
+        },
+        {
+            "name": "ESPRESSO*",
+            "quantity": 1,
+            "price_per_item": 3.75,
+            "total_price": 3.75
+        },
+        {
+            "name": "DBLD ESPRESSO*",
+            "quantity": 1,
+            "price_per_item": 7.50,
+            "total_price": 7.50
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 117.75,
+    "tax": 8.24,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 125.99
+}

@@ -1,26 +1,42 @@
 {
-   "restaurantName" : "Anjappar Chettinad Artesia",
-   "restaurantAddress" : "18128 Pioneer Blvd, Artesia, CA 90701",
-   "orderNumber" : "004-864",
-   "orderDate" : "2022-01-03",
-   "orderItems" : [
-      {
-         "menuItem" : "Ghee Dosa",
-         "menuPrice" : 7.95
-      },
-      {
-         "menuItem" : "Anjappar Mutton Meals",
-         "menuPrice" : 14.95
-      },
-      {
-         "menuItem" : "Kaldosa",
-         "menuPrice" : 6.95
-      },
-      {
-         "menuItem" : "Plain Dosa",
-         "menuPrice" : 6.95
-      }
-   ],
-   "totalTax" : 3.50,
-   "orderTotal" : 40.30
+    "name_of_establishment": "Anjappar Chettinad Artesia",
+    "currency": "$",
+    "items": [
+        {
+            "name": "1 Ghee Dosa",
+            "quantity": 1,
+            "price_per_item": 7.95,
+            "total_price": 7.95
+        },
+        {
+            "name": "Kid is waiting",
+            "quantity": 1,
+            "price_per_item": 14.95,
+            "total_price": 14.95
+        },
+        {
+            "name": "1 Anjappar Mutton Meals",
+            "quantity": 1,
+            "price_per_item": 6.95,
+            "total_price": 6.95
+        },
+        {
+            "name": "1 Kaldosa",
+            "quantity": 1,
+            "price_per_item": 6.95,
+            "total_price": 6.95
+        },
+        {
+            "name": "1 Plain Dosa",
+            "quantity": 1,
+            "price_per_item": 6.95,
+            "total_price": 6.95
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 36.80,
+    "tax": 3.50,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 40.30
 }

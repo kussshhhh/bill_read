@@ -1,1 +1,60 @@
-{}
+{
+    "name_of_establishment": "Argonaut Diner 2000",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Coffee",
+            "quantity": 1,
+            "price_per_item": 1.45,
+            "total_price": 1.45
+        },
+        {
+            "name": "Tea",
+            "quantity": 1,
+            "price_per_item": 1.45,
+            "total_price": 1.45
+        },
+        {
+            "name": "Waffle",
+            "quantity": 1,
+            "price_per_item": 5.50,
+            "total_price": 5.50
+        },
+        {
+            "name": "Old Fashion French Toast",
+            "quantity": 1,
+            "price_per_item": 4.50,
+            "total_price": 4.50
+        },
+        {
+            "name": "Side Home Fries",
+            "quantity": 1,
+            "price_per_item": 2.95,
+            "total_price": 2.95
+        },
+        {
+            "name": "Banana",
+            "quantity": 1,
+            "price_per_item": 2.95,
+            "total_price": 2.95
+        },
+        {
+            "name": "Whipped Cream",
+            "quantity": 1,
+            "price_per_item": 2.50,
+            "total_price": 2.50
+        },
+        {
+            "name": "W/ 2 EGGS",
+            "quantity": 1,
+            "price_per_item": 2.95,
+            "total_price": 2.95
+        }
+    ],
+    "number_of_items": 8,
+    "subtotal": 24.25,
+    "tax": "na",
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 26.38
+}

@@ -1,7 +1,18 @@
 {
-   "store_name": "ALBETOS MEXICAN FOOD",
-   "store_address": "11732 ARTESIA BLVD. ARTESIA,CA.",
-   "store_phone": "(562) 860-2530",
-   "atm_charge": 0.75,
-   "total": 9.58
+  "name_of_establishment": "ALBETOS MEXICAN FOOD",
+  "currency": "$",
+  "items": [
+    {
+      "name": "3 ASADA TACO",
+      "quantity": 1,
+      "price_per_item": 8.10,
+      "total_price": 8.10
+    }
+  ],
+  "number_of_items": 1,
+  "subtotal": 8.85,
+  "tax": 0.73,
+  "tip": "NA",
+  "additional_charges": 0.75,
+  "total": 9.58
 }

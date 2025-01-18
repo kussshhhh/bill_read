@@ -1,0 +1,48 @@
+{
+    "name_of_establishment": "Buca di Beppo",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Iced Tea",
+            "quantity": 1,
+            "price_per_item": 3.29,
+            "total_price": 3.29
+        },
+        {
+            "name": "Sm Garlic Bread",
+            "quantity": 1,
+            "price_per_item": 9.99,
+            "total_price": 9.99
+        },
+        {
+            "name": "9oz Buca Chianti (2 @14.00)",
+            "quantity": 1,
+            "price_per_item": 28.00,
+            "total_price": 28.00
+        },
+        {
+            "name": "Gl Buca Chianti",
+            "quantity": 1,
+            "price_per_item": 10.00,
+            "total_price": 10.00
+        },
+        {
+            "name": "Se Dhoo Antipasto Salad",
+            "quantity": 1,
+            "price_per_item": 18.99,
+            "total_price": 18.99
+        },
+        {
+            "name": "Lg Supremo Pizza",
+            "quantity": 1,
+            "price_per_item": 29.99,
+            "total_price": 29.99
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 109.28,
+    "tax": "na",
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 109.28
+}

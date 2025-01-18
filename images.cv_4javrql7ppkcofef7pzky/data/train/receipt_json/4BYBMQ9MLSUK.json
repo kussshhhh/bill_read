@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "HAWWI ETHIOPIAN RESTAU",
+    "currency": "$",
+    "items": [
+        {
+            "name": "26.Fish Goulash",
+            "quantity": 1,
+            "price_per_item": 19.95,
+            "total_price": 19.95
+        },
+        {
+            "name": "30.Dullet",
+            "quantity": 1,
+            "price_per_item": 20.95,
+            "total_price": 20.95
+        },
+        {
+            "name": "34. Vegetarian Dish",
+            "quantity": 1,
+            "price_per_item": 21.95,
+            "total_price": 21.95
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 62.85,
+    "tax": 6.91,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 69.76
+}

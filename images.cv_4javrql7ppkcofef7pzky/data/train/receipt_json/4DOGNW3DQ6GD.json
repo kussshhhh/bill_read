@@ -1,1 +1,42 @@
-{}
+{
+    "name_of_establishment": "CITY TASTE",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Philadelphia Roll",
+            "quantity": 1,
+            "price_per_item": 4.85,
+            "total_price": 4.85
+        },
+        {
+            "name": "13. Shrimp Tempura Roll [Roll]",
+            "quantity": 1,
+            "price_per_item": 4.25,
+            "total_price": 4.25
+        },
+        {
+            "name": "Rich / Famous Roll",
+            "quantity": 1,
+            "price_per_item": 4.85,
+            "total_price": 4.85
+        },
+        {
+            "name": "16. Spicy Salmon Roll [Roll]",
+            "quantity": 1,
+            "price_per_item": 4.25,
+            "total_price": 4.25
+        },
+        {
+            "name": "Veg / Tofu Pad Thai Spicy",
+            "quantity": 1,
+            "price_per_item": 8.95,
+            "total_price": 8.95
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 27.15,
+    "tax": 1.63,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 28.78
+}

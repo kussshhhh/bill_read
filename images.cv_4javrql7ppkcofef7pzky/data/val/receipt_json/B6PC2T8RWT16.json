@@ -1,0 +1,54 @@
+{
+    "name_of_establishment": "Arthurs",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Arthur's Burger *CheBleu",
+            "quantity": 1,
+            "price_per_item": 13.95,
+            "total_price": 13.95
+        },
+        {
+            "name": "Our" Burger **Avocado",
+            "quantity": 1,
+            "price_per_item": 15.95,
+            "total_price": 15.95
+        },
+        {
+            "name": "Loaded Nachos",
+            "quantity": 1,
+            "price_per_item": 12.95,
+            "total_price": 12.95
+        },
+        {
+            "name": "Pint Boston Lager",
+            "quantity": 1,
+            "price_per_item": 6.00,
+            "total_price": 6.00
+        },
+        {
+            "name": "Pint Yuengling",
+            "quantity": 2,
+            "price_per_item": 12.00,
+            "total_price": 24.00
+        },
+        {
+            "name": "Kona Longboard",
+            "quantity": 1,
+            "price_per_item": 6.00,
+            "total_price": 6.00
+        },
+        {
+            "name": "Quesadilla",
+            "quantity": 1,
+            "price_per_item": 13.95,
+            "total_price": 13.95
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 84.78,
+    "tax": 3.88,
+    "tip": "NA",
+    "additional_charges": 3.88,
+    "total": 84.78
+}

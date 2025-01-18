@@ -1,27 +1,90 @@
 {
-   "store": "Juniper & Ivy",
-   "store_address": "2226 Kettner Blvd, San Diego, CA 92101",
-   "table_number": 71,
-   "server_number": 1045,
-   "customer_check_number": 4530,
-   "check_time": "Oct-06-16 07:08PM",
-   "servergst": 4,
-   "dine_in_items": [
-       {"item_name": "BUCATINI", "item_price": 17.00},
-       {"item_name": "BUCATINI", "item_price": 18.00},
-       {"item_name": "Bt Turnbull Napa", "item_price": 90.00},
-       {"item_name": "HALIBUT", "item_price": 38.00},
-       {"item_name": "YODEL", "item_price": 12.00},
-       {"item_name": "WELK & HONEY", "item_price": 10.00},
-       {"item_name": "COFFEE SM", "item_price": 6.00},
-       {"item_name": "GL ROUND POND SB", "item_price": 13.00},
-       {"item_name": "OCTOPUS", "item_price": 16.00},
-       {"item_name": "BEEF TARTARE", "item_price": 12.00},
-       {"item_name": "FINLANDIA (WELL) $MARTINI", "item_price": 11.00},
-       {"item_name": "HALIBUT", "item_price": 38.00},
-       {"item_name": "SNAPPER", "item_price": 28.00}
-   ],
-   "subtotal": 309.00,
-   "tax": 24.72,
-   "total": 333.72
+    "name_of_establishment": "Juniper & Ivy",
+    "currency": "$",
+    "items": [
+        {
+            "name": "BUCATINI",
+            "quantity": 1,
+            "price_per_item": 17.00,
+            "total_price": 17.00
+        },
+        {
+            "name": "BIVIOLO",
+            "quantity": 1,
+            "price_per_item": 18.00,
+            "total_price": 18.00
+        },
+        {
+            "name": "BT TURNBULL NAPA",
+            "quantity": 1,
+            "price_per_item": 90.00,
+            "total_price": 90.00
+        },
+        {
+            "name": "HALIBUT",
+            "quantity": 1,
+            "price_per_item": 38.00,
+            "total_price": 38.00
+        },
+        {
+            "name": "YODEL",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "WELK & HONEY",
+            "quantity": 1,
+            "price_per_item": 10.00,
+            "total_price": 10.00
+        },
+        {
+            "name": "COFFEE SM",
+            "quantity": 1,
+            "price_per_item": 6.00,
+            "total_price": 6.00
+        },
+        {
+            "name": "GL ROUND POND SB",
+            "quantity": 1,
+            "price_per_item": 13.00,
+            "total_price": 13.00
+        },
+        {
+            "name": "OCTOPUS",
+            "quantity": 1,
+            "price_per_item": 16.00,
+            "total_price": 16.00
+        },
+        {
+            "name": "BEEF TARTARE",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "FINLANDIA (WELL) $MARTINI",
+            "quantity": 1,
+            "price_per_item": 11.00,
+            "total_price": 11.00
+        },
+        {
+            "name": "HALIBUT",
+            "quantity": 1,
+            "price_per_item": 38.00,
+            "total_price": 38.00
+        },
+        {
+            "name": "SNAPPER",
+            "quantity": 1,
+            "price_per_item": 28.00,
+            "total_price": 28.00
+        }
+    ],
+    "number_of_items": 13,
+    "subtotal": 309.00,
+    "tax": 24.72,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 333.72
 }

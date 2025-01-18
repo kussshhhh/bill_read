@@ -1,0 +1,18 @@
+{
+    "name_of_establishment": "KAZ RAMEN",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Tonkotsu",
+            "quantity": 1,
+            "price_per_item": 9.50,
+            "total_price": 9.50
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 13.05,
+    "tax": 1.01,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 14.06
+}

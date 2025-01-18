@@ -1,1 +1,18 @@
-{}
+{
+    "name_of_establishment": "KFC",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Family Fill Up",
+            "quantity": 1,
+            "price_per_item": 20.00,
+            "total_price": 20.00
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 20.00,
+    "tax": 1.73,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 21.73
+}

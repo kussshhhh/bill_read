@@ -1,1 +1,54 @@
-{}
+{
+    "name_of_establishment": "HMS Host",
+    "currency": "$",
+    "items": [
+        {
+            "name": "DB Woodford Res 2",
+            "quantity": 1,
+            "price_per_item": 17.99,
+            "total_price": 17.99
+        },
+        {
+            "name": "Cab Peju Sauv S",
+            "quantity": 1,
+            "price_per_item": 11.00,
+            "total_price": 11.00
+        },
+        {
+            "name": "Peju Cabernet Sauvignon",
+            "quantity": 1,
+            "price_per_item": 14.50,
+            "total_price": 14.50
+        },
+        {
+            "name": "Sand Grld Chix",
+            "quantity": 1,
+            "price_per_item": 14.50,
+            "total_price": 14.50
+        },
+        {
+            "name": "Dress On Side",
+            "quantity": 1,
+            "price_per_item": 24.00,
+            "total_price": 24.00
+        },
+        {
+            "name": "Shrimp Louie",
+            "quantity": 1,
+            "price_per_item": 7.00,
+            "total_price": 7.00
+        },
+        {
+            "name": "Brussel Sprts",
+            "quantity": 1,
+            "price_per_item": 5.96,
+            "total_price": 5.96
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 74.49,
+    "tax": 5.96,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 80.45
+}

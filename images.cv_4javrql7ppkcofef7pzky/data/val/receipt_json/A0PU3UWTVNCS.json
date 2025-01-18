@@ -1,0 +1,24 @@
+{
+    "name_of_establishment": "Rihanna's Caribbean Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Curry Chicken",
+            "quantity": 1,
+            "price_per_item": 10.00,
+            "total_price": 10.00
+        },
+        {
+            "name": "Beef Pattie",
+            "quantity": 1,
+            "price_per_item": 2.25,
+            "total_price": 2.25
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 12.25,
+    "tax": 1.01,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 13.26
+}

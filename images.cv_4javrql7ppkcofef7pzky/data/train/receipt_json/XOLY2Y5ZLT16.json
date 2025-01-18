@@ -1,1 +1,18 @@
-{}
+{
+    "name_of_establishment": "Jay Ho Oakland",
+    "currency": "$",
+    "items": [
+        {
+            "name": "#19-D.B.B.V. - Special Combo Pho",
+            "quantity": 1,
+            "price_per_item": 12.95,
+            "total_price": 12.95
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 12.95,
+    "tax": 1.23,
+    "tip": 2.33,
+    "additional_charges": "NA",
+    "total": 16.51
+}

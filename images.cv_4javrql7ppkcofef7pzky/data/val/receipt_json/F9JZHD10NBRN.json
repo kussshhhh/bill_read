@@ -1,0 +1,72 @@
+{
+    "name_of_establishment": "Firefly American Bistro",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Malbec Trivento",
+            "quantity": 1,
+            "price_per_item": 8.00,
+            "total_price": 8.00
+        },
+        {
+            "name": "Blood Orange Marg",
+            "quantity": 1,
+            "price_per_item": 9.00,
+            "total_price": 9.00
+        },
+        {
+            "name": "Cup Italian Wedding Soup",
+            "quantity": 1,
+            "price_per_item": 2.95,
+            "total_price": 2.95
+        },
+        {
+            "name": "Spaghetti Marinara",
+            "quantity": 1,
+            "price_per_item": 17.95,
+            "total_price": 17.95
+        },
+        {
+            "name": "Add One Meatball",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "Add Two Meatball",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "Fettuccine Alfredo",
+            "quantity": 1,
+            "price_per_item": 23.95,
+            "total_price": 23.95
+        },
+        {
+            "name": "Add Steak",
+            "quantity": 1,
+            "price_per_item": 4.95,
+            "total_price": 4.95
+        },
+        {
+            "name": "Small Wedge Salad (Dinner)",
+            "quantity": 1,
+            "price_per_item": 4.00,
+            "total_price": 4.00
+        },
+        {
+            "name": "Creme Brulee",
+            "quantity": 1,
+            "price_per_item": 7.00,
+            "total_price": 7.00
+        }
+    ],
+    "number_of_items": 9,
+    "subtotal": 77.80,
+    "tax": 5.84,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 83.64
+}

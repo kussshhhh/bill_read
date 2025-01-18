@@ -1,0 +1,30 @@
+{
+    "name_of_establishment": "Pizza Hut",
+    "currency": "$",
+    "items": [
+        {
+            "name": "$FiveLU Hand toss Cheese Pepperoni",
+            "quantity": 1,
+            "price_per_item": 12.49,
+            "total_price": 12.49
+        },
+        {
+            "name": "$FiveLU Bone OUT GarlicParm",
+            "quantity": 1,
+            "price_per_item": 7.69,
+            "total_price": 7.69
+        },
+        {
+            "name": "Pitcher DosEquis",
+            "quantity": 1,
+            "price_per_item": 13.50,
+            "total_price": 13.50
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 23.50,
+    "tax": 2.32,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 26.76
+}

@@ -1,1 +1,24 @@
-{}
+{
+    "name_of_establishment": "EL CHICO MEXICAN RESTAURANT",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Ts Guac",
+            "quantity": 1,
+            "price_per_item": 48.00,
+            "total_price": 48.00
+        },
+        {
+            "name": "Grande Chicken Buritto",
+            "quantity": 1,
+            "price_per_item": 64.00,
+            "total_price": 64.00
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 112.00,
+    "tax": "NA",
+    "tip": "NA",
+    "additional_charges": 5.00,
+    "total": 117.00
+}

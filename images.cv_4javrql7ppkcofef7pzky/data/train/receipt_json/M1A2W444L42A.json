@@ -1,1 +1,18 @@
-{}
+{
+    "name_of_establishment": "CHRIS'S HAMBURGERS",
+    "currency": "$",
+    "items": [
+        {
+            "name": "TAXABLE T1",
+            "quantity": 11,
+            "price_per_item": 0.50,
+            "total_price": 5.50
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 5.50,
+    "tax": 4.39,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 9.89
+}

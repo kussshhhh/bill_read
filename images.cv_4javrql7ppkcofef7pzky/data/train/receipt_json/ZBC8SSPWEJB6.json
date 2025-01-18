@@ -1,1 +1,90 @@
-{}
+{
+    "name_of_establishment": "McDonald's",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Delivery",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "10 McNuggets EM",
+            "quantity": 1,
+            "price_per_item": 10.29,
+            "total_price": 10.29
+        },
+        {
+            "name": "Barbeque Sauce",
+            "quantity": 1,
+            "price_per_item": 0.40,
+            "total_price": 0.40
+        },
+        {
+            "name": "Barbeque Sauce",
+            "quantity": 1,
+            "price_per_item": 0.40,
+            "total_price": 0.40
+        },
+        {
+            "name": "Coke",
+            "quantity": 1,
+            "price_per_item": 0.40,
+            "total_price": 0.40
+        },
+        {
+            "name": "French Fries",
+            "quantity": 1,
+            "price_per_item": 3.99,
+            "total_price": 3.99
+        },
+        {
+            "name": "GrChs 5-Fry Yog",
+            "quantity": 1,
+            "price_per_item": 3.99,
+            "total_price": 3.99
+        },
+        {
+            "name": "Hot Apple Juice",
+            "quantity": 1,
+            "price_per_item": 2.89,
+            "total_price": 2.89
+        },
+        {
+            "name": "Cookies",
+            "quantity": 6,
+            "price_per_item": 1.19,
+            "total_price": 7.14
+        },
+        {
+            "name": "Choc Chip Cookie",
+            "quantity": 1,
+            "price_per_item": 1.19,
+            "total_price": 1.19
+        },
+        {
+            "name": "Baked Apple Pie",
+            "quantity": 1,
+            "price_per_item": 3.29,
+            "total_price": 3.29
+        },
+        {
+            "name": "French Fries",
+            "quantity": 1,
+            "price_per_item": 3.29,
+            "total_price": 3.29
+        },
+        {
+            "name": "Iced Tea",
+            "quantity": 1,
+            "price_per_item": 2.99,
+            "total_price": 2.99
+        }
+    ],
+    "number_of_items": 12,
+    "subtotal": 25.04,
+    "tax": 1.11,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 26.15
+}

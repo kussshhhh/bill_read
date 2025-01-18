@@ -1,1 +1,78 @@
-{}
+{
+    "name_of_establishment": "FIVE GUYS",
+    "currency": "$",
+    "items": [
+        {
+            "name": "1 Little Hamburger",
+            "quantity": 1,
+            "price_per_item": 5.19,
+            "total_price": 5.19
+        },
+        {
+            "name": "Lettuce",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "Pickles",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "Grilled Onions",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "Grilled Mushrooms",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "Ketchup",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "2 Large Fry (FF:7M)",
+            "quantity": 1,
+            "price_per_item": 11.58,
+            "total_price": 11.58
+        },
+        {
+            "name": "Cheeseburger",
+            "quantity": 1,
+            "price_per_item": 8.79,
+            "total_price": 8.79
+        },
+        {
+            "name": "Lettuce",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "BBQ Sauce",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "A-1 Steak Sauce",
+            "quantity": 1,
+            "price_per_item": 0.19,
+            "total_price": 0.19
+        }
+    ],
+    "number_of_items": 11,
+    "subtotal": 30.71,
+    "tax": 2.08,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 32.79
+}

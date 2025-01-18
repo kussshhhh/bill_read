@@ -1,34 +1,18 @@
 {
-   "LandfallRestaurantReceipt": {
-       "ResturantName": "Landfall Restaurant",
-       "RestaurantMonths": "April to December",
-       "TableNumber": 31,
-       "PartySize": 3,
-       "ServerName": "Dwyer M",
-       "ServerClockInTime": "13 11:47a",
-       "SeperateChecks": false,
-       "ChecksNumber": 6,
-       "ChecksNumbers": "6-of-6",
-       "ReceiptNumber": "0084",
-       "Date": "06/10/17",
-       "Items": [
-           {
-               "ItemName": "1 Cup Chowder",
-               "Cost": "$6.00",
-               "Tax": "$0.40",
-               "TotalCost": "$6.00"
-           }
-       ],
-       "SubTotal": "$6.00",
-       "Discount": "$1.15",
-       "Tax": "$0.40",
-       "TotalCost": "$7.55",
-       "Date": "06/10",
-       "Time": "1:39p",
-       "TotalTime": "TOTAL: 7.55",
-       "EstabilishmentName": "Landfall Restaurant",
-       "EstablishmentYears": "1946",
-       "ContactNumber": "508-548-1758",
-       "ContactNumberTwo": "508-548-1558"
-   }
+    "name_of_establishment": "LANDFALL RESTAURANT",
+    "currency": "$",
+    "items": [
+        {
+            "name": "1 CUP CHOWDER",
+            "quantity": 1,
+            "price_per_item": 6.00,
+            "total_price": 6.00
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 6.00,
+    "tax": 0.40,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 7.55
 }

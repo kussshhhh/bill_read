@@ -22,5 +22,5 @@ def create_empty_json_files(image_folder):
 
 # Example usage:
 # Replace 'path_to_image_folder' with the path to your folder containing receipt images
-image_folder_path = ""  # Update this path
+image_folder_path = "/home/kush/cooking/bill_read/images.cv_4javrql7ppkcofef7pzky/data/val/receipt"  # Update this path
 create_empty_json_files(image_folder_path)

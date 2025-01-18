@@ -1,0 +1,48 @@
+{
+    "name_of_establishment": "BAR RISTORANTE",
+    "currency": "€",
+    "items": [
+        {
+            "name": "2 X 0.50 Uassoi e Stoviglie",
+            "quantity": 1,
+            "price_per_item": 1.00,
+            "total_price": 1.00
+        },
+        {
+            "name": "2 X 5.00 Macedonta",
+            "quantity": 1,
+            "price_per_item": 10.00,
+            "total_price": 10.00
+        },
+        {
+            "name": "Insalata Negombo",
+            "quantity": 1,
+            "price_per_item": 8.00,
+            "total_price": 8.00
+        },
+        {
+            "name": "Bufala",
+            "quantity": 1,
+            "price_per_item": 4.00,
+            "total_price": 4.00
+        },
+        {
+            "name": "Pomodorini",
+            "quantity": 1,
+            "price_per_item": 1.00,
+            "total_price": 1.00
+        },
+        {
+            "name": "Nat 1/2 1t",
+            "quantity": 1,
+            "price_per_item": 1.00,
+            "total_price": 1.00
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 26.00,
+    "tax": 8.00,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 34.00
+}

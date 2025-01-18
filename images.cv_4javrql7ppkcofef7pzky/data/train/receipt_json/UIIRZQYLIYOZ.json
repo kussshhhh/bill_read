@@ -1,1 +1,48 @@
-{}
+{
+    "name_of_establishment": "Friendly Red's of Windham",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Cadillac Margarita (2 @14.00)",
+            "quantity": 2,
+            "price_per_item": 14.00,
+            "total_price": 28.00
+        },
+        {
+            "name": "Patron Silver",
+            "quantity": 1,
+            "price_per_item": 14.00,
+            "total_price": 14.00
+        },
+        {
+            "name": "Maryland Crab Cakes",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "Chicken Caprese",
+            "quantity": 1,
+            "price_per_item": 10.00,
+            "total_price": 10.00
+        },
+        {
+            "name": "Chix Parm Sandwich",
+            "quantity": 1,
+            "price_per_item": 7.40,
+            "total_price": 7.40
+        },
+        {
+            "name": "Bud Light (2 @3.70)",
+            "quantity": 2,
+            "price_per_item": 3.70,
+            "total_price": 7.40
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 71.40,
+    "tax": 6.43,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 77.83
+}

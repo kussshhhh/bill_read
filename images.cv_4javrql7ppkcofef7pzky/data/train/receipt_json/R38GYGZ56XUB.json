@@ -1,1 +1,18 @@
-{}
+{
+    "name_of_establishment": "Pokeatery CV",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Poke Box",
+            "quantity": 1,
+            "price_per_item": 13.50,
+            "total_price": 13.50
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 13.50,
+    "tax": 1.25,
+    "tip": 1.48,
+    "additional_charges": "na",
+    "total": 16.23
+}

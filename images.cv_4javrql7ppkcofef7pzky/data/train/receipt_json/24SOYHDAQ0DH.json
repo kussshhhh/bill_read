@@ -1,1 +1,48 @@
-{}
+{
+    "name_of_establishment": "Bombay Grill House",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Onion Bhajia",
+            "quantity": 1,
+            "price_per_item": 5.95,
+            "total_price": 5.95
+        },
+        {
+            "name": "Lamb Vindaloo",
+            "quantity": 1,
+            "price_per_item": 14.95,
+            "total_price": 14.95
+        },
+        {
+            "name": "Konkan Fish Curry",
+            "quantity": 1,
+            "price_per_item": 16.95,
+            "total_price": 16.95
+        },
+        {
+            "name": "Shrimp Briyani",
+            "quantity": 1,
+            "price_per_item": 16.95,
+            "total_price": 16.95
+        },
+        {
+            "name": "Garlic Naan",
+            "quantity": 1,
+            "price_per_item": 4.00,
+            "total_price": 4.00
+        },
+        {
+            "name": "Hess Cabernet",
+            "quantity": 1,
+            "price_per_item": 50.00,
+            "total_price": 50.00
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 108.80,
+    "tax": 9.66,
+    "tip": 35.57,
+    "additional_charges": "NA",
+    "total": 154.00
+}

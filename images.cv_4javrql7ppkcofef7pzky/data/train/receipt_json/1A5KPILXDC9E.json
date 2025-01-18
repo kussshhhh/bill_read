@@ -1,1 +1,48 @@
-{}
+{
+    "name_of_establishment": "King Taco",
+    "currency": "$",
+    "items": [
+        {
+            "name": "1 SOPE ASADA CON TODO",
+            "quantity": 1,
+            "price_per_item": 3.10,
+            "total_price": 3.10
+        },
+        {
+            "name": "1 COPA S.ROJA",
+            "quantity": 1,
+            "price_per_item": 1.59,
+            "total_price": 1.59
+        },
+        {
+            "name": "1 TACO ASADA CON CEBOLLA",
+            "quantity": 1,
+            "price_per_item": 1.59,
+            "total_price": 1.59
+        },
+        {
+            "name": "1 TACO PASTOR NO CEBOLLA",
+            "quantity": 1,
+            "price_per_item": 1.59,
+            "total_price": 1.59
+        },
+        {
+            "name": "1/ESA S.ROJA QUADILLA ASADA",
+            "quantity": 1,
+            "price_per_item": 4.89,
+            "total_price": 4.89
+        },
+        {
+            "name": "1 ORDEN CHIPS",
+            "quantity": 1,
+            "price_per_item": 1.50,
+            "total_price": 1.50
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 13.78,
+    "tax": 1.11,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 13.78
+}

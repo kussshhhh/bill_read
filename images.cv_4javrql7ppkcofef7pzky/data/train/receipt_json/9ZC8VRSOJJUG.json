@@ -1,56 +1,54 @@
 {
-   "vendor_details":{
-      "name":"HAMMOCKS TRADING COMPANY",
-      "url":"www.hammockstradingcompany.com",
-      "address":"7265 Roswell Rd Sandy Springs, Georgia"
-   },
-   "order_details":{
-      "number":155091,
-      "date_time":"March 10, 2017 6:23pm"
-   },
-   "order_items":[
-      {
-         "name":"Coke",
-         "quantity":1,
-         "price":2.50
-      },
-      {
-         "name":"Shrimp Entree",
-         "quantity":1,
-         "price":21.00
-      },
-      {
-         "name":"Mac n Cheese",
-         "quantity":1,
-         "price":21.00
-      },
-      {
-         "name":"French Fris",
-         "quantity":1,
-         "price":6.00
-      },
-      {
-         "name":"BBQ & BLUE CHZ chips",
-         "quantity":1,
-         "discount":6.00,
-         "price":-6.00
-      },
-      {
-         "name":"Sprite",
-         "quantity":1,
-         "price":2.50
-      },
-      {
-         "name":"Lobster Roll",
-         "quantity":1,
-         "price":21.00
-      }
-   ],
-   "sub_total":47.00,
-   "state_tax":3.29,
-   "total":50.29,
-   "total_due":50.29,
-   "payment_method":"Cash/Card Unavailable",
-   "message":"Nice to meet you!",
-   "note":"1/2 priced oysters daily-6 PM on the half shell 4-6 PM daily."
+    "name_of_establishment": "HAMMOCKS TRADING COMPANY",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Coke",
+            "quantity": 1,
+            "price_per_item": 2.50,
+            "total_price": 2.50
+        },
+        {
+            "name": "Shrimp Entree",
+            "quantity": 1,
+            "price_per_item": 21.00,
+            "total_price": 21.00
+        },
+        {
+            "name": "Mac n Cheese",
+            "quantity": 1,
+            "price_per_item": 21.00,
+            "total_price": 21.00
+        },
+        {
+            "name": "French Fries",
+            "quantity": 1,
+            "price_per_item": 6.00,
+            "total_price": 6.00
+        },
+        {
+            "name": "BBQ & Blue Chz chips",
+            "quantity": 1,
+            "price_per_item": -6.00,
+            "total_price": -6.00
+        },
+        {
+            "name": "Sprite",
+            "quantity": 1,
+            "price_per_item": 2.50,
+            "total_price": 2.50
+        },
+        {
+            "name": "Lobster Roll",
+            "quantity": 1,
+            "price_per_item": 21.00,
+            "total_price": 21.00
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 47.00,
+    "tax": 3.29,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 50.29
 }

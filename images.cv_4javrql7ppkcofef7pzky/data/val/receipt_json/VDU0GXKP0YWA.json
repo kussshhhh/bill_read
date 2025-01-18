@@ -1,0 +1,30 @@
+{
+    "name_of_establishment": "Subway",
+    "currency": "$",
+    "items": [
+        {
+            "name": "#SHG $11.99 Any 2 FtLong",
+            "quantity": 1,
+            "price_per_item": 11.99,
+            "total_price": 11.99
+        },
+        {
+            "name": "12\" -Steak & Chse Sub",
+            "quantity": 1,
+            "price_per_item": 11.99,
+            "total_price": 11.99
+        },
+        {
+            "name": "12\" -B.M.T. Sub",
+            "quantity": 1,
+            "price_per_item": 11.99,
+            "total_price": 11.99
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 11.99,
+    "tax": 1.23,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 13.22
+}

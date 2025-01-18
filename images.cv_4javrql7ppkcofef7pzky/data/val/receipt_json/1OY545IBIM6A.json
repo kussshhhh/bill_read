@@ -1,0 +1,24 @@
+{
+    "name_of_establishment": "CAFE PARISIEN LARCHMONT LLC",
+    "currency": "$",
+    "items": [
+        {
+            "name": "CROISSANT AUX RAISINS",
+            "quantity": 1,
+            "price_per_item": 4.00,
+            "total_price": 4.00
+        },
+        {
+            "name": "Cappucino",
+            "quantity": 1,
+            "price_per_item": 4.75,
+            "total_price": 4.75
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 8.75,
+    "tax": 0.83,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 9.58
+}

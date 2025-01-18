@@ -1,0 +1,54 @@
+{
+    "name_of_establishment": "Lan Sheng",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Spicy Chicken w. Spicy Garli",
+            "quantity": 1,
+            "price_per_item": 7.95,
+            "total_price": 7.95
+        },
+        {
+            "name": "e.Soy",
+            "quantity": 1,
+            "price_per_item": 18.95,
+            "total_price": 18.95
+        },
+        {
+            "name": "Hf: Peking Duck",
+            "quantity": 1,
+            "price_per_item": 15.95,
+            "total_price": 15.95
+        },
+        {
+            "name": "Stir Beef Fillet w. Tofu",
+            "quantity": 1,
+            "price_per_item": 12.95,
+            "total_price": 12.95
+        },
+        {
+            "name": "Pork w. Spicy Capsicum",
+            "quantity": 1,
+            "price_per_item": 12.95,
+            "total_price": 12.95
+        },
+        {
+            "name": "White Rice (S)",
+            "quantity": 1,
+            "price_per_item": 1.50,
+            "total_price": 1.50
+        },
+        {
+            "name": "Pork w. Spicy Tofu & Cayen ne Chili",
+            "quantity": 1,
+            "price_per_item": 12.95,
+            "total_price": 12.95
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 70.25,
+    "tax": 4.90,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 75.15
+}

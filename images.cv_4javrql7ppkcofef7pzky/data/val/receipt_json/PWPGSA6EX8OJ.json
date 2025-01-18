@@ -1,0 +1,36 @@
+{
+    "name_of_establishment": "POP TATES KORUM MALL",
+    "currency": "₹",
+    "items": [
+        {
+            "name": "2 FRENCH FRIES",
+            "quantity": 2,
+            "price_per_item": 95,
+            "total_price": 190
+        },
+        {
+            "name": "OPEN FOOD",
+            "quantity": 1,
+            "price_per_item": 60,
+            "total_price": 60
+        },
+        {
+            "name": "MANESH SAUS",
+            "quantity": 1,
+            "price_per_item": 60,
+            "total_price": 60
+        },
+        {
+            "name": "PANEER TIKKA",
+            "quantity": 1,
+            "price_per_item": 248,
+            "total_price": 248
+        }
+    ],
+    "number_of_items": 4,
+    "subtotal": 558,
+    "tax": 24.6,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 582.6
+}

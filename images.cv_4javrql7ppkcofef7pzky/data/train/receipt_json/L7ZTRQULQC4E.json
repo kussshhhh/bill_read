@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "SS Paradise",
+    "currency": "Rs",
+    "items": [
+        {
+            "name": "TANDOORI CHICKEN",
+            "quantity": 1,
+            "price_per_item": 179.00,
+            "total_price": 179.00
+        },
+        {
+            "name": "MUTTON RAGON JOSH",
+            "quantity": 1,
+            "price_per_item": 209.00,
+            "total_price": 209.00
+        },
+        {
+            "name": "FISH BIRIYANI",
+            "quantity": 1,
+            "price_per_item": 229.00,
+            "total_price": 229.00
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 617.00,
+    "tax": "NA",
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 617.00
+}

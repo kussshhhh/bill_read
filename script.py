@@ -40,18 +40,60 @@ def analyze_receipts():
                 
                 # Structured prompt
                 prompt = """
-                  list out items and their prices in a json format  as well as the total price
+                Analyze this receipt and provide the details in JSON format. If you cannot read or determine any value, use "NA". Format:
+                {
+                    "name_of_establishment": "name of store/restaurant",
+                    "currency": "$" or any other,
+                    "items": [
+                        {
+                            "name": "item name",
+                            "quantity": number,
+                            "price_per_item": price,
+                            "total_price": quantity * price
+                        }
+                    ],
+                    "number_of_items": total count of unique items,
+                    "subtotal": subtotal amount,
+                    "tax": tax amount or "NA" if none,
+                    "tip": tip amount or "NA" if none,
+                    "additional_charges": additional charges or "NA" if none,
+                    "total": final total amount
+                }
                 """
                 
                 # Get model's response
                 print("Analyzing receipt...")
-                response = model.query(encoded_image, prompt)["answer"]
+                response = model.query(encoded_image, prompt)
+                
+                # Check if response is a dictionary and has 'answer' key
+                if isinstance(response, dict) and 'answer' in response:
+                    response_text = response['answer']
+                else:
+                    print("Unexpected response format")
+                    response_text = str(response)
+                
                 print("\nRaw model response:")
-                print(response)
+                print(response_text)
                 
                 try:
-                    # Try to parse as JSON
-                    receipt_data = json.loads(response)
+                    # Handle case where response is just "NA"
+                    if response_text.strip().upper() == '"NA"' or response_text.strip().upper() == 'NA':
+                        receipt_data = {
+                            "name_of_establishment": "NA",
+                            "currency": "NA",
+                            "items": [],
+                            "number_of_items": 0,
+                            "subtotal": "NA",
+                            "tax": "NA",
+                            "tip": "NA",
+                            "additional_charges": "NA",
+                            "total": "NA"
+                        }
+                    else:
+                        # Try to parse as JSON
+                        receipt_data = json.loads(response_text)
+                    
+                    # Add metadata
                     receipt_data["receipt_id"] = idx
                     receipt_data["image_path"] = str(image_path)
                     all_receipts.append(receipt_data)
@@ -65,18 +107,19 @@ def analyze_receipts():
                     fallback_data = {
                         "receipt_id": idx,
                         "image_path": str(image_path),
-                        "store_name": "NA",
+                        "name_of_establishment": "NA",
+                        "currency": "NA",
                         "items": [],
                         "number_of_items": 0,
                         "subtotal": "NA",
                         "tax": "NA",
                         "tip": "NA",
+                        "additional_charges": "NA",
                         "total": "NA",
-                        "raw_response": response
+                        "raw_response": response_text
                     }
                     all_receipts.append(fallback_data)
-                    print("\nFallback data created:")
-                    # print(json.dumps(fallback_data, indent=2))
+                    print("\nFallback data created")
                     
             except Exception as e:
                 print(f"Error processing image: {str(e)}")

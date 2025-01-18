@@ -1,1 +1,42 @@
-{}
+{
+    "name_of_establishment": "Nick's Tuscan Grill",
+    "currency": "$",
+    "items": [
+        {
+            "name": "FUSSILLI SP",
+            "quantity": 1,
+            "price_per_item": 22.00,
+            "total_price": 22.00
+        },
+        {
+            "name": "Open Food",
+            "quantity": 1,
+            "price_per_item": 28.00,
+            "total_price": 28.00
+        },
+        {
+            "name": "Ossobuco",
+            "quantity": 1,
+            "price_per_item": 28.00,
+            "total_price": 28.00
+        },
+        {
+            "name": "Diet Coke",
+            "quantity": 1,
+            "price_per_item": 2.50,
+            "total_price": 2.50
+        },
+        {
+            "name": "G 14 Hands Cab",
+            "quantity": 1,
+            "price_per_item": 10.00,
+            "total_price": 10.00
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 62.50,
+    "tax": 5.39,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 67.89
+}

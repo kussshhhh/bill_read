@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "Angelo's Pizza Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Sprite",
+            "quantity": 1,
+            "price_per_item": 2.55,
+            "total_price": 2.55
+        },
+        {
+            "name": "Chicken Caesar Salad",
+            "quantity": 1,
+            "price_per_item": 8.95,
+            "total_price": 8.95
+        },
+        {
+            "name": "Chefs Special > Chefs Special > Chefs Special",
+            "quantity": 1,
+            "price_per_item": 19.95,
+            "total_price": 19.95
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 31.45,
+    "tax": 1.89,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 33.34
+}

@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "Cafe Eugene",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Pork Pancakes",
+            "quantity": 1,
+            "price_per_item": 17.00,
+            "total_price": 17.00
+        },
+        {
+            "name": "Side Bacon",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "2 Regular",
+            "quantity": 2,
+            "price_per_item": 3.00,
+            "total_price": 6.00
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 39.00,
+    "tax": 3.90,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 42.90
+}

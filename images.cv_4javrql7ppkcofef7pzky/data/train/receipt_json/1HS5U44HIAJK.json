@@ -1,32 +1,30 @@
 {
-   "Server": "Regina",
-   "Station": 4,
-   "Table": 1,
-   "Guests": 2,
-   "Order ID": 28731,
-   "Items": [
-       {
-           "Description": "Red Sangria Glass",
-           "Quantity": 2,
-           "Price": 14.00
-       },
-       {
-           "Description": "#4-COMBO FAJITAS",
-           "Quantity": 1,
-           "Price": 22.95
-       },
-       {
-           "Description": "#34-BURRITO SUPREME w/ Beef",
-           "Quantity": 1,
-           "Price": 14.95
-       }
-   ],
-   "Subtotal": 37.90,
-   "Tax": 4.48,
-   "Total": 56.38,
-   "Payment Method": "Cash",
-   "Tip": 4.00,
-   "Total Paid": 60.38,
-   "Date": "11/6/2013",
-   "Time": "8:14:53 PM"
+    "name_of_establishment": "Don Juan Mexican Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Red Sangria Glass",
+            "quantity": 2,
+            "price_per_item": 7.00,
+            "total_price": 14.00
+        },
+        {
+            "name": "#4-COMBO FAJITAS",
+            "quantity": 1,
+            "price_per_item": 22.95,
+            "total_price": 22.95
+        },
+        {
+            "name": "#34-BURRITO SUPREME",
+            "quantity": 1,
+            "price_per_item": 14.95,
+            "total_price": 14.95
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 37.90,
+    "tax": 4.48,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 56.38
 }

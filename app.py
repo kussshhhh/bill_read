@@ -43,6 +43,7 @@ def analyze_receipts():
                 Analyze this receipt and respond ONLY with these exact details in this format:
                 {
                     "store_name": "name of store/restaurant",
+                    "currency": "$" or any other,
                     "items": [
                         {
                             "name": "item name",
@@ -55,12 +56,14 @@ def analyze_receipts():
                     "subtotal": subtotal amount,
                     "tax": tax amount or "NA" if none,
                     "tip": tip amount or "NA" if none,
+                    "additional_charges": additional charges or "NA" if none,
                     "total": final total amount
                 }
                 
                 Only include information you can clearly see. Use "NA" for missing values.
                 Format all prices as decimal numbers without currency symbols.
-                Keep item names exactly as written on receipt.
+                Keep item names exactly as written on receipt. and give back json
+
                 """
                 
                 # Get model's response

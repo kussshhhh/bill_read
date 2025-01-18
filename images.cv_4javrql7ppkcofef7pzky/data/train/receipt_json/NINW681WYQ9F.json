@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "IKEA",
+    "currency": "£",
+    "items": [
+        {
+            "name": "Meatballs 10",
+            "quantity": 1,
+            "price_per_item": 3.80,
+            "total_price": 3.80
+        },
+        {
+            "name": "Fish & Chips Adult",
+            "quantity": 1,
+            "price_per_item": 4.95,
+            "total_price": 4.95
+        },
+        {
+            "name": "Pottit Pain - White Wine red",
+            "quantity": 1,
+            "price_per_item": 2.80,
+            "total_price": 2.80
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 11.55,
+    "tax": 0.00,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 12.37
+}

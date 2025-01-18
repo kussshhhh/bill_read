@@ -1,0 +1,30 @@
+{
+    "name_of_establishment": "la Source",
+    "currency": "€",
+    "items": [
+        {
+            "name": "1 PERNIER",
+            "quantity": 1,
+            "price_per_item": 5.80,
+            "total_price": 5.80
+        },
+        {
+            "name": "1 COCA-COLA",
+            "quantity": 1,
+            "price_per_item": 5.80,
+            "total_price": 5.80
+        },
+        {
+            "name": "1 JUS ORANGE",
+            "quantity": 1,
+            "price_per_item": 5.40,
+            "total_price": 5.40
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 17.00,
+    "tax": 1.55,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 17.00
+}

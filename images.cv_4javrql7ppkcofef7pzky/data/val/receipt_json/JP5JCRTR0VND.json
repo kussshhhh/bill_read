@@ -1,0 +1,36 @@
+{
+    "name_of_establishment": "JT's Diner",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Coffee (2 @2.95)",
+            "quantity": 2,
+            "price_per_item": 2.95,
+            "total_price": 5.90
+        },
+        {
+            "name": "Two Eggs Any Style",
+            "quantity": 1,
+            "price_per_item": 6.95,
+            "total_price": 6.95
+        },
+        {
+            "name": "Whole-Wheat Pancakes",
+            "quantity": 1,
+            "price_per_item": 8.95,
+            "total_price": 8.95
+        },
+        {
+            "name": "Hawaiian Sausage",
+            "quantity": 1,
+            "price_per_item": 4.50,
+            "total_price": 4.50
+        }
+    ],
+    "number_of_items": 4,
+    "subtotal": 26.30,
+    "tax": 2.10,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 28.40
+}

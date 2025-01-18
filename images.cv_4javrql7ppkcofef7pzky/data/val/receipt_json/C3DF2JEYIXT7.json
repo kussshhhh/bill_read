@@ -1,0 +1,42 @@
+{
+    "name_of_establishment": "BreadFish Cafe",
+    "currency": "$",
+    "items": [
+        {
+            "name": "[1]mild",
+            "quantity": 1,
+            "price_per_item": 4.39,
+            "total_price": 4.39
+        },
+        {
+            "name": "[1]mild",
+            "quantity": 1,
+            "price_per_item": 6.75,
+            "total_price": 6.75
+        },
+        {
+            "name": "[1]Eraise Beef flee/Noodle",
+            "quantity": 1,
+            "price_per_item": 6.25,
+            "total_price": 6.25
+        },
+        {
+            "name": "[1]Cold Noodle With Chicken",
+            "quantity": 1,
+            "price_per_item": 7.95,
+            "total_price": 7.95
+        },
+        {
+            "name": "[1]Beef Noodles",
+            "quantity": 1,
+            "price_per_item": 7.95,
+            "total_price": 7.95
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 27.62,
+    "tax": 2.28,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 27.62
+}

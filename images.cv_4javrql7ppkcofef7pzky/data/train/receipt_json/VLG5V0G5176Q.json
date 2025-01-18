@@ -1,1 +1,66 @@
-{}
+{
+    "name_of_establishment": "Firepoint Grill",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Makers Mark (2 @11.50)",
+            "quantity": 2,
+            "price_per_item": 11.50,
+            "total_price": 23.00
+        },
+        {
+            "name": "As Old Fashioned",
+            "quantity": 2,
+            "price_per_item": 11.50,
+            "total_price": 23.00
+        },
+        {
+            "name": "Side Caesar",
+            "quantity": 1,
+            "price_per_item": 6.00,
+            "total_price": 6.00
+        },
+        {
+            "name": "Chicken & Rib Combo",
+            "quantity": 1,
+            "price_per_item": 29.00,
+            "total_price": 29.00
+        },
+        {
+            "name": "Woodford Reserve (2 @12.00)",
+            "quantity": 2,
+            "price_per_item": 12.00,
+            "total_price": 24.00
+        },
+        {
+            "name": "On the Rocks",
+            "quantity": 1,
+            "price_per_item": 24.00,
+            "total_price": 24.00
+        },
+        {
+            "name": "Frisee Salad",
+            "quantity": 1,
+            "price_per_item": 10.00,
+            "total_price": 10.00
+        },
+        {
+            "name": "Poached Shrimp Cocktail",
+            "quantity": 1,
+            "price_per_item": 17.50,
+            "total_price": 17.50
+        },
+        {
+            "name": "NY Strip 8oz",
+            "quantity": 1,
+            "price_per_item": 28.00,
+            "total_price": 28.00
+        }
+    ],
+    "number_of_items": 9,
+    "subtotal": 137.50,
+    "tax": 5.43,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 142.93
+}

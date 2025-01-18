@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "Pappadeaux Seafood Kitchen",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Lump Crab & Spinach Dip",
+            "quantity": 1,
+            "price_per_item": 15.95,
+            "total_price": 15.95
+        },
+        {
+            "name": "Cajun Combo",
+            "quantity": 1,
+            "price_per_item": 18.95,
+            "total_price": 18.95
+        },
+        {
+            "name": "Lunch Shrimp & Andouille",
+            "quantity": 1,
+            "price_per_item": 13.95,
+            "total_price": 13.95
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 48.85,
+    "tax": 3.91,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 52.76
+}

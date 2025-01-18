@@ -1,0 +1,42 @@
+{
+    "name_of_establishment": "Mexican Restaurant & Bar",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Coffee",
+            "quantity": 1,
+            "price_per_item": 3.25,
+            "total_price": 3.25
+        },
+        {
+            "name": "Enmoladas with Meat pollo",
+            "quantity": 1,
+            "price_per_item": 14.95,
+            "total_price": 14.95
+        },
+        {
+            "name": "Chicken Tenders",
+            "quantity": 1,
+            "price_per_item": 5.95,
+            "total_price": 5.95
+        },
+        {
+            "name": "Flautas Chicken",
+            "quantity": 1,
+            "price_per_item": 9.95,
+            "total_price": 9.95
+        },
+        {
+            "name": "Coloradito",
+            "quantity": 1,
+            "price_per_item": 15.95,
+            "total_price": 15.95
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 50.05,
+    "tax": 5.46,
+    "tip": 9.01,
+    "additional_charges": "NA",
+    "total": 64.52
+}

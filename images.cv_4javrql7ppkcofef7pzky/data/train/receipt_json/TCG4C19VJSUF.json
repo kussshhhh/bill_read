@@ -1,1 +1,66 @@
-{}
+{
+    "name_of_establishment": "Katana Sushi",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Hamachi Collar",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "Mega Poke Bowl",
+            "quantity": 1,
+            "price_per_item": 17.00,
+            "total_price": 17.00
+        },
+        {
+            "name": "Hamachi - Sashimi",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "Maguro - Sashimi",
+            "quantity": 1,
+            "price_per_item": 11.00,
+            "total_price": 11.00
+        },
+        {
+            "name": "Salmon - Sashimi",
+            "quantity": 1,
+            "price_per_item": 10.00,
+            "total_price": 10.00
+        },
+        {
+            "name": "3 Sockeye Salmon - Sashimi",
+            "quantity": 1,
+            "price_per_item": 36.00,
+            "total_price": 36.00
+        },
+        {
+            "name": "Hamachi Japapeno",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "Salmon Collar",
+            "quantity": 1,
+            "price_per_item": 10.00,
+            "total_price": 10.00
+        },
+        {
+            "name": "Escolar - Sashimi",
+            "quantity": 1,
+            "price_per_item": 11.00,
+            "total_price": 11.00
+        }
+    ],
+    "number_of_items": 9,
+    "subtotal": 131.00,
+    "tax": 12.71,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 143.71
+}

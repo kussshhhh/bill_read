@@ -1,0 +1,48 @@
+{
+    "name_of_establishment": "BEN'S BAYSIDE",
+    "currency": "$",
+    "items": [
+        {
+            "name": "DOUBLE DIP, 1 tky, bowl barley, 1 past, bowl barley",
+            "quantity": 2,
+            "price_per_item": 27.98,
+            "total_price": 55.96
+        },
+        {
+            "name": "KNISH",
+            "quantity": 1,
+            "price_per_item": 3.99,
+            "total_price": 3.99
+        },
+        {
+            "name": "ROUND",
+            "quantity": 1,
+            "price_per_item": 3.99,
+            "total_price": 3.99
+        },
+        {
+            "name": "KASHE SIDE",
+            "quantity": 1,
+            "price_per_item": 3.99,
+            "total_price": 3.99
+        },
+        {
+            "name": "COFFEE",
+            "quantity": 1,
+            "price_per_item": 1.99,
+            "total_price": 1.99
+        },
+        {
+            "name": "WATER",
+            "quantity": 2,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 37.95,
+    "tax": 3.37,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 41.32
+}

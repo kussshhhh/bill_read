@@ -1,25 +1,30 @@
 {
-   "check": "208774",
-   "server": "Ryan",
-   "tall_item": [
-     {
-       "name": "2 bohemia",
-       "amount": "$16.00"
-     }
-   ],
-   "order": [
-     {
-       "quantity": "1",
-       "name": "albondigas",
-       "amount": "$9.95"
-     },
-     {
-       "quantity": "1",
-       "name": "mole",
-       "amount": "$16.95"
-     }
-   ],
-   "subtotal": "$42.90",
-   "tax": "$4.08",
-   "total": "$46.98"
+    "name_of_establishment": "BAR9",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Bohemia",
+            "quantity": 2,
+            "price_per_item": 8.00,
+            "total_price": 16.00
+        },
+        {
+            "name": "Albondigas",
+            "quantity": 1,
+            "price_per_item": 9.95,
+            "total_price": 9.95
+        },
+        {
+            "name": "Mole",
+            "quantity": 1,
+            "price_per_item": 16.95,
+            "total_price": 16.95
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 42.90,
+    "tax": 4.08,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 46.98
 }

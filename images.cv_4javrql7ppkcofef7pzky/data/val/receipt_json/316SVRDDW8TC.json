@@ -1,0 +1,24 @@
+{
+    "name_of_establishment": "Casa Rubio Cafe",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Grilled Skirt Steak Well done",
+            "quantity": 1,
+            "price_per_item": 28.00,
+            "total_price": 28.00
+        },
+        {
+            "name": "Fountain Sodas",
+            "quantity": 1,
+            "price_per_item": 3.00,
+            "total_price": 3.00
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 31.00,
+    "tax": 2.75,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 33.75
+}

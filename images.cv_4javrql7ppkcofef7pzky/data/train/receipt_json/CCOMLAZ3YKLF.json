@@ -1,1 +1,42 @@
-{}
+{
+    "name_of_establishment": "CASA CHAN RESTAURANT",
+    "currency": "$",
+    "items": [
+        {
+            "name": "#12 Wonton or Egg Drop or Mixed Dinner",
+            "quantity": 1,
+            "price_per_item": 3.75,
+            "total_price": 3.75
+        },
+        {
+            "name": "#01 Egg Roll",
+            "quantity": 2,
+            "price_per_item": 3.00,
+            "total_price": 6.00
+        },
+        {
+            "name": "#23 Judge Chinese Chop Suey Honduran Style Dinner",
+            "quantity": 1,
+            "price_per_item": 9.95,
+            "total_price": 9.95
+        },
+        {
+            "name": "Tropical",
+            "quantity": 1,
+            "price_per_item": 5.00,
+            "total_price": 5.00
+        },
+        {
+            "name": "2 @ $2.50/12 oz Tamal De Pollo",
+            "quantity": 2,
+            "price_per_item": 3.50,
+            "total_price": 7.00
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 24.24,
+    "tax": 1.70,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 25.94
+}

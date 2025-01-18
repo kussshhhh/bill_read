@@ -1,0 +1,38 @@
+```
+{
+    "name_of_establishment": "Kaiseki",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Sushi Dinner w.Miso Soup",
+            "quantity": 1,
+            "price_per_item": 18.95,
+            "total_price": 18.95
+        },
+        {
+            "name": "Lady Gaga",
+            "quantity": 1,
+            "price_per_item": 13.95,
+            "total_price": 13.95
+        },
+        {
+            "name": "Ginger Ale",
+            "quantity": 1,
+            "price_per_item": 2.00,
+            "total_price": 2.00
+        },
+        {
+            "name": "Fried Cheese Cake",
+            "quantity": 1,
+            "price_per_item": 4.95,
+            "total_price": 4.95
+        }
+    ],
+    "number_of_items": 4,
+    "subtotal": 39.85,
+    "tax": 3.45,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 43.30
+}
+```

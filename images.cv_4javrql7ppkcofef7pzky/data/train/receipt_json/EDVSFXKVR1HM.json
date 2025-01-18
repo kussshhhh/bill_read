@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "KALAVERAS",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Classic Michelada",
+            "quantity": 3,
+            "price_per_item": 12.00,
+            "total_price": 36.00
+        },
+        {
+            "name": "Don Julio Anejo",
+            "quantity": 1,
+            "price_per_item": 15.00,
+            "total_price": 15.00
+        },
+        {
+            "name": "Balam Madurado",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 63.00,
+    "tax": 5.99,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 68.99
+}

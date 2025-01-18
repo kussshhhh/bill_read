@@ -1,1 +1,36 @@
-{}
+{
+    "name_of_establishment": "SASHA'S",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Draft Blackhouse",
+            "quantity": 2,
+            "price_per_item": 7.0,
+            "total_price": 14.0
+        },
+        {
+            "name": "CK Manhattan (2 @5.00)",
+            "quantity": 2,
+            "price_per_item": 5.0,
+            "total_price": 10.0
+        },
+        {
+            "name": "White Pils Rye 10yr (2 @20.00)",
+            "quantity": 2,
+            "price_per_item": 20.0,
+            "total_price": 40.0
+        },
+        {
+            "name": "Duke 16oz Top Sirloin",
+            "quantity": 1,
+            "price_per_item": 34.0,
+            "total_price": 34.0
+        }
+    ],
+    "number_of_items": 4,
+    "subtotal": 167.0,
+    "tax": 12.94,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 179.94
+}

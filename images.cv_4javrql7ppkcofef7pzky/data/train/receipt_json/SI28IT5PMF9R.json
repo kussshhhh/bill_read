@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "TUMBU 700 INDIANATOR MARKET",
+    "currency": "$",
+    "items": [
+        {
+            "name": "CHEC TEND AP",
+            "quantity": 1,
+            "price_per_item": 9.95,
+            "total_price": 9.95
+        },
+        {
+            "name": "RIBB 1/2 ST",
+            "quantity": 1,
+            "price_per_item": 18.95,
+            "total_price": 18.95
+        },
+        {
+            "name": "BRG DELUXE",
+            "quantity": 1,
+            "price_per_item": 14.95,
+            "total_price": 14.95
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 33.90,
+    "tax": 3.39,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 37.29
+}

@@ -1,1 +1,50 @@
-{}
+```
+{
+    "name_of_establishment": "DAILY GRILL",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Coke",
+            "quantity": 1,
+            "price_per_item": 3.65,
+            "total_price": 3.65
+        },
+        {
+            "name": "Short Rib",
+            "quantity": 1,
+            "price_per_item": 27.95,
+            "total_price": 27.95
+        },
+        {
+            "name": "Diet Coke",
+            "quantity": 1,
+            "price_per_item": 3.65,
+            "total_price": 3.65
+        },
+        {
+            "name": "Crispy Naked Wings",
+            "quantity": 1,
+            "price_per_item": 11.95,
+            "total_price": 11.95
+        },
+        {
+            "name": "Rib Eye Steak",
+            "quantity": 1,
+            "price_per_item": 35.75,
+            "total_price": 35.75
+        },
+        {
+            "name": "Broccoli",
+            "quantity": 1,
+            "price_per_item": na,
+            "total_price": na
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 82.95,
+    "tax": 8.50,
+    "tip": na,
+    "additional_charges": na,
+    "total": 91.45
+}
+```

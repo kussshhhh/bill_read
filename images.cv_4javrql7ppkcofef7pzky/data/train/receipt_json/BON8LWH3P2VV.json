@@ -1,1 +1,24 @@
-{}
+{
+    "name_of_establishment": "UMIX",
+    "currency": "$",
+    "items": [
+        {
+            "name": "100027 PARIS",
+            "quantity": 1,
+            "price_per_item": 5.25,
+            "total_price": 5.25
+        },
+        {
+            "name": "100026 LE CLASSIQUE",
+            "quantity": 1,
+            "price_per_item": 4.95,
+            "total_price": 4.95
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 10.20,
+    "tax": 0.84,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 11.04
+}

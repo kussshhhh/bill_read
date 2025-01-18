@@ -1,1 +1,18 @@
-{}
+{
+    "name_of_establishment": "HEDLEYS",
+    "currency": "$",
+    "items": [
+        {
+            "name": "CREDIT SALE",
+            "quantity": 1,
+            "price_per_item": 41.45,
+            "total_price": 41.45
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 41.45,
+    "tax": "NA",
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 41.45
+}

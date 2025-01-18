@@ -1,1 +1,54 @@
-{}
+{
+    "name_of_establishment": "El Meson Mexican Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "SOPA DE TORTILA BOWL",
+            "quantity": 1,
+            "price_per_item": 5.50,
+            "total_price": 5.50
+        },
+        {
+            "name": "TACO SALAD",
+            "quantity": 1,
+            "price_per_item": 9.50,
+            "total_price": 9.50
+        },
+        {
+            "name": "CHKN",
+            "quantity": 1,
+            "price_per_item": 12.50,
+            "total_price": 12.50
+        },
+        {
+            "name": "HOUSE MARGARITA JUMBO",
+            "quantity": 1,
+            "price_per_item": 12.50,
+            "total_price": 12.50
+        },
+        {
+            "name": "Dr Pepper",
+            "quantity": 1,
+            "price_per_item": 2.65,
+            "total_price": 2.65
+        },
+        {
+            "name": "SIDE CHEESE",
+            "quantity": 1,
+            "price_per_item": 1.55,
+            "total_price": 1.55
+        },
+        {
+            "name": "HOUSE MARGARITA JUMBO",
+            "quantity": 1,
+            "price_per_item": 12.50,
+            "total_price": 12.50
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 44.20,
+    "tax": 3.50,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 47.70
+}

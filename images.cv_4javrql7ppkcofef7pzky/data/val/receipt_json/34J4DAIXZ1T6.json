@@ -1,0 +1,30 @@
+{
+    "name_of_establishment": "Thai Gusto Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Chang",
+            "quantity": 1,
+            "price_per_item": 7.00,
+            "total_price": 7.00
+        },
+        {
+            "name": "#L14 Garlic Delight",
+            "quantity": 1,
+            "price_per_item": 10.24,
+            "total_price": 10.24
+        },
+        {
+            "name": "#L28 Red Curry",
+            "quantity": 1,
+            "price_per_item": 10.24,
+            "total_price": 10.24
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 27.48,
+    "tax": 2.67,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 30.15
+}

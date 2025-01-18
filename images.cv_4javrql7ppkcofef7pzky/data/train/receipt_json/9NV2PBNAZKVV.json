@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "Pappadeaux Seafood Kitchen",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Side Craw Etouffee 4oz",
+            "quantity": 1,
+            "price_per_item": 10.98,
+            "total_price": 10.98
+        },
+        {
+            "name": "Pan Seared Tilapia",
+            "quantity": 1,
+            "price_per_item": 21.99,
+            "total_price": 21.99
+        },
+        {
+            "name": "Tea",
+            "quantity": 2,
+            "price_per_item": 5.98,
+            "total_price": 11.96
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 38.95,
+    "tax": 3.21,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 42.16
+}

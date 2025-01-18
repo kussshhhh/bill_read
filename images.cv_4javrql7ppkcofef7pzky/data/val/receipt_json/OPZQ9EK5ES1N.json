@@ -1,0 +1,24 @@
+{
+    "name_of_establishment": "BOA",
+    "currency": "$",
+    "items": [
+        {
+            "name": "CRAB CAKE",
+            "quantity": 1,
+            "price_per_item": 15.00,
+            "total_price": 15.00
+        },
+        {
+            "name": "SKIRT STK LUNCH",
+            "quantity": 1,
+            "price_per_item": 28.00,
+            "total_price": 28.00
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 43.00,
+    "tax": 4.09,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 47.09
+}

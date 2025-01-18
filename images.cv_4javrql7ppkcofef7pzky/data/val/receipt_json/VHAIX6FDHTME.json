@@ -1,0 +1,54 @@
+{
+    "name_of_establishment": "Loaded Cafe",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Enchi Omelete SHREDDED BEEF",
+            "quantity": 2,
+            "price_per_item": 25.98,
+            "total_price": 51.96
+        },
+        {
+            "name": "Open Food SHREDDED BEEF",
+            "quantity": 1,
+            "price_per_item": 3.19,
+            "total_price": 3.19
+        },
+        {
+            "name": "Open Food SHREDDED BEEG",
+            "quantity": 1,
+            "price_per_item": 3.19,
+            "total_price": 3.19
+        },
+        {
+            "name": "Open Food",
+            "quantity": 1,
+            "price_per_item": 3.19,
+            "total_price": 3.19
+        },
+        {
+            "name": "Hashbrowns Side",
+            "quantity": 3,
+            "price_per_item": 2.99,
+            "total_price": 8.97
+        },
+        {
+            "name": "Coffee Hot",
+            "quantity": 1,
+            "price_per_item": 2.99,
+            "total_price": 2.99
+        },
+        {
+            "name": "Diet Coke",
+            "quantity": 1,
+            "price_per_item": 2.99,
+            "total_price": 2.99
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 44.32,
+    "tax": 4.21,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 48.53
+}

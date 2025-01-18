@@ -1,1 +1,18 @@
-{}
+{
+    "name_of_establishment": "Moonstar Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "QTY/LB WEEKDAY DINNER $29.88",
+            "quantity": 1,
+            "price_per_item": 29.88,
+            "total_price": 29.88
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 29.88,
+    "tax": 3.01,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 37.37
+}

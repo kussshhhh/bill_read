@@ -1,1 +1,24 @@
-{}
+{
+    "name_of_establishment": "COLLEGE OF SOUTHERN NEVADA RUSSELL'S RESTAURANT",
+    "currency": "$",
+    "items": [
+        {
+            "name": "LATTE *NO FLAVOR",
+            "quantity": 1,
+            "price_per_item": 1.75,
+            "total_price": 1.75
+        },
+        {
+            "name": "SALMON",
+            "quantity": 1,
+            "price_per_item": 7.95,
+            "total_price": 7.95
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 9.70,
+    "tax": "NA",
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 9.70
+}

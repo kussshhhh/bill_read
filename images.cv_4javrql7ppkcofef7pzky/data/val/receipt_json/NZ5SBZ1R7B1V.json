@@ -1,0 +1,54 @@
+{
+    "name_of_establishment": "Longboards",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Green Salad",
+            "quantity": 1,
+            "price_per_item": 8.00,
+            "total_price": 8.00
+        },
+        {
+            "name": "Ranch",
+            "quantity": 1,
+            "price_per_item": 8.00,
+            "total_price": 8.00
+        },
+        {
+            "name": "Wagyu Cheeseburger Medium Well",
+            "quantity": 1,
+            "price_per_item": 19.00,
+            "total_price": 19.00
+        },
+        {
+            "name": "Garlic Fries",
+            "quantity": 1,
+            "price_per_item": 2.00,
+            "total_price": 2.00
+        },
+        {
+            "name": "ADD RAW ONIONS& BACON PLZ",
+            "quantity": 1,
+            "price_per_item": 2.00,
+            "total_price": 2.00
+        },
+        {
+            "name": "Drink of the Day",
+            "quantity": 1,
+            "price_per_item": 9.75,
+            "total_price": 9.75
+        },
+        {
+            "name": "Tea",
+            "quantity": 1,
+            "price_per_item": 4.00,
+            "total_price": 4.00
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 42.75,
+    "tax": "na",
+    "tip": 3.00,
+    "additional_charges": "na",
+    "total": 44.31
+}

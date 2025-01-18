@@ -1,0 +1,30 @@
+{
+    "name_of_establishment": "New China",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Beef w. Broccoli w. Chicken Fried Rice",
+            "quantity": 1,
+            "price_per_item": 8.25,
+            "total_price": 8.25
+        },
+        {
+            "name": "Sweet / Sour Chicken",
+            "quantity": 1,
+            "price_per_item": 7.95,
+            "total_price": 7.95
+        },
+        {
+            "name": "Chicken Chow Mein",
+            "quantity": 1,
+            "price_per_item": 6.75,
+            "total_price": 6.75
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 24.95,
+    "tax": 2.01,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 26.96
+}

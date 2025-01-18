@@ -1,0 +1,44 @@
+```
+{
+    "name_of_establishment": "Villaggio Grille",
+    "currency": "$",
+    "items": [
+        {
+            "name": "P-VILLAGIO BREEZE",
+            "quantity": 1,
+            "price_per_item": 0.01,
+            "total_price": 0.01
+        },
+        {
+            "name": "ADD SALAD",
+            "quantity": 1,
+            "price_per_item": 3.00,
+            "total_price": 3.00
+        },
+        {
+            "name": "LUNCH SEAFOOD PASTA",
+            "quantity": 1,
+            "price_per_item": 14.00,
+            "total_price": 14.00
+        },
+        {
+            "name": "KID PEPERONI PIZZA",
+            "quantity": 1,
+            "price_per_item": 7.00,
+            "total_price": 7.00
+        },
+        {
+            "name": "KID ALFREDO",
+            "quantity": 1,
+            "price_per_item": 7.00,
+            "total_price": 7.00
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 31.01,
+    "tax": 3.11,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 34.12
+}
+```

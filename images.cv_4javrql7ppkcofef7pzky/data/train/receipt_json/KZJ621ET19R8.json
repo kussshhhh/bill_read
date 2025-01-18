@@ -1,1 +1,60 @@
-{}
+{
+  "name_of_establishment": "BIG JO'S",
+  "currency": "$",
+  "items": [
+    {
+      "name": "HB",
+      "quantity": 1,
+      "price_per_item": 4.00,
+      "total_price": 4.00
+    },
+    {
+      "name": "HB Regular Price",
+      "quantity": 1,
+      "price_per_item": 4.00,
+      "total_price": 4.00
+    },
+    {
+      "name": "French Fries x 2 ($2.50 each)",
+      "quantity": 1,
+      "price_per_item": 5.00,
+      "total_price": 5.00
+    },
+    {
+      "name": "Turkey Burger Combo",
+      "quantity": 1,
+      "price_per_item": 8.85,
+      "total_price": 8.85
+    },
+    {
+      "name": "HB Combo, Grilled Onion ($0.75)",
+      "quantity": 1,
+      "price_per_item": 8.35,
+      "total_price": 8.35
+    },
+    {
+      "name": "CB x 2 ($7.85 each) Combo",
+      "quantity": 1,
+      "price_per_item": 15.70,
+      "total_price": 15.70
+    },
+    {
+      "name": "CB Regular Price, Grilled Onion ($0.75)",
+      "quantity": 1,
+      "price_per_item": 5.00,
+      "total_price": 5.00
+    },
+    {
+      "name": "Chili Fries",
+      "quantity": 1,
+      "price_per_item": 4.35,
+      "total_price": 4.35
+    }
+  ],
+  "number_of_items": 7,
+  "subtotal": 51.25,
+  "tax": 5.25,
+  "tip": "NA",
+  "additional_charges": "NA",
+  "total": 56.50
+}

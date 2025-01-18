@@ -1,0 +1,30 @@
+{
+    "name_of_establishment": "VIA EMILIA 9",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Tagliatella al Ragu'",
+            "quantity": 1,
+            "price_per_item": 14.90,
+            "total_price": 14.90
+        },
+        {
+            "name": "Cappellacci Di Zucca",
+            "quantity": 1,
+            "price_per_item": 18.90,
+            "total_price": 18.90
+        },
+        {
+            "name": "Stufato Al Latte Di Ravenna",
+            "quantity": 1,
+            "price_per_item": 22.90,
+            "total_price": 22.90
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 56.70,
+    "tax": 5.10,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 61.80
+}

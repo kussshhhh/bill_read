@@ -1,0 +1,42 @@
+{
+    "name_of_establishment": "Newark Buffet",
+    "currency": "$",
+    "items": [
+        {
+            "name": "WEEKEND DINNER BUFFET",
+            "quantity": 2,
+            "price_per_item": 19.99,
+            "total_price": 39.98
+        },
+        {
+            "name": "WEEKEND DINNER KIDS (3-5Y)",
+            "quantity": 1,
+            "price_per_item": 7.99,
+            "total_price": 7.99
+        },
+        {
+            "name": "WEEKEND DINNER KIDS (6-10Y)",
+            "quantity": 1,
+            "price_per_item": 7.99,
+            "total_price": 7.99
+        },
+        {
+            "name": "SODA DRINK",
+            "quantity": 4,
+            "price_per_item": 1.39,
+            "total_price": 5.56
+        },
+        {
+            "name": "WEEKEND SENIOR DINNER",
+            "quantity": 1,
+            "price_per_item": 18.09,
+            "total_price": 18.09
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 84.02,
+    "tax": 8.20,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 92.22
+}

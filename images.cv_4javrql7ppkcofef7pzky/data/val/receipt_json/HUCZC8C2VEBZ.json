@@ -1,0 +1,18 @@
+{
+    "name_of_establishment": "Paradise Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "#31 - 1 Guest",
+            "quantity": 1,
+            "price_per_item": 20.00,
+            "total_price": 20.00
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 20.00,
+    "tax": 2.18,
+    "tip": 3.60,
+    "additional_charges": "NA",
+    "total": 25.78
+}

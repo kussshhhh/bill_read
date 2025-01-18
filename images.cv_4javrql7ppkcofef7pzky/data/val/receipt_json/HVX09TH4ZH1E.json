@@ -1,0 +1,42 @@
+{
+    "name_of_establishment": "Bar Rua",
+    "currency": "£",
+    "items": [
+        {
+            "name": "GLS CARRIG LAGER",
+            "quantity": 2,
+            "price_per_item": 6.50,
+            "total_price": 13.00
+        },
+        {
+            "name": "WINGS SMALL",
+            "quantity": 1,
+            "price_per_item": 9.00,
+            "total_price": 9.00
+        },
+        {
+            "name": "SHELLFISH POT",
+            "quantity": 1,
+            "price_per_item": 18.00,
+            "total_price": 18.00
+        },
+        {
+            "name": "FISH CAKES",
+            "quantity": 1,
+            "price_per_item": 7.50,
+            "total_price": 7.50
+        },
+        {
+            "name": "PORTION BREAD LARGE",
+            "quantity": 1,
+            "price_per_item": 1.50,
+            "total_price": 1.50
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 49.00,
+    "tax": "NA",
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 65.10
+}

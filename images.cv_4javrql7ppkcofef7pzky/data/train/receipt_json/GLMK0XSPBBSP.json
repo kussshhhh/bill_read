@@ -1,1 +1,18 @@
-{}
+{
+    "name_of_establishment": "IN-N-OUT BURGER SANTA CLARA",
+    "currency": "$",
+    "items": [
+        {
+            "name": "HAMB",
+            "quantity": 1,
+            "price_per_item": 2.00,
+            "total_price": 2.00
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 2.00,
+    "tax": 0.17,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 2.17
+}

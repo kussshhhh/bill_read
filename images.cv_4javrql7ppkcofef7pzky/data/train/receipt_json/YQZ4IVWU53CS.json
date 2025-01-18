@@ -1,1 +1,54 @@
-{}
+{
+    "name_of_establishment": "IN-N-OUT BURGER ESCONDIDO",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Db1Db1",
+            "quantity": 1,
+            "price_per_item": 3.30,
+            "total_price": 3.30
+        },
+        {
+            "name": "NO K M",
+            "quantity": 1,
+            "price_per_item": 4.35,
+            "total_price": 4.35
+        },
+        {
+            "name": "3X3",
+            "quantity": 1,
+            "price_per_item": 4.35,
+            "total_price": 4.35
+        },
+        {
+            "name": "GR S only",
+            "quantity": 1,
+            "price_per_item": 1.60,
+            "total_price": 1.60
+        },
+        {
+            "name": "Animal",
+            "quantity": 1,
+            "price_per_item": 3.50,
+            "total_price": 3.50
+        },
+        {
+            "name": "Lg Coke",
+            "quantity": 1,
+            "price_per_item": 1.70,
+            "total_price": 1.70
+        },
+        {
+            "name": "Med Coke",
+            "quantity": 1,
+            "price_per_item": 1.50,
+            "total_price": 1.50
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 19.44,
+    "tax": 1.44,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 20.88
+}

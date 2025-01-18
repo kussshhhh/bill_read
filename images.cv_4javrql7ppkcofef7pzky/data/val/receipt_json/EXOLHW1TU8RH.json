@@ -1,0 +1,92 @@
+```
+{
+    "name_of_establishment": "Douglas Burgers",
+    "currency": "$",
+    "items": [
+        {
+            "name": "1 BURGER CONGO",
+            "quantity": 1,
+            "price_per_item": 9.99,
+            "total_price": 9.99
+        },
+        {
+            "name": "* fries *",
+            "quantity": 1,
+            "price_per_item": 0.70,
+            "total_price": 0.70
+        },
+        {
+            "name": "*american ch*",
+            "quantity": 1,
+            "price_per_item": 0.70,
+            "total_price": 0.70
+        },
+        {
+            "name": "*add bacon**",
+            "quantity": 1,
+            "price_per_item": 1.99,
+            "total_price": 1.99
+        },
+        {
+            "name": "*gr11 onions*",
+            "quantity": 1,
+            "price_per_item": 2.49,
+            "total_price": 2.49
+        },
+        {
+            "name": "1 SUB ZUCCHINI Raspberry Ice Te",
+            "quantity": 1,
+            "price_per_item": 2.49,
+            "total_price": 2.49
+        },
+        {
+            "name": "Burger (1/4)",
+            "quantity": 1,
+            "price_per_item": 5.99,
+            "total_price": 5.99
+        },
+        {
+            "name": "* sesame bun *",
+            "quantity": 1,
+            "price_per_item": na,
+            "total_price": na
+        },
+        {
+            "name": "*add bacon**",
+            "quantity": 1,
+            "price_per_item": 1.99,
+            "total_price": 1.99
+        },
+        {
+            "name": "*add avocado**",
+            "quantity": 1,
+            "price_per_item": 3.00,
+            "total_price": 3.00
+        },
+        {
+            "name": "1 MAKE SPECIAL",
+            "quantity": 1,
+            "price_per_item": 2.49,
+            "total_price": 2.49
+        },
+        {
+            "name": "* onions rings *",
+            "quantity": 1,
+            "price_per_item": 2.49,
+            "total_price": 2.49
+        },
+        {
+            "name": "* lemonade *",
+            "quantity": 1,
+            "price_per_item": na,
+            "total_price": na
+        }
+    ],
+    "number_of_items": 11,
+    "subtotal": 31.24,
+    "tax": 2.97,
+    "tip": na,
+    "additional_charges": na,
+    "total": 34.21
+}
+```

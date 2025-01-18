@@ -1,0 +1,18 @@
+{
+    "name_of_establishment": "ipanema Brazilian Steak House",
+    "currency": "$",
+    "items": [
+        {
+            "name": "DINNER RODIZIO",
+            "quantity": 1,
+            "price_per_item": 41.95,
+            "total_price": 41.95
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 41.95,
+    "tax": 2.94,
+    "tip": 10.49,
+    "additional_charges": "NA",
+    "total": 55.38
+}

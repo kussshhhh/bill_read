@@ -1,0 +1,36 @@
+{
+    "name_of_establishment": "Deccan Spice",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Dal Fry",
+            "quantity": 1,
+            "price_per_item": 10.99,
+            "total_price": 10.99
+        },
+        {
+            "name": "Paneer Butter Masala",
+            "quantity": 1,
+            "price_per_item": 12.99,
+            "total_price": 12.99
+        },
+        {
+            "name": "Deccan Special Biryani",
+            "quantity": 1,
+            "price_per_item": 14.99,
+            "total_price": 14.99
+        },
+        {
+            "name": "rice",
+            "quantity": 3,
+            "price_per_item": 1.99,
+            "total_price": 5.97
+        }
+    ],
+    "number_of_items": 4,
+    "subtotal": 35.95,
+    "tax": 2.98,
+    "tip": 8.09,
+    "additional_charges": "NA",
+    "total": 47.02
+}

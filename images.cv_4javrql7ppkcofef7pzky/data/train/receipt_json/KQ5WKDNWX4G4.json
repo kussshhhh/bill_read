@@ -1,1 +1,42 @@
-{}
+{
+    "name_of_establishment": "Caldera Brewery & Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Glass Imp Stout",
+            "quantity": 1,
+            "price_per_item": 5.00,
+            "total_price": 5.00
+        },
+        {
+            "name": "Ashland Amber",
+            "quantity": 1,
+            "price_per_item": 4.75,
+            "total_price": 4.75
+        },
+        {
+            "name": "Butter Noodles",
+            "quantity": 1,
+            "price_per_item": 7.50,
+            "total_price": 7.50
+        },
+        {
+            "name": "Oatmeal Stout",
+            "quantity": 1,
+            "price_per_item": 4.75,
+            "total_price": 4.75
+        },
+        {
+            "name": "Mahi Mahi TACO",
+            "quantity": 1,
+            "price_per_item": 4.75,
+            "total_price": 4.75
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 26.50,
+    "tax": 1.10,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 37.60
+}

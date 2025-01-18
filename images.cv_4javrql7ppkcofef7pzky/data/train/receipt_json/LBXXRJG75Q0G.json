@@ -1,1 +1,36 @@
-{}
+{
+    "name_of_establishment": "MOD Pizza",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Draft Beer (2 @ 4.97)",
+            "quantity": 2,
+            "price_per_item": 4.97,
+            "total_price": 9.94
+        },
+        {
+            "name": "Fountain Drink (16oz)",
+            "quantity": 1,
+            "price_per_item": 2.17,
+            "total_price": 2.17
+        },
+        {
+            "name": "MOD Pizza",
+            "quantity": 1,
+            "price_per_item": 8.67,
+            "total_price": 8.67
+        },
+        {
+            "name": "Mini MOD",
+            "quantity": 1,
+            "price_per_item": 6.67,
+            "total_price": 6.67
+        }
+    ],
+    "number_of_items": 4,
+    "subtotal": 27.45,
+    "tax": 2.53,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 29.98
+}

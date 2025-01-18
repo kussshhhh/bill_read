@@ -1,0 +1,30 @@
+{
+    "name_of_establishment": "HP Pho Ga",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Pho Ga (Small)",
+            "quantity": 1,
+            "price_per_item": 8.00,
+            "total_price": 8.00
+        },
+        {
+            "name": "Pho Ga (Large)",
+            "quantity": 1,
+            "price_per_item": 9.00,
+            "total_price": 9.00
+        },
+        {
+            "name": "Goi Cuon",
+            "quantity": 1,
+            "price_per_item": 5.25,
+            "total_price": 5.25
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 22.25,
+    "tax": 2.11,
+    "tip": 3.65,
+    "additional_charges": "NA",
+    "total": 33.26
+}

@@ -1,0 +1,32 @@
+```
+{
+    "name_of_establishment": "GREEN FIELD",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Coffee",
+            "quantity": 1,
+            "price_per_item": 3.00,
+            "total_price": 3.00
+        },
+        {
+            "name": "Lunch",
+            "quantity": 2,
+            "price_per_item": 45.90,
+            "total_price": 91.80
+        },
+        {
+            "name": "Coke",
+            "quantity": 1,
+            "price_per_item": 3.00,
+            "total_price": 3.00
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 51.90,
+    "tax": 4.68,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 56.58
+}
+```

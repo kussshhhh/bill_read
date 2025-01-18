@@ -1,1 +1,24 @@
-{}
+{
+    "name_of_establishment": "New Asia Buffet",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Weekend Dinner",
+            "quantity": 2,
+            "price_per_item": 27.95,
+            "total_price": 55.90
+        },
+        {
+            "name": "Coke",
+            "quantity": 2,
+            "price_per_item": 2.80,
+            "total_price": 5.60
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 61.50,
+    "tax": 2.80,
+    "tip": 3.99,
+    "additional_charges": "NA",
+    "total": 68.29
+}

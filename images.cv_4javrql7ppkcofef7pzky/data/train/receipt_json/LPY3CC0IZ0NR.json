@@ -1,1 +1,24 @@
-{}
+{
+    "name_of_establishment": "CHLOEB1",
+    "currency": "$",
+    "items": [
+        {
+            "name": "2 HOUSE VODKA",
+            "quantity": 2,
+            "price_per_item": 12.00,
+            "total_price": 24.00
+        },
+        {
+            "name": "1 HOUSE TEQUILA",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 36.00,
+    "tax": 3.19,
+    "tip": 7.20,
+    "additional_charges": 0.00,
+    "total": 46.40
+}

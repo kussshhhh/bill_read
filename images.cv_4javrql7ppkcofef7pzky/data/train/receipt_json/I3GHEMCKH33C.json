@@ -1,1 +1,54 @@
-{}
+{
+    "name_of_establishment": "Nancy's",
+    "currency": "$",
+    "items": [
+        {
+            "name": "gl Imp White",
+            "quantity": 1,
+            "price_per_item": 7.75,
+            "total_price": 7.75
+        },
+        {
+            "name": "Blue Moon Tap",
+            "quantity": 1,
+            "price_per_item": 6.00,
+            "total_price": 6.00
+        },
+        {
+            "name": "Mozzarella&Tomato",
+            "quantity": 1,
+            "price_per_item": 9.95,
+            "total_price": 9.95
+        },
+        {
+            "name": "Pork Quesadilla",
+            "quantity": 1,
+            "price_per_item": 9.95,
+            "total_price": 9.95
+        },
+        {
+            "name": "Fren Onion Soup",
+            "quantity": 1,
+            "price_per_item": 5.95,
+            "total_price": 5.95
+        },
+        {
+            "name": "Pork Chop",
+            "quantity": 1,
+            "price_per_item": 21.95,
+            "total_price": 21.95
+        },
+        {
+            "name": "Hanger Sizzle",
+            "quantity": 1,
+            "price_per_item": 24.95,
+            "total_price": 24.95
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 86.50,
+    "tax": 7.68,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 94.18
+}

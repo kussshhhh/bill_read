@@ -1,0 +1,18 @@
+{
+    "name_of_establishment": "Taco Time - Kenmore",
+    "currency": "$",
+    "items": [
+        {
+            "name": "SFT TACO BF",
+            "quantity": 1,
+            "price_per_item": 5.99,
+            "total_price": 5.99
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 5.99,
+    "tax": 0.60,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 6.59
+}

@@ -1,0 +1,66 @@
+{
+    "name_of_establishment": "Calagero's",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Shrimp Scampi",
+            "quantity": 1,
+            "price_per_item": 27,
+            "total_price": 27
+        },
+        {
+            "name": "Chicken Milanese",
+            "quantity": 2,
+            "price_per_item": 46,
+            "total_price": 92
+        },
+        {
+            "name": "Veal Milanese",
+            "quantity": 1,
+            "price_per_item": 27,
+            "total_price": 27
+        },
+        {
+            "name": "Grey Goose",
+            "quantity": 3,
+            "price_per_item": 30,
+            "total_price": 90
+        },
+        {
+            "name": "Pineapple Juice",
+            "quantity": 1,
+            "price_per_item": 3,
+            "total_price": 3
+        },
+        {
+            "name": "Belvedere",
+            "quantity": 1,
+            "price_per_item": 12,
+            "total_price": 12
+        },
+        {
+            "name": "Becks Non Alcoholic",
+            "quantity": 1,
+            "price_per_item": 6,
+            "total_price": 6
+        },
+        {
+            "name": "Corona",
+            "quantity": 1,
+            "price_per_item": 6,
+            "total_price": 6
+        },
+        {
+            "name": "Comp Item",
+            "quantity": 1,
+            "price_per_item": 12,
+            "total_price": 12
+        }
+    ],
+    "number_of_items": 9,
+    "subtotal": 145,
+    "tax": 12.51,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 157.51
+}

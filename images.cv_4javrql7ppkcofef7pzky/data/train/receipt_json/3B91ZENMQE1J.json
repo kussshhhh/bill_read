@@ -1,1 +1,60 @@
-{}
+{
+    "name_of_establishment": "FALMOUTH RAW BAR",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Oysters",
+            "quantity": 6,
+            "price_per_item": 19.00,
+            "total_price": 114.00
+        },
+        {
+            "name": "Fish and Chips",
+            "quantity": 1,
+            "price_per_item": 22.00,
+            "total_price": 22.00
+        },
+        {
+            "name": "MONSTAH r1",
+            "quantity": 3,
+            "price_per_item": 114.00,
+            "total_price": 342.00
+        },
+        {
+            "name": "Chicken Wings",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "Patron",
+            "quantity": 3,
+            "price_per_item": 28.50,
+            "total_price": 85.50
+        },
+        {
+            "name": "Sparkling Wine",
+            "quantity": 2,
+            "price_per_item": 22.00,
+            "total_price": 44.00
+        },
+        {
+            "name": "Open Liquor",
+            "quantity": 1,
+            "price_per_item": 6.00,
+            "total_price": 6.00
+        },
+        {
+            "name": "patron double",
+            "quantity": 1,
+            "price_per_item": 6.00,
+            "total_price": 6.00
+        }
+    ],
+    "number_of_items": 8,
+    "subtotal": 219.81,
+    "tax": 15.38,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 235.19
+}

@@ -1,0 +1,24 @@
+{
+    "name_of_establishment": "Noches De Colombia",
+    "currency": "$",
+    "items": [
+        {
+            "name": "1 Chicharron",
+            "quantity": 1,
+            "price_per_item": 3.95,
+            "total_price": 3.95
+        },
+        {
+            "name": "1 Maduros",
+            "quantity": 1,
+            "price_per_item": 3.95,
+            "total_price": 3.95
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 10.81,
+    "tax": 0.86,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 10.81
+}

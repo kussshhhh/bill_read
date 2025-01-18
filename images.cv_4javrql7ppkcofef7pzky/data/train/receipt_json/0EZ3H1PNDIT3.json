@@ -1,1 +1,24 @@
-{}
+{
+    "name_of_establishment": "Chelokababi",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Koobideh x 7",
+            "quantity": 7,
+            "price_per_item": 16.50,
+            "total_price": 115.50
+        },
+        {
+            "name": "Nan-O-Sabzi",
+            "quantity": 1,
+            "price_per_item": 8.95,
+            "total_price": 8.95
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 146.85,
+    "tax": 13.22,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 160.07
+}

@@ -1,0 +1,54 @@
+{
+    "name_of_establishment": "Dominican Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Blanc Palomilla Enc",
+            "quantity": 1,
+            "price_per_item": 15.95,
+            "total_price": 15.95
+        },
+        {
+            "name": "Hab Rojas - Red Bean",
+            "quantity": 1,
+            "price_per_item": 15.95,
+            "total_price": 15.95
+        },
+        {
+            "name": "Sopa De Pollo",
+            "quantity": 1,
+            "price_per_item": 14.95,
+            "total_price": 14.95
+        },
+        {
+            "name": "Hab Rojas - Red Bean",
+            "quantity": 1,
+            "price_per_item": 14.95,
+            "total_price": 14.95
+        },
+        {
+            "name": "White Glass Pinot Gr",
+            "quantity": 1,
+            "price_per_item": 5.50,
+            "total_price": 5.50
+        },
+        {
+            "name": "Lemonada",
+            "quantity": 1,
+            "price_per_item": 3.50,
+            "total_price": 3.50
+        },
+        {
+            "name": "Jugo de Chinola",
+            "quantity": 1,
+            "price_per_item": 4.00,
+            "total_price": 4.00
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 50.49,
+    "tax": 2.74,
+    "tip": 11.11,
+    "additional_charges": "na",
+    "total": 53.23
+}

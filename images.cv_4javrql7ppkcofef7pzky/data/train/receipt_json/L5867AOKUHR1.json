@@ -1,1 +1,54 @@
-{}
+{
+    "name_of_establishment": "CARL'S JR",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Box #1",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "All Star Meal #1",
+            "quantity": 1,
+            "price_per_item": 1.00,
+            "total_price": 1.00
+        },
+        {
+            "name": "Dbl Chbgr",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "Hot Dog",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "Baked Cookie",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "Lg Fries",
+            "quantity": 1,
+            "price_per_item": 3.00,
+            "total_price": 3.00
+        },
+        {
+            "name": "Lg Bev Bar",
+            "quantity": 1,
+            "price_per_item": 3.00,
+            "total_price": 3.00
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 7.00,
+    "tax": 0.61,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 7.61
+}

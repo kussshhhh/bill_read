@@ -1,1 +1,66 @@
-{}
+{
+    "name_of_establishment": "DINING ROOM",
+    "currency": "$",
+    "items": [
+        {
+            "name": "BEEFEATER-MARTINI",
+            "quantity": 1,
+            "price_per_item": 11.50,
+            "total_price": 11.50
+        },
+        {
+            "name": "ROSEMARY CAIPIRINHA",
+            "quantity": 1,
+            "price_per_item": 13.00,
+            "total_price": 13.00
+        },
+        {
+            "name": "CRABCAKES",
+            "quantity": 1,
+            "price_per_item": 17.00,
+            "total_price": 17.00
+        },
+        {
+            "name": "BLACK PEPPER BACON",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "Millenium 2#",
+            "quantity": 1,
+            "price_per_item": 52.00,
+            "total_price": 52.00
+        },
+        {
+            "name": "NY SIRLOIN",
+            "quantity": 1,
+            "price_per_item": 46.00,
+            "total_price": 46.00
+        },
+        {
+            "name": "BRUSSEL SPROUTS",
+            "quantity": 1,
+            "price_per_item": 13.00,
+            "total_price": 13.00
+        },
+        {
+            "name": "ESPRESSO",
+            "quantity": 1,
+            "price_per_item": 4.50,
+            "total_price": 4.50
+        },
+        {
+            "name": "LAUREN'S HAZELNUT TORTE",
+            "quantity": 1,
+            "price_per_item": 9.00,
+            "total_price": 9.00
+        }
+    ],
+    "number_of_items": 9,
+    "subtotal": 178.00,
+    "tax": 15.35,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 193.35
+}

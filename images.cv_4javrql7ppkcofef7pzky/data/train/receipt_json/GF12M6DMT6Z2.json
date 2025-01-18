@@ -1,1 +1,24 @@
-{}
+{
+    "name_of_establishment": "Uncle Julio's",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Taco Salad",
+            "quantity": 1,
+            "price_per_item": 15.49,
+            "total_price": 15.49
+        },
+        {
+            "name": "Ground Beef Add Chicken Fajita Pechuga de Pollo",
+            "quantity": 1,
+            "price_per_item": 18.99,
+            "total_price": 18.99
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 43.47,
+    "tax": 3.26,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 46.73
+}

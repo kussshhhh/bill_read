@@ -1,1 +1,48 @@
-{}
+{
+    "name_of_establishment": "Marie Callender's Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "**CORNBREAD SVC",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "TRIO- POT PIE @ 9.99",
+            "quantity": 2,
+            "price_per_item": 19.98,
+            "total_price": 19.98
+        },
+        {
+            "name": "C- PIE SLICE",
+            "quantity": 2,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "NO BEVERAGE",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "SOFT DRINK",
+            "quantity": 1,
+            "price_per_item": 2.79,
+            "total_price": 2.79
+        },
+        {
+            "name": "BDAY CLUB $5",
+            "quantity": 1,
+            "price_per_item": 5.00,
+            "total_price": 5.00
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 17.77,
+    "tax": 1.42,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 19.19
+}

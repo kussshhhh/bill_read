@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "Pita Pita - Lombard",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Mixed Meat Lunch",
+            "quantity": 20,
+            "price_per_item": 9.00,
+            "total_price": 180.00
+        },
+        {
+            "name": "Reg 12pc Falafel",
+            "quantity": 3,
+            "price_per_item": 6.50,
+            "total_price": 19.50
+        },
+        {
+            "name": "Miscellaneous",
+            "quantity": 1,
+            "price_per_item": 20.00,
+            "total_price": 20.00
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 213.00,
+    "tax": 15.92,
+    "tip": 228.92,
+    "additional_charges": "NA",
+    "total": 228.92
+}

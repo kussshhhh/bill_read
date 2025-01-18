@@ -1,37 +1,30 @@
 {
-   "storeInfo": {
-      "name": "Sonic America's Drive-In",
-      "addressLine1": "518 Robertson Boulevard",
-      "addressCity": "Walterboro",
-      "addressState": "SC",
-      "addressZipCode": "29488",
-      "phoneNumber": "843-782-4565"
-   },
-   "customerInfo": {
-      "name": "JORDEN",
-      " StallNumber": "15"
-   },
-   "orderDetails": [
-      {
-         "itemCombo": "Chz Burger Add Mayo Add Must Add Ket",
-         "itemPrice": 6.79,
-         "priceWithTax": 7.86
-      },
-      {
-         "itemcombo": " Med Fries Med Dr Pepper",
-         "itemPrice": 5.09,
-         "priceWithTax": 5.86
-      },
-      {
-         "itemCombo": " Prem Dog Combo NY Dog Med Tots",
-         "itemPrice": 13.07,
-         "priceWithTax": 15.19
-      }
-   ],
-   "paymentInfo": {
-     "subTotal": 11.88,
-     "tax": 1.19, 
-     "total": 13.07
-   },
-   "timeStamp": "Jun 22 '18 07:59PM"
+    "name_of_establishment": "Sonic America's Drive-In",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Combo",
+            "quantity": 1,
+            "price_per_item": 6.79,
+            "total_price": 6.79
+        },
+        {
+            "name": "Med Fries",
+            "quantity": 1,
+            "price_per_item": 5.09,
+            "total_price": 5.09
+        },
+        {
+            "name": "Med Coffee",
+            "quantity": 1,
+            "price_per_item": 1.19,
+            "total_price": 1.19
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 11.88,
+    "tax": 1.19,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 13.07
 }

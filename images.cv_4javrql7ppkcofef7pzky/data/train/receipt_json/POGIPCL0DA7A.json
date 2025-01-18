@@ -1,1 +1,24 @@
-{}
+{
+    "name_of_establishment": "Maui Teriyaki",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Salmon Plate",
+            "quantity": 1,
+            "price_per_item": 11.49,
+            "total_price": 11.49
+        },
+        {
+            "name": "Extra Shrimp",
+            "quantity": 1,
+            "price_per_item": 1.45,
+            "total_price": 1.45
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 12.94,
+    "tax": 1.23,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 14.17
+}

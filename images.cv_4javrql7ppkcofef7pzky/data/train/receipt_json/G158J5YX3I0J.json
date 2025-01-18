@@ -1,1 +1,18 @@
-{}
+{
+    "name_of_establishment": "Bar Louie Huntsville",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Whiskey",
+            "quantity": 1,
+            "price_per_item": 6.25,
+            "total_price": 6.25
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 6.25,
+    "tax": 1.31,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 7.56
+}

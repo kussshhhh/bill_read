@@ -1,32 +1,30 @@
 {
-   "restaurant": {
-       "name": "Heart of Portugal",
-       "location": "241 Mineola Blvd Mineola, NY 11501"
-   },
-   "server": {
-       "name": "Oscar"
-   },
-   "serverCheck": "#11",
-   "date": "09/10/17",
-   "time": "3:28pm",
-   "table": "D2",
-   "items": [
-       {
-           "name": "Traditional Pork & Clams",
-           "price": "$20.95"
-       },
-       {
-           "name": "1 Osso Buco Sp",
-           "price": "$28.95"
-       },
-       {
-           "name": "House Wines Half Pitcher",
-           "price": "$16.00"
-       }
-   ],
-   "total": {
-       "subtotal": "$65.90",
-       "tax": "$5.68",
-       "grandTotal": "$71.58"
-   }
+    "name_of_establishment": "Heart of Portugal Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Traditional Pork & Clams",
+            "quantity": 1,
+            "price_per_item": 20.95,
+            "total_price": 20.95
+        },
+        {
+            "name": "1 Osso Buco Sp",
+            "quantity": 1,
+            "price_per_item": 28.95,
+            "total_price": 28.95
+        },
+        {
+            "name": "House Wines Half Pitcher",
+            "quantity": 1,
+            "price_per_item": 16.00,
+            "total_price": 16.00
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 65.90,
+    "tax": 5.68,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 71.58
 }

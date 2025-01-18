@@ -1,1 +1,72 @@
-{}
+{
+    "name_of_establishment": "Via Mar Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "TAP BEER 10-HH Modelo Tap.",
+            "quantity": 2,
+            "price_per_item": 5.50,
+            "total_price": 11.00
+        },
+        {
+            "name": "Manzanita Sol",
+            "quantity": 2,
+            "price_per_item": 5.50,
+            "total_price": 11.00
+        },
+        {
+            "name": "Tamarindo",
+            "quantity": 1,
+            "price_per_item": 2.75,
+            "total_price": 2.75
+        },
+        {
+            "name": "Sprite",
+            "quantity": 1,
+            "price_per_item": 2.75,
+            "total_price": 2.75
+        },
+        {
+            "name": "Thur. 2 Cock Shrimp",
+            "quantity": 2,
+            "price_per_item": 11.95,
+            "total_price": 23.90
+        },
+        {
+            "name": "Whole Fish Tilapia Whl",
+            "quantity": 2,
+            "price_per_item": 21.90,
+            "total_price": 43.80
+        },
+        {
+            "name": "Fried Tilapia Whl",
+            "quantity": 1,
+            "price_per_item": 7.75,
+            "total_price": 7.75
+        },
+        {
+            "name": "Fried Tacos Governador > plan ,fries",
+            "quantity": 1,
+            "price_per_item": 7.75,
+            "total_price": 7.75
+        },
+        {
+            "name": "French Fries",
+            "quantity": 1,
+            "price_per_item": 2.50,
+            "total_price": 2.50
+        },
+        {
+            "name": "Taco DE Asada > plain,papas",
+            "quantity": 1,
+            "price_per_item": 2.25,
+            "total_price": 2.25
+        }
+    ],
+    "number_of_items": 9,
+    "subtotal": 66.89,
+    "tax": 6.35,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 73.24
+}

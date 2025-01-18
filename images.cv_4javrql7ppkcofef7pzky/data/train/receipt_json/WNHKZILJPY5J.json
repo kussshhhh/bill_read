@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "Bella Pasta",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Steak Tip Skewers",
+            "quantity": 1,
+            "price_per_item": 12.99,
+            "total_price": 12.99
+        },
+        {
+            "name": "Piatto Gorgonzola",
+            "quantity": 1,
+            "price_per_item": 12.99,
+            "total_price": 12.99
+        },
+        {
+            "name": "Root Beer",
+            "quantity": 1,
+            "price_per_item": 2.50,
+            "total_price": 2.50
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 28.48,
+    "tax": 2.28,
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 30.76
+}

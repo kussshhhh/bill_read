@@ -1,1 +1,66 @@
-{}
+{
+    "name_of_establishment": "MIKUNI JAPANESE",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Mojito Pitcher Original w/ 2 Glass",
+            "quantity": 1,
+            "price_per_item": 18.00,
+            "total_price": 18.00
+        },
+        {
+            "name": "Brussel Sprouts",
+            "quantity": 1,
+            "price_per_item": 6.50,
+            "total_price": 6.50
+        },
+        {
+            "name": "Pepperfin",
+            "quantity": 1,
+            "price_per_item": 14.50,
+            "total_price": 14.50
+        },
+        {
+            "name": "Spicy Drm 1 Red",
+            "quantity": 1,
+            "price_per_item": 14.50,
+            "total_price": 14.50
+        },
+        {
+            "name": "Aerojet",
+            "quantity": 1,
+            "price_per_item": 14.95,
+            "total_price": 14.95
+        },
+        {
+            "name": "Tummy",
+            "quantity": 1,
+            "price_per_item": 17.95,
+            "total_price": 17.95
+        },
+        {
+            "name": "Chu Toro",
+            "quantity": 2,
+            "price_per_item": 19.00,
+            "total_price": 38.00
+        },
+        {
+            "name": "Daikon Hamachi",
+            "quantity": 1,
+            "price_per_item": 14.50,
+            "total_price": 14.50
+        },
+        {
+            "name": "Garlic Salmon",
+            "quantity": 1,
+            "price_per_item": 14.00,
+            "total_price": 14.00
+        }
+    ],
+    "number_of_items": 9,
+    "subtotal": 133.90,
+    "tax": 10.38,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 144.28
+}

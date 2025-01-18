@@ -1,1 +1,18 @@
-{}
+{
+    "name_of_establishment": "JALISCO",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Caldo de Camaron",
+            "quantity": 1,
+            "price_per_item": 8.99,
+            "total_price": 8.99
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 8.99,
+    "tax": 0.74,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 10.00
+}

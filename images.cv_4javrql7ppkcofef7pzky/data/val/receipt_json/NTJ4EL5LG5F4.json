@@ -1,0 +1,42 @@
+{
+    "name_of_establishment": "E. BALDI",
+    "currency": "$",
+    "items": [
+        {
+            "name": "ICED TEA",
+            "quantity": 1,
+            "price_per_item": 4.50,
+            "total_price": 4.50
+        },
+        {
+            "name": "ROMBO CARCIOFI FUNGH",
+            "quantity": 1,
+            "price_per_item": 48.00,
+            "total_price": 48.00
+        },
+        {
+            "name": "SPARKLNG WATER LARG",
+            "quantity": 1,
+            "price_per_item": 8.50,
+            "total_price": 8.50
+        },
+        {
+            "name": "BRANZINO GRIGLIATO",
+            "quantity": 1,
+            "price_per_item": 40.00,
+            "total_price": 40.00
+        },
+        {
+            "name": "CARPACCIO RED SNAPPE",
+            "quantity": 1,
+            "price_per_item": 33.00,
+            "total_price": 33.00
+        }
+    ],
+    "number_of_items": 5,
+    "subtotal": 134.00,
+    "tax": 12.73,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 146.73
+}

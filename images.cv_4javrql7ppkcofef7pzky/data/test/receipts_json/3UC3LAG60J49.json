@@ -1,0 +1,32 @@
+```
+{
+    "name_of_establishment": "Araxi Burger Aventura",
+    "currency": "$",
+    "items": [
+        {
+            "name": "2 Vanilla Bean",
+            "quantity": 2,
+            "price_per_item": 6.00,
+            "total_price": 12.00
+        },
+        {
+            "name": "Classic Burger 4oz",
+            "quantity": 1,
+            "price_per_item": 8.00,
+            "total_price": 8.00
+        },
+        {
+            "name": "Route 66 Burger 8oz",
+            "quantity": 1,
+            "price_per_item": 14.00,
+            "total_price": 14.00
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 30.60,
+    "tax": 2.14,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 38.86
+}
+```

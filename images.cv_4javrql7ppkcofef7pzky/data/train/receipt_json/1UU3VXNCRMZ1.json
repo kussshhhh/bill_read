@@ -1,1 +1,24 @@
-{}
+{
+    "name_of_establishment": "El Gato Negro",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Fajita Vegetable",
+            "quantity": 1,
+            "price_per_item": 7.75,
+            "total_price": 7.75
+        },
+        {
+            "name": "Taco Shrimp Fresh Catch 3",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        }
+    ],
+    "number_of_items": 2,
+    "subtotal": 19.75,
+    "tax": 2.01,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 21.76
+}

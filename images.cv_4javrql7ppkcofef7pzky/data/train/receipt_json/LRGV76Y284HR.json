@@ -1,22 +1,18 @@
 {
-   "receipt": [
-       { "ticket": "29", "date": "Apr 10, 2019" ,"total": 13.13 },
-       { "location": "14817 S. Western Ave","city": "Gardena", "state": "CA", "zip": "90249" },
-       { "restaurant": "The Shawarma Factory" },
-       {
-           "items": [
-             { "id": "1",
-               "name": "Flame Broiled Chicken", "price": 11.99 }
-
-           ]
-       },
-       {
-           "payment": [
-             {"creditCard": "Visa", "total": 13.13, "transacitonId": "7286"},
-             { "authorization": "173245", "receipt": "03WE"}
-           ]
-       },
-       { "salesTax": 1.14 },
-       { "subTotal": 11.99 }
-   ]
+    "name_of_establishment": "The Shawarma Factory",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Flame Broiled Chicken",
+            "quantity": 1,
+            "price_per_item": 11.99,
+            "total_price": 11.99
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 11.99,
+    "tax": 1.14,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 13.13
 }

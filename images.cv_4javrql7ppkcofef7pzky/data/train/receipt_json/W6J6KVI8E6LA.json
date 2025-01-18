@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "SAGE FRENCH CAFE & WINE BAR",
+    "currency": "$",
+    "items": [
+        {
+            "name": "SAUV BLANC JB",
+            "quantity": 2,
+            "price_per_item": 9.00,
+            "total_price": 18.00
+        },
+        {
+            "name": "VEGGIE SANDWICH",
+            "quantity": 1,
+            "price_per_item": 11.00,
+            "total_price": 11.00
+        },
+        {
+            "name": "QUICHE LORAINE",
+            "quantity": 1,
+            "price_per_item": 12.00,
+            "total_price": 12.00
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 41.00,
+    "tax": 1.80,
+    "tip": 7.38,
+    "additional_charges": "NA",
+    "total": 39.18
+}

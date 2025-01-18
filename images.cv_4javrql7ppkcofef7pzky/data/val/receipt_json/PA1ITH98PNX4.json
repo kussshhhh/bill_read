@@ -1,0 +1,30 @@
+{
+    "name_of_establishment": "MIGUELS MEXICAN",
+    "currency": "$",
+    "items": [
+        {
+            "name": "WATER",
+            "quantity": 2,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "ENCH VERDE",
+            "quantity": 1,
+            "price_per_item": 12.50,
+            "total_price": 12.50
+        },
+        {
+            "name": "ENCH MANUEL",
+            "quantity": 1,
+            "price_per_item": 12.80,
+            "total_price": 12.80
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 25.30,
+    "tax": 1.78,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 27.08
+}

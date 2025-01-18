@@ -1,1 +1,66 @@
-{}
+{
+    "name_of_establishment": "Grotto Pizzeria & Tavern",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Ultra",
+            "quantity": 1,
+            "price_per_item": 2.50,
+            "total_price": 2.50
+        },
+        {
+            "name": "Bells Draft",
+            "quantity": 1,
+            "price_per_item": 5.00,
+            "total_price": 5.00
+        },
+        {
+            "name": "Cheese Bread",
+            "quantity": 1,
+            "price_per_item": 6.00,
+            "total_price": 6.00
+        },
+        {
+            "name": "APPS OUT FIRST",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "Caprese",
+            "quantity": 1,
+            "price_per_item": 7.00,
+            "total_price": 7.00
+        },
+        {
+            "name": "SALAD OUT FIRST",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "Reg Carnivore (s)",
+            "quantity": 1,
+            "price_per_item": 12.50,
+            "total_price": 12.50
+        },
+        {
+            "name": "Pepper Rings (s)",
+            "quantity": 1,
+            "price_per_item": 10.00,
+            "total_price": 10.00
+        },
+        {
+            "name": "Reg Margherita (s)",
+            "quantity": 1,
+            "price_per_item": 10.00,
+            "total_price": 10.00
+        }
+    ],
+    "number_of_items": 9,
+    "subtotal": 43.00,
+    "tax": 2.58,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 45.58
+}

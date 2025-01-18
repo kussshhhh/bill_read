@@ -1,0 +1,78 @@
+{
+    "name_of_establishment": "WINGS & THINGS",
+    "currency": "$",
+    "items": [
+        {
+            "name": "#7.2PC R&B MEAL",
+            "quantity": 1,
+            "price_per_item": 5.99,
+            "total_price": 5.99
+        },
+        {
+            "name": "ICED TEA",
+            "quantity": 1,
+            "price_per_item": 5.99,
+            "total_price": 5.99
+        },
+        {
+            "name": "SUB CORNBREAD",
+            "quantity": 1,
+            "price_per_item": 6.99,
+            "total_price": 6.99
+        },
+        {
+            "name": "#3 3WING MEAL",
+            "quantity": 1,
+            "price_per_item": 6.99,
+            "total_price": 6.99
+        },
+        {
+            "name": "SIERRA",
+            "quantity": 1,
+            "price_per_item": 6.99,
+            "total_price": 6.99
+        },
+        {
+            "name": "SUB FIXN MAC&CHZ",
+            "quantity": 1,
+            "price_per_item": 6.99,
+            "total_price": 6.99
+        },
+        {
+            "name": "#3 3WING MEAL ICED TEA",
+            "quantity": 1,
+            "price_per_item": 6.99,
+            "total_price": 6.99
+        },
+        {
+            "name": "SP RICE",
+            "quantity": 1,
+            "price_per_item": 6.99,
+            "total_price": 6.99
+        },
+        {
+            "name": "#3 3WING MEAL ICED TEA",
+            "quantity": 1,
+            "price_per_item": 6.99,
+            "total_price": 6.99
+        },
+        {
+            "name": "SUB FIXN MAC&CHZ",
+            "quantity": 1,
+            "price_per_item": 6.99,
+            "total_price": 6.99
+        },
+        {
+            "name": "COLL GRN - SMALL",
+            "quantity": 1,
+            "price_per_item": 1.19,
+            "total_price": 1.19
+        }
+    ],
+    "number_of_items": 10,
+    "subtotal": 30.58,
+    "tax": "na",
+    "tip": "na",
+    "additional_charges": 9.90,
+    "total": 40.48
+}

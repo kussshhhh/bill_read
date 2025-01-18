@@ -1,0 +1,54 @@
+{
+    "name_of_establishment": "RISTORANTE BELLAGIO (CO)",
+    "currency": "€",
+    "items": [
+        {
+            "name": "COPERTO",
+            "quantity": 4,
+            "price_per_item": 12.00,
+            "total_price": 48.00
+        },
+        {
+            "name": "ACQUA NAT",
+            "quantity": 2,
+            "price_per_item": 8.00,
+            "total_price": 16.00
+        },
+        {
+            "name": "SALMERINO PIASTRA",
+            "quantity": 1,
+            "price_per_item": 18.00,
+            "total_price": 18.00
+        },
+        {
+            "name": "TRENETTE AL PESTO",
+            "quantity": 1,
+            "price_per_item": 13.00,
+            "total_price": 13.00
+        },
+        {
+            "name": "SPAGHETTI POM. BASILICO",
+            "quantity": 1,
+            "price_per_item": 10.00,
+            "total_price": 10.00
+        },
+        {
+            "name": "FETTUCCINE RAGU'",
+            "quantity": 1,
+            "price_per_item": 15.00,
+            "total_price": 15.00
+        },
+        {
+            "name": "PATATINE FRITTE",
+            "quantity": 1,
+            "price_per_item": 6.00,
+            "total_price": 6.00
+        }
+    ],
+    "number_of_items": 7,
+    "subtotal": 82.00,
+    "tax": "NA",
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 82.00
+}

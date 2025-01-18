@@ -1,0 +1,36 @@
+{
+    "name_of_establishment": "WINGS & THINGS",
+    "currency": "$",
+    "items": [
+        {
+            "name": "MAC&CHZ - SMALL",
+            "quantity": 1,
+            "price_per_item": 1.19,
+            "total_price": 1.19
+        },
+        {
+            "name": "COLL GRN - SMALL",
+            "quantity": 1,
+            "price_per_item": 1.19,
+            "total_price": 1.19
+        },
+        {
+            "name": "CORN BREAD",
+            "quantity": 1,
+            "price_per_item": 0.62,
+            "total_price": 0.62
+        },
+        {
+            "name": "WINGS",
+            "quantity": 5,
+            "price_per_item": 1.15,
+            "total_price": 5.75
+        }
+    ],
+    "number_of_items": 4,
+    "subtotal": 8.75,
+    "tax": "na",
+    "tip": "na",
+    "additional_charges": "na",
+    "total": 9.50
+}

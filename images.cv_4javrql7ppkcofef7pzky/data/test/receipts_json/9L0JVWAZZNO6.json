@@ -1,0 +1,68 @@
+```
+{
+    "name_of_establishment": "COMMANDER'S PALACE",
+    "currency": "$",
+    "items": [
+        {
+            "name": "25/ CP, up",
+            "quantity": 1,
+            "price_per_item": 0.25,
+            "total_price": 0.25
+        },
+        {
+            "name": "25/COSMO, up",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "SOUP DJ",
+            "quantity": 1,
+            "price_per_item": 22.00,
+            "total_price": 22.00
+        },
+        {
+            "name": "TURTLE",
+            "quantity": 1,
+            "price_per_item": 18.00,
+            "total_price": 18.00
+        },
+        {
+            "name": "CATFISH",
+            "quantity": 1,
+            "price_per_item": 0.25,
+            "total_price": 0.25
+        },
+        {
+            "name": "TOSTADA",
+            "quantity": 1,
+            "price_per_item": 0.25,
+            "total_price": 0.25
+        },
+        {
+            "name": "25/GIN, up",
+            "quantity": 1,
+            "price_per_item": 9.50,
+            "total_price": 9.50
+        },
+        {
+            "name": "25/ RAY, up",
+            "quantity": 1,
+            "price_per_item": 50.50,
+            "total_price": 50.50
+        },
+        {
+            "name": "SOUFFLE/ALA",
+            "quantity": 1,
+            "price_per_item": 5.45,
+            "total_price": 5.45
+        }
+    ],
+    "number_of_items": 9,
+    "subtotal": 55.95,
+    "tax": 5.45,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 61.40
+}
+```

@@ -1,1 +1,30 @@
-{}
+{
+    "name_of_establishment": "Lizzy's",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Chips y Salsa",
+            "quantity": 1,
+            "price_per_item": 4.95,
+            "total_price": 4.95
+        },
+        {
+            "name": "Red Bull",
+            "quantity": 1,
+            "price_per_item": 3.50,
+            "total_price": 3.50
+        },
+        {
+            "name": "Soft Drink",
+            "quantity": 1,
+            "price_per_item": 2.79,
+            "total_price": 2.79
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 11.24,
+    "tax": 0.79,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 12.03
+}

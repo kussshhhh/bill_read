@@ -1,0 +1,48 @@
+{
+    "name_of_establishment": "Marco Pierre White Steakhouse & Grill",
+    "currency": "£",
+    "items": [
+        {
+            "name": "8oz F11 Bearn",
+            "quantity": 1,
+            "price_per_item": 35.95,
+            "total_price": 35.95
+        },
+        {
+            "name": "8oz F11 Au Po",
+            "quantity": 1,
+            "price_per_item": 35.95,
+            "total_price": 35.95
+        },
+        {
+            "name": "Onion Ring",
+            "quantity": 1,
+            "price_per_item": 4.95,
+            "total_price": 4.95
+        },
+        {
+            "name": "Haricots Vert",
+            "quantity": 1,
+            "price_per_item": 4.95,
+            "total_price": 4.95
+        },
+        {
+            "name": "Choc Truf Cake",
+            "quantity": 1,
+            "price_per_item": 8.95,
+            "total_price": 8.95
+        },
+        {
+            "name": "Lunta",
+            "quantity": 1,
+            "price_per_item": 39.00,
+            "total_price": 39.00
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 129.75,
+    "tax": "NA",
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 129.75
+}

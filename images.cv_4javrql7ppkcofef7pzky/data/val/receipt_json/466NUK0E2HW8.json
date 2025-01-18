@@ -1,0 +1,54 @@
+{
+    "name_of_establishment": "Spiral Diner & Bakery",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Real Smooth",
+            "quantity": 1,
+            "price_per_item": 7.99,
+            "total_price": 7.99
+        },
+        {
+            "name": "Short Stack",
+            "quantity": 1,
+            "price_per_item": 8.59,
+            "total_price": 8.59
+        },
+        {
+            "name": "Coffee",
+            "quantity": 1,
+            "price_per_item": 2.99,
+            "total_price": 2.99
+        },
+        {
+            "name": "Breakfast Quesadilla",
+            "quantity": 1,
+            "price_per_item": 13.99,
+            "total_price": 13.99
+        },
+        {
+            "name": "NO Sausage",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "Grilled Spinach",
+            "quantity": 1,
+            "price_per_item": 1.99,
+            "total_price": 1.99
+        },
+        {
+            "name": "Southern Comfort",
+            "quantity": 1,
+            "price_per_item": 10.99,
+            "total_price": 10.99
+        }
+    ],
+    "number_of_items": 6,
+    "subtotal": 46.54,
+    "tax": 3.84,
+    "tip": "NA",
+    "additional_charges": "NA",
+    "total": 50.38
+}

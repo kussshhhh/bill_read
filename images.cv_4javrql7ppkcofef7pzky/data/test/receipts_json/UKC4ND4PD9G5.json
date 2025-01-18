@@ -1,0 +1,30 @@
+{
+    "name_of_establishment": "Denny's Restaurant #8129",
+    "currency": "$",
+    "items": [
+        {
+            "name": "No Beverage",
+            "quantity": 2,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        },
+        {
+            "name": "Milk Shake",
+            "quantity": 1,
+            "price_per_item": 3.99,
+            "total_price": 3.99
+        },
+        {
+            "name": "Shake Choc",
+            "quantity": 1,
+            "price_per_item": 0.00,
+            "total_price": 0.00
+        }
+    ],
+    "number_of_items": 3,
+    "subtotal": 3.99,
+    "tax": 0.30,
+    "tip": 1.00,
+    "additional_charges": "NA",
+    "total": 5.29
+}
