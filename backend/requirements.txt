@@ -3,3 +3,4 @@ python-dotenv
 gunicorn
 moondream 
 CORS
+flask_cors
