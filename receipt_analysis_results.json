@@ -1,0 +1,341 @@
+Response for 33VZ2JC78HCD.jpg:
+{
+    "name_of_establishment": "Landfall Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Lunch & Dinner",
+            "quantity": 1,
+            "price_per_item": 0.4,
+            "total_price": 1.15
+        },
+        {
+            "name": "Tax",
+            "quantity": 1,
+            "price_per_item": 0.4,
+            "total_price": 1.15
+        },
+        {
+            "name": "Tip",
+            "quantity": 1,
+            "price_per_item": 0.4,
+            "total_price": 1.15
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 6.0,
+    "tax": 6.0,
+    "tip": 1.15,
+    "additional_charges": "NA"
+}
+
+Response for F3LK8ULDD3JJ.jpg:
+{
+    "name_of_establishment": "Marianacci's Restaurant",
+    "currency": "",
+    "items": [
+        {
+            "name": "Pren White",
+            "quantity": 1,
+            "price_per_item": 18.75,
+            "total_price": 18.75
+        },
+        {
+            "name": "Red",
+            "quantity": 1,
+            "price_per_item": 3.75,
+            "total_price": 3.75
+        },
+        {
+            "name": "Diet Sda",
+            "quantity": 1,
+            "price_per_item": 3.75,
+            "total_price": 3.75
+        },
+        {
+            "name": "Vong Riptene",
+            "quantity": 1,
+            "price_per_item": 9.75,
+            "total_price": 9.75
+        },
+        {
+            "name": "Chicken Parmigian",
+            "quantity": 1,
+            "price_per_item": 5.75,
+            "total_price": 5.75
+        },
+        {
+            "name": "Scampi",
+            "quantity": 1,
+            "price_per_item": 3.75,
+            "total_price": 3.75
+        },
+        {
+            "name": "Ling Vong",
+            "quantity": 1,
+            "price_per_item": 3.75,
+            "total_price": 3.75
+        },
+        {
+            "name": "Pasta",
+            "quantity": 1,
+            "price_per_item": 3.75,
+            "total_price": 3.75
+        },
+        {
+            "name": "Diet Sda",
+            "quantity": 1,
+            "price_per_item": 3.75,
+            "total_price": 3.75
+        }
+    ],
+    "number_of_items": 14,
+    "subtotal": 132.25,
+    "tax": 7.76,
+    "tip": 0.0,
+    "additional_charges": "NA"
+}
+
+Response for ZU70EY94THNW.jpg:
+{
+    "name_of_establishment": "Ohana Hawaiian BBQ",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Fried Shrimp Combo",
+            "quantity": 1,
+            "price_per_item": 8.45,
+            "total_price": 8.45
+        },
+        {
+            "name": "Short Rib",
+            "quantity": 1,
+            "price_per_item": 7.95,
+            "total_price": 7.95
+        },
+        {
+            "name": "BBQ Beef",
+            "quantity": 1,
+            "price_per_item": 7.99,
+            "total_price": 7.99
+        },
+        {
+            "name": "Fried Shrimp",
+            "quantity": 2,
+            "price_per_item": 3.5,
+            "total_price": 3.5
+        },
+        {
+            "name": "Fountain Medium",
+            "quantity": 2,
+            "price_per_item": 0.0,
+            "total_price": 0.0
+        }
+    ],
+    "subtotal": 19.0,
+    "tax": 1.79,
+    "tip": 22.0,
+    "total": 21.69
+}
+
+Response for 1HS5U44HIAJK.jpg:
+{
+    "name_of_establishment": "Don Juan Mexican Restaurant",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Red Sangria Glass",
+            "quantity": 2,
+            "price_per_item": 14.0,
+            "total_price": 14.0
+        },
+        {
+            "name": "#4-COMBO FAJITAS",
+            "quantity": 1,
+            "price_per_item": 22.95,
+            "total_price": 22.95
+        },
+        {
+            "name": "Flour Tortilla",
+            "quantity": 1,
+            "price_per_item": 22.95,
+            "total_price": 22.95
+        },
+        {
+            "name": "Chicken",
+            "quantity": 1,
+            "price_per_item": 14.0,
+            "total_price": 14.0
+        },
+        {
+            "name": "Shrimp",
+            "quantity": 1,
+            "price_per_item": 14.0,
+            "total_price": 14.0
+        },
+        {
+            "name": "Steak",
+            "quantity": 1,
+            "price_per_item": 14.0,
+            "total_price": 14.0
+        },
+        {
+            "name": "#34-BURRITO SUPREME",
+            "quantity": 1,
+            "price_per_item": 14.95,
+            "total_price": 14.95
+        },
+        {
+            "name": "w/ Beef",
+            "quantity": 1,
+            "price_per_item": 14.0,
+            "total_price": 14.0
+        }
+    ],
+    "number_of_items": 4,
+    "subtotal": 14.0,
+    "tax": 4.48,
+    "tip": 4.48,
+    "additional_charges": "NA",
+    "total": 56.38
+}
+
+Response for LGEFC9FK3C5A.jpg:
+" {\n  \"name_of_establishment\": \"Guaca Chicharrron\",\n  \"currency\": \"\",\n  \"items\": [\n    {\n      \"name\": \"Guaca Chicharrron\",\n      \"quantity\": 1,\n      \"price_per_item\": 13.95,\n      \"total_price\": 1\n    },\n    {\n      \"name\": \"Empana\",\n      \"quantity\": 2,\n      \"price_per_item\": 3.0,\n      \"total_price\": 2\n    },\n    {\n      \"name\": \"Pargo Fritto\",\n      \"quantity\": 1,\n      \"price_per_item\": 19.95,\n      \"total_price\": 1\n    },\n    {\n      \"name\": \"Aguacate\",\n      \"quantity\": 1,\n      \"price_per_item\": 19.95,\n      \"total_price\": 1\n    },\n    {\n      \"name\": \"No Cebolla\",\n      \"quantity\": 1,\n      \"price_per_item\": 19.95,\n      \"total_price\": 1\n    },\n    {\n      \"name\": \"Mar 1 Chicken Roja\",\n      \"quantity\": 1,\n      \"price_per_item\": 19.95,\n      \"total_price\": 1\n    },\n    {\n      \"name\": \"Tostones\",\n      \"quantity\": 1,\n      \"price_per_item\": 17.95,\n      \"total_price\": 1\n    },\n    {\n      \"name\": \"ToGo\",\n      \"quantity\": 1,\n      \"price_per_item\": 19.95,\n      \"total_price\": 1\n    },\n    {\n      \"name\": \"Salmon \u00e0 la Plancha\",\n      \"quantity\": 1,\n      \"price_per_item\": 19.95,\n      \"total_price\": 1\n    },\n    {\n      \"name\": \"Ensalada\",\n      \"quantity\": 1,\n      \"price_per_item\": 19.95,\n      \"total_price\": 1\n    }\n  ],\n  \"number_of_items\": 5,\n  \"subtotal\":"
+
+Response for XOLY2Y5ZLT16.jpg:
+{
+    "name_of_establishment": "Tay Ho Oakland",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Special Combo Pho",
+            "quantity": 1,
+            "price_per_item": 12.95,
+            "total_price": 12.95
+        },
+        {
+            "name": "Tinh",
+            "quantity": 1,
+            "price_per_item": 2.33,
+            "total_price": 2.33
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 16.51,
+    "tax": 16.51,
+    "tip": 16.51,
+    "additional_charges": "NA",
+    "total": 16.51
+}
+
+Response for LRGV76Y284HR.jpg:
+{
+    "name_of_establishment": "The Shawarma Factory",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Flame Broiled Chicken",
+            "quantity": 1,
+            "price_per_item": 11.99,
+            "total_price": 1.0
+        },
+        {
+            "name": "1/2 Chicken, Hummus, House Salad",
+            "quantity": 0.5,
+            "price_per_item": 11.99,
+            "total_price": 0.5
+        }
+    ],
+    "number_of_items": 1,
+    "subtotal": 11.99,
+    "tax": 1.14,
+    "tip": 0.0,
+    "additional_charges": "NA",
+    "total": 13.13
+}
+
+Response for XQPFE37QMH0O.jpg:
+{
+    "name_of_establishment": "YUM'S RESTAURANT",
+    "currency": "$",
+    "items": [
+        {
+            "name": "Steak Creer Egg Rolls",
+            "quantity": 4,
+            "price_per_item": 0.0,
+            "total_price": 4.0
+        },
+        {
+            "name": "4 Wing or French Fries",
+            "quantity": 4,
+            "price_per_item": 0.0,
+            "total_price": 4.0
+        },
+        {
+            "name": "4 Wings w/ French Fries",
+            "quantity": 4,
+            "price_per_item": 0.0,
+            "total_price": 4.0
+        },
+        {
+            "name": "4 Wings w/ French Fries",
+            "quantity": 4,
+            "price_per_item": 0.0,
+            "total_price": 4.0
+        }
+    ],
+    "subtotal": 0.0,
+    "tax": 0.0,
+    "tip": 0.0,
+    "additional_charges": 0.0,
+    "total": 22.03
+}
+
+Response for ZBC8SSPWEJB6.jpg:
+" {\n  \"name_of_establishment\": \"McDonald's\",\n  \"currency\": \"$\",\n  \"items\": [\n    {\n      \"name\": \"Deli Nuggets EWM\",\n      \"quantity\": 10,\n      \"price_per_item\": 0.0,\n      \"total_price\": 10.0,\n      \"subtotal\": 25.04,\n      \"tax\": 1.11,\n      \"tip\": 26.15,\n      \"additional_charges\": \"NA\"\n    },\n    {\n      \"name\": \"Barbecue Sauce\",\n      \"quantity\": 1,\n      \"price_per_item\": 0.0,\n      \"total_price\": 0.0,\n      \"subtotal\": 25.04,\n      \"tax\": 1.11,\n      \"tip\": 26.15,\n      \"additional_charges\": \"NA\"\n    },\n    {\n      \"name\": \"Barbecue Sauce\",\n      \"quantity\": 1,\n      \"price_per_item\": 0.0,\n      \"total_price\": 0.0,\n      \"subtotal\": 25.04,\n      \"tax\": 1.11,\n      \"tip\": 26.15,\n      \"additional_charges\": \"NA\"\n    },\n    {\n      \"name\": \"Hummus S-Rfry Yog\",\n      \"quantity\": 1,\n      \"price_per_item\": 0.0,\n      \"total_price\": 0.0,\n      \"subtotal\": 25.04,\n      \"tax\": 1.11,\n      \"tip\": 26.15,\n      \"additional_charges\": \"NA\"\n    },\n    {\n      \"name\": \"Hummus Apple Juice\",\n      \"quantity\": 1,\n      \"price_per_item\": 0.0,\n      \"total_price\": 0.0,\n      \"subtotal\": 25.04,\n      \"tax\": 1.11,\n      \"tip\": 26.15,\n      \"additional_charges\": \"NA\"\n    },\n    {\n      \"name\": \"Hummus Apple Juice\",\n      \"quantity\": 1,\n      \"price_per_item\": 0.0,\n      \""
+
+Response for UOLNUIV8G89K.jpg:
+{
+    "name_of_establishment": "COVINNA",
+    "currency": "",
+    "items": [
+        {
+            "name": "Seat 1",
+            "quantity": 1,
+            "price_per_item": 16.0,
+            "total_price": 16.0
+        },
+        {
+            "name": "Bohemia",
+            "quantity": 2,
+            "price_per_item": 9.95,
+            "total_price": 9.95
+        },
+        {
+            "name": "Tall",
+            "quantity": 1,
+            "price_per_item": 9.95,
+            "total_price": 9.95
+        },
+        {
+            "name": "Albondigas",
+            "quantity": 1,
+            "price_per_item": 16.0,
+            "total_price": 16.0
+        },
+        {
+            "name": "Mole",
+            "quantity": 1,
+            "price_per_item": 16.0,
+            "total_price": 16.0
+        }
+    ],
+    "number_of_items": 4,
+    "subtotal": 42.9,
+    "tax": 4.08,
+    "tip": 4.08,
+    "additional_charges": null,
+    "total": 46.98
+}
+
