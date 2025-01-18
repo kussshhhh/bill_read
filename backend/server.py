@@ -76,7 +76,7 @@ def analyze_receipt():
                 "tax": tax amount or "NA" if none,
                 "tip": tip amount or "NA" if none,
                 "additional_charges": additional charges or "NA" if none,
-                "total": final total amount adding all expense 
+                "total": final total amount
             }
             
             Only include information you can clearly see.
@@ -84,7 +84,7 @@ def analyze_receipt():
             Format all prices as decimal numbers without currency symbols.
             Keep item names exactly as written on receipt.
             If a value does not exist or cannot be parsed, return "NA" for it.
-            Maintain the exact order of fields in the JSON structure.'''
+            Maintain the exact order of fields in the JSON structure. and give back only and only json nothing else just json'''
             
         )["answer"]
         
