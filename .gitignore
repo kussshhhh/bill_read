@@ -3,3 +3,10 @@ moondream-0_5b-int8.mf
 bill_read
 moondream-2b-int8.mf.gz
 moondream-2b-int8.mf
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env.local
+.env.*.local
