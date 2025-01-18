@@ -1,4 +1,6 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
+
 import os
 import json
 import moondream as md
@@ -10,6 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app)
 
 # Configure allowed extensions
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
