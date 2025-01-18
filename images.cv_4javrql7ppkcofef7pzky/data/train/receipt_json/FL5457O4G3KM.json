@@ -1,0 +1,23 @@
+{
+   "restaurantName":"Hollywood Cafe & Sports Bar",
+   "serverNumber": 346,
+   "tableNumber": 42,
+   "numberOfPeople": 2,
+   "totalAmount": 26.96,
+   "otherTaxes": 0.00,
+   "liquorTax": 0.00,
+   "foodTax": 1.74,
+   "subtotal": 25.22,
+   "items": [
+      {
+         "item":"Soda",
+         "quantity": 1,
+         "amount": 2.49
+      },
+      {
+         "item":"Cheese Steak + American Cheese +Frd Onion Chix Cheesesteak",
+         "quantity": 1,
+         "amount": 10.49
+      }
+   ]
+}

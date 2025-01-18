@@ -1,0 +1,50 @@
+{
+   "receipt_number": "#70056",
+   "date": "08/22/2015",
+   "time": "9:24 PM",
+   "server": "Sarah",
+   "table_number": "57/1",
+   "number_of_guests": "1",
+   "items": [
+     {
+       "name": "No Bev (2 #0.00)",
+       "quantity": "0.00",
+       "unit_price": "7.99",
+       "total": "0.00"
+     },
+     {
+       "name": "Mozzarella Fritta",
+       "quantity": "1",
+       "unit_price": "24.99",
+       "total": "24.99"
+     },
+     {
+       "name": "Delmonico Steak",
+       "quantity": "1",
+       "unit_price": "2.99",
+       "total": "2.99"
+     },
+     {
+       "name": "Asparagus",
+       "quantity": "1",
+       "unit_price": "3.99",
+       "total": "3.99"
+     },
+     {
+       "name": "Baked Potato",
+       "quantity": "1",
+       "unit_price": "2.99",
+       "total": "2.99"
+     },
+     {
+       "name": "Decaf Coffee - Unlimited",
+       "quantity": "1",
+       "unit_price": "42.95",
+       "total": "42.95"
+     }
+   ],
+   "sub_total": "42.95",
+   "tax": "3.44",
+   "total": "46.39",
+   "balance_due": "46.39"
+ }

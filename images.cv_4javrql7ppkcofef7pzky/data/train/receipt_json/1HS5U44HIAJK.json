@@ -1,0 +1,32 @@
+{
+   "Server": "Regina",
+   "Station": 4,
+   "Table": 1,
+   "Guests": 2,
+   "Order ID": 28731,
+   "Items": [
+       {
+           "Description": "Red Sangria Glass",
+           "Quantity": 2,
+           "Price": 14.00
+       },
+       {
+           "Description": "#4-COMBO FAJITAS",
+           "Quantity": 1,
+           "Price": 22.95
+       },
+       {
+           "Description": "#34-BURRITO SUPREME w/ Beef",
+           "Quantity": 1,
+           "Price": 14.95
+       }
+   ],
+   "Subtotal": 37.90,
+   "Tax": 4.48,
+   "Total": 56.38,
+   "Payment Method": "Cash",
+   "Tip": 4.00,
+   "Total Paid": 60.38,
+   "Date": "11/6/2013",
+   "Time": "8:14:53 PM"
+}

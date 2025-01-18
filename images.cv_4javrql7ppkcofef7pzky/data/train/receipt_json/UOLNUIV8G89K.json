@@ -1,0 +1,25 @@
+{
+   "check": "208774",
+   "server": "Ryan",
+   "tall_item": [
+     {
+       "name": "2 bohemia",
+       "amount": "$16.00"
+     }
+   ],
+   "order": [
+     {
+       "quantity": "1",
+       "name": "albondigas",
+       "amount": "$9.95"
+     },
+     {
+       "quantity": "1",
+       "name": "mole",
+       "amount": "$16.95"
+     }
+   ],
+   "subtotal": "$42.90",
+   "tax": "$4.08",
+   "total": "$46.98"
+}

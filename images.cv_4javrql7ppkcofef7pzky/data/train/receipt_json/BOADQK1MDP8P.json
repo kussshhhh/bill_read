@@ -1,0 +1,52 @@
+{
+   "restaurantInfo":{
+      "name":"EL POLLO LOCO",
+      "restaurant number":"5451",
+      "store number":"5451",
+      "address":"7519 S. ATLANTIC AVE., CUDAHY, CA 90201",
+      "phone number":"323-560-0758"
+   },
+   "receiptInfo":{
+      "total before tax":"$12.06",
+      "tax amount":"$1.06",
+      "payment amount":"$13.12",
+      "change due":"$0.13",
+      "check number":"1924",
+      "check closed time and date":"Jun28 '17 05:38PM",
+      "check time and date":"Jun28 '17 05:36PM"
+   },
+   "orderInfo":{
+      "burrito items":{
+         "burrito cmb":{
+            "qty":1,
+            "price per item":"$8.28",
+            "total cost":"$8.28"
+         },
+         "chk ranchero bur":{
+            "qty":1,
+            "price per item":"$8.28",
+            "total cost":"$8.28"
+         }
+      },
+      "drink items":{
+         "sm dRINK CoKe":{
+            "qty":1,
+            "price per item":"$3.78",
+            "total cost":"$3.78"
+         }
+      },
+      "food items":{
+         "bur-brc @1.89":{
+            "qty":2,
+            "price per item":"$1.89",
+            "total cost":"$3.78"
+         }
+      }
+   },
+   "receiptTotals":{
+      "sub total":"$13.12",
+      "tax amount":"$1.06",
+      "total price before tax":"$12.06",
+      "overallTotal":"$13.25"
+   }
+}

@@ -40,7 +40,7 @@ def analyze_receipts():
                 
                 # Structured prompt
                 prompt = """
-                  list out items and their prices in a json format  
+                  list out items and their prices in a json format  as well as the total price
                 """
                 
                 # Get model's response

@@ -1,0 +1,26 @@
+{
+   "Date":  " 01\/13\/2012",
+   "Time":  "10:16 PM",
+     "Server": "Andrew",
+     "Location": " Blue Bear Tavern",
+     "Items": [
+         "Crimini",
+         "Salami",
+         "Olives",
+         "Lrg ClamsMussels",
+         "Reg Ketel One",
+         "House Cab"
+     ],
+     "Price": [
+         3.00,
+         3.00,
+         3.00,
+         14.00,
+         52.00,
+         6.00
+     ],
+     "Subtotal": 81.00,
+     "Philly liquor tax": 0.50,
+     "Philly pa sales tax": 1.84,
+     "Total": 83.44
+ }

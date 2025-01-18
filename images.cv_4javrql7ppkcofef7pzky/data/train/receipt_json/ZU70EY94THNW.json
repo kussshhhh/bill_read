@@ -1,0 +1,26 @@
+{
+   "Server": {
+      "name": "karla",
+      "OrderNumber": 65193
+   },
+   "StationNumber": 3,
+   "DineStatus": "In",
+   "Orders": [
+      {
+         "OrderNumber": 1,
+         "FRIED SHRIMP": 8.45,
+         "SHORT RIB": 7.95,
+         "BBQ BEEF": 3.50,
+         "FRIED SHRIMP": 3.50
+      },
+      {
+         "OrderNumber": 2,
+         "FRIED SHRIMP": 7.95
+      }
+   ],
+   "Tax": 1.79,
+   "BarSubtotal": 19.90,
+   "FoodSubtotal": 1.79,
+   "BarAmountDue": 21.69,
+   "FoodAmountDue": 1.79
+}

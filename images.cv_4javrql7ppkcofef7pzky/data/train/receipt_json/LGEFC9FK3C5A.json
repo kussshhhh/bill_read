@@ -1,0 +1,56 @@
+{
+   "receiptInformation": {
+     "storeName": "Unknown",
+     "address": "FAIRVIEW, NJ 07022",
+     "serverInfo": {
+        "name": "DANIELA"
+     },
+     "orderInfo": {
+        "orderDate": "02/11/19",
+        "orderTime": "07:46pm",
+        "serverPhone": "(201) 840-8428",
+        "storePhone": "(201) 840-8428"
+     },
+     "orderItems": [
+       {
+         "item": "Guaca Chicharron",
+         "quantity": 1,
+         "itemCost": "$13.95"
+       },
+       {
+         "item": "Empanada",
+         "quantity": 2,
+         "itemCost": "$3.00"
+       },
+       {
+         "item": "Pargo Frito Ensalada",
+         "quantity": 1,
+         "itemCost": "$19.95"
+       },
+       {
+         "item": "Aguacate",
+         "quantity": 1,
+         "itemCost": "$19.95"
+       },
+       {
+         "item": "No Cebolla",
+         "quantity": 2,
+         "itemCost": "$17.00"
+       },
+       {
+         "item": "Mar Y Chicken Tostones",
+         "quantity": 1,
+         "itemCost": "$16.00"
+       },
+       {
+         "item": "Salmon La Plancha Ensalada",
+         "quantity": 1,
+         "itemCost": "$16.00"
+       }
+     ],
+     "preTaxOrderTotal": "$69.90",
+     "tax": "$3.44",
+     "subtotalWithTax": "$73.44",
+     "amountDue": "$55.39"
+   }
+}
