@@ -1,8 +1,5 @@
 Flask
-pillow
 python-dotenv
 gunicorn
-moondream
-Werkzeug
-docker 
+moondream 
 CORS
