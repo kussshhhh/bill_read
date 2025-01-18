@@ -59,24 +59,32 @@ def analyze_receipt():
         # Query the receipt
         response = model.query(
             encoded_image,
-            "Analyze this receipt and respond ONLY with these exact details in this format: "
-            "{"
-            "\"name_of_establishment\": \"name of store/restaurant\", "
-            "\"currency\": \"$\" or any other, "
-            "\"items\": ["
-            "{\"name\": \"item name\", \"quantity\": number, \"price_per_item\": price, \"total_price\": quantity * price}"
-            "], "
-            "\"number_of_items\": total count of unique items, "
-            "\"subtotal\": subtotal amount, "
-            "\"tax\": tax amount or \"NA\" if none, "
-            "\"tip\": tip amount or \"NA\" if none, "
-            "\"additional_charges\": additional charges or \"NA\" if none, "
-            "\"total\": final total amount"
-            "}. "
-            "Only include information you can clearly see. Use \"NA\" for missing values. "
-            "Format all prices as decimal numbers without currency symbols. "
-            "Keep item names exactly as written on receipt. and give back json. "
-            "If a value does not exist or cannot be parsed, return \"na\" for it. and keep the order of fields of json intact"
+          '''Analyze this receipt and respond ONLY with these exact details in this format: 
+            {
+                "name_of_establishment": "name of store/restaurant",
+                "currency": "$" or any other,
+                "items": [
+                    {
+                        "name": "item name",
+                        "quantity": number,
+                        "price_per_item": price,
+                        "total_price": quantity * price
+                    }
+                ],
+                "number_of_items": total count of unique items,
+                "subtotal": subtotal amount,
+                "tax": tax amount or "NA" if none,
+                "tip": tip amount or "NA" if none,
+                "additional_charges": additional charges or "NA" if none,
+                "total": final total amount adding all expense 
+            }
+            
+            Only include information you can clearly see.
+            Use "NA" for missing values.
+            Format all prices as decimal numbers without currency symbols.
+            Keep item names exactly as written on receipt.
+            If a value does not exist or cannot be parsed, return "NA" for it.
+            Maintain the exact order of fields in the JSON structure.'''
             
         )["answer"]
         
