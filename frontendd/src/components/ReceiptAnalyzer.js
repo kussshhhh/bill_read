@@ -1,12 +1,14 @@
 import React, { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import axios from 'axios';
+import ReceiptSplitter from './ReceiptSplitter';
 
 function ReceiptAnalyzer() {
   const [response, setResponse] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   const [imagePreview, setImagePreview] = useState(null);
+  const [showJson, setShowJson] = useState(false);
 
   const backendUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000';
 
@@ -18,7 +20,7 @@ function ReceiptAnalyzer() {
     setImagePreview(URL.createObjectURL(acceptedFiles[0]));
 
     const formData = new FormData();
-    formData.append('image', acceptedFiles[0]); // Correct field name based on your backend
+    formData.append('image', acceptedFiles[0]);
 
     try {
       const result = await axios.post(`${backendUrl}/analyze_receipt`, formData, {
@@ -41,24 +43,32 @@ function ReceiptAnalyzer() {
     accept: {'image/*': []},
   });
 
+  const resetAnalysis = () => {
+    setResponse(null);
+    setImagePreview(null);
+    setError(null);
+  };
+
   const formatJSON = (json) => JSON.stringify(json, null, 2);
 
   return (
     <div style={styles.container}>
-      <h2>Receipt Analyzer</h2>
-      <div style={styles.dropzone} {...getRootProps()}>
-        <input {...getInputProps()} />
-        {isDragActive ? (
-          <p>Drop the receipt image here...</p>
-        ) : (
-          <p>Drag 'n' drop a receipt image here, or click to select a file</p>
-        )}
-      </div>
+      <h2 style={styles.title}>Receipt Analyzer</h2>
+      {!response && (
+        <div style={styles.dropzone} {...getRootProps()}>
+          <input {...getInputProps()} />
+          {isDragActive ? (
+            <p>Drop the receipt image here...</p>
+          ) : (
+            <p>Drag 'n' drop a receipt image here, or click to select a file</p>
+          )}
+        </div>
+      )}
 
       {imagePreview && (
         <div style={styles.imagePreview}>
           <h3>Uploaded Image:</h3>
-          <img src={imagePreview} alt="Uploaded Receipt" style={{ maxWidth: '100%', maxHeight: '400px' }} />
+          <img src={imagePreview || "/placeholder.svg"} alt="Uploaded Receipt" style={styles.previewImage} />
         </div>
       )}
 
@@ -75,11 +85,20 @@ function ReceiptAnalyzer() {
       )}
 
       {response && (
-        <div style={styles.result}>
-          <h3>Analysis Result:</h3>
-          <pre style={styles.jsonDisplay}>
-            {formatJSON(response)}
-          </pre>
+        <div>
+          <button onClick={resetAnalysis} style={styles.button}>Back to Upload</button>
+          <button onClick={() => setShowJson(!showJson)} style={styles.button}>
+            {showJson ? 'Hide' : 'Show'} JSON
+          </button>
+          {showJson && (
+            <div style={styles.result}>
+              <h3>Analysis Result:</h3>
+              <pre style={styles.jsonDisplay}>
+                {formatJSON(response)}
+              </pre>
+            </div>
+          )}
+          <ReceiptSplitter receiptData={response} />
         </div>
       )}
     </div>
@@ -91,6 +110,11 @@ const styles = {
     maxWidth: '800px',
     margin: '0 auto',
     padding: '20px',
+    fontFamily: 'Arial, sans-serif',
+  },
+  title: {
+    textAlign: 'center',
+    color: '#333',
   },
   dropzone: {
     border: '2px dashed #cccccc',
@@ -98,12 +122,15 @@ const styles = {
     padding: '20px',
     textAlign: 'center',
     cursor: 'pointer',
+    backgroundColor: '#f8f8f8',
+    transition: 'background-color 0.3s',
   },
   message: {
     marginTop: '20px',
     padding: '10px',
-    backgroundColor: '#f0f0f0',
+    backgroundColor: '#e8f5e9',
     borderRadius: '4px',
+    textAlign: 'center',
   },
   error: {
     marginTop: '20px',
@@ -111,6 +138,7 @@ const styles = {
     backgroundColor: '#ffebee',
     color: '#d32f2f',
     borderRadius: '4px',
+    textAlign: 'center',
   },
   result: {
     marginTop: '20px',
@@ -135,6 +163,26 @@ const styles = {
     padding: '20px',
     backgroundColor: '#f5f5f5',
     borderRadius: '4px',
+    textAlign: 'center',
+  },
+  previewImage: {
+    maxWidth: '100%',
+    maxHeight: '400px',
+    borderRadius: '4px',
+  },
+  button: {
+    backgroundColor: '#4CAF50',
+    border: 'none',
+    color: 'white',
+    padding: '10px 20px',
+    textAlign: 'center',
+    textDecoration: 'none',
+    display: 'inline-block',
+    fontSize: '16px',
+    margin: '4px 2px',
+    cursor: 'pointer',
+    borderRadius: '4px',
+    transition: 'background-color 0.3s',
   },
 };
 

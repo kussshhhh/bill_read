@@ -1,5 +1,5 @@
 import React from 'react';
-import ReceiptAnalyzer from './ReceiptAnalyzer';
+import ReceiptAnalyzer from './components/ReceiptAnalyzer';
 
 function App() {
   return (
