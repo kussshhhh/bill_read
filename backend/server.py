@@ -89,6 +89,7 @@ def analyze_receipt():
         )["answer"]
         
         # Try to parse the response as JSON
+        print(response) 
         try:
             json_response = json.loads(response)
             return jsonify(json_response)
