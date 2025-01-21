@@ -23,6 +23,38 @@ GROQ_API_KEY = os.getenv('GROQ_API_KEY')
 if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY environment variable is not set")
 
+
+initial_prompt = """
+Analyze this receipt and respond ONLY with these exact details in this format:
+{
+"name_of_establishment": "name of store/restaurant",
+"currency": "$" or any other,
+"items": [
+{
+"name": "item name",
+"quantity": number,
+"price_per_item": price,
+"total_price": quantity * price
+}
+],
+"number_of_items": total count of unique items,
+"subtotal": subtotal amount,
+"tax": tax amount or "NA" if none,
+"tip": tip amount or "NA" if none,
+"additional_charges": additional charges or "NA" if none,
+"total": final total amount
+}
+
+Only include information you can clearly see.
+Use "NA" for missing values.
+Format all prices as decimal numbers without currency symbols.
+Keep item names exactly as written on receipt.
+If a value does not exist or cannot be parsed, return "NA" for it.
+Maintain the exact order of fields in the JSON structure.
+Ensure that the total amount matches the sum of subtotal, tax, tip, and additional charges.
+Respond with only the JSON object, nothing else.
+"""
+
 # Function to check allowed file extensions
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -62,7 +94,7 @@ def analyze_receipt():
             "model": "llama-3.2-90b-vision-preview",
             "messages": [
                 {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": "Analyze this receipt and respond ONLY with these exact details in this format: \n{\n\"name_of_establishment\": \"name of store/restaurant\",\n\"currency\": \"$\" or any other,\n\"items\": [\n{\n\"name\": \"item name\",\n\"quantity\": number,\n\"price_per_item\": price,\n\"total_price\": quantity * price\n}\n],\n\"number_of_items\": total count of unique items,\n\"subtotal\": subtotal amount,\n\"tax\": tax amount or \"NA\" if none,\n\"tip\": tip amount or \"NA\" if none,\n\"additional_charges\": additional charges or \"NA\" if none,\n\"total\": final total amount\n}\n\nOnly include information you can clearly see.\nUse \"NA\" for missing values.\nFormat all prices as decimal numbers without currency symbols.\nKeep item names exactly as written on receipt.\nIf a value does not exist or cannot be parsed, return \"NA\" for it.\nMaintain the exact order of fields in the JSON structure. and give back only and only json nothing else just json"},
+                {"role": "user", "content":initial_prompt },
                 {"role": "user", "content": f"![receipt](data:image/jpeg;base64,{img_str})"}
             ]
         }
