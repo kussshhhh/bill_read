@@ -26,11 +26,13 @@ if not GEMINI_API_KEY:
 # Configure the Gemini API client
 genai.configure(api_key=GEMINI_API_KEY)
 
+model = genai.GenerativeModel('gemini-1.5-flash')
+
 initial_prompt = """
 Analyze this receipt and respond ONLY with these exact details in this format:
 {
     "name_of_establishment": "name of store/restaurant",
-    "currency": "$" or any other,
+    "currency": "$" or "rupees" any other,
     "items": [
         {
             "name": "item name",
@@ -61,6 +63,21 @@ Respond with only the JSON object, nothing else.
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
+
+def extract_json(text):
+    # Find the first { and last }
+    start = text.find('{')
+    end = text.rfind('}')
+    
+    if start == -1 or end == -1:
+        raise ValueError("No JSON object found in response")
+        
+    # Extract everything between first { and last }
+    json_str = text[start:end + 1]
+    
+    # Validate it's valid JSON
+    return json.loads(json_str)
+
 @app.route('/health', methods=['GET'])
 def health_check():
     return jsonify({'status': 'healthy'}), 200
@@ -82,43 +99,25 @@ def analyze_receipt():
         return jsonify({'error': 'File type not allowed'}), 400
 
     try:
-        # Read image directly from request
-        image_data = file.read()
-        image = Image.open(io.BytesIO(image_data))
-
-        # Convert image to base64
-        buffered = io.BytesIO()
-        image.save(buffered, format="JPEG")
-        img_str = base64.b64encode(buffered.getvalue()).decode('utf-8')
-
-        # Prepare the payload for Gemini Pro API
-        prompt = f"{initial_prompt}\n![receipt](data:image/jpeg;base64,{img_str})"
-
-        # Send request to Gemini Pro API
-        response = genai.chat(messages=prompt, model="gemini-pro-vision")
-
+        image = Image.open(file) 
+      
+        # Send request to Gemini API
+        response = model.generate_content([
+            initial_prompt,
+            image
+        ])
         # Check for successful response
         if response.status_code != 200:
             return jsonify({'error': 'Failed to get response from Gemini Pro API'}), response.status_code
 
-        # Parse the response
-        response_data = response.json()
-        if 'candidates' in response_data and len(response_data['candidates']) > 0:
-            model_response = response_data['candidates'][0]['content']['parts'][0]['text']
-
-            # Remove triple backticks and any text before or after the JSON
-            json_str = re.search(r'```(json)?\s*({.*})\s*```', model_response, re.DOTALL)
-            if json_str:
-                json_content = json_str.group(2)
-                try:
-                    json_response = json.loads(json_content)
-                    return jsonify(json_response)
-                except json.JSONDecodeError:
-                    return jsonify({'error': 'Failed to parse model response as JSON', 'raw_response': model_response}), 500
-            else:
-                return jsonify({'error': 'No JSON object found in model response', 'raw_response': model_response}), 500
-        else:
-            return jsonify({'error': 'Invalid response from Gemini Pro API'}), 500
+        try:
+            json_response = extract_json(response.text)
+            return jsonify(json_response)
+        except (json.JSONDecodeError, ValueError) as e:
+            return jsonify({
+                'error' : 'Failed to parse response as json',
+                'raw_response': response.text
+            }) , 500
 
     except Exception as e:
         return jsonify({'error': f'Error processing image: {str(e)}'}), 500
