@@ -4,7 +4,7 @@ import ReceiptAnalyzer from './components/ReceiptAnalyzer';
 function App() {
   return (
     <div className="App">
-      <h1 style={{ textAlign: 'center' }}>Receipt Analyzer</h1>
+      <h1 style={{ textAlign: 'center' }}>splitty</h1>
       <ReceiptAnalyzer />
     </div>
   );

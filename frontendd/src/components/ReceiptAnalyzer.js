@@ -53,7 +53,7 @@ function ReceiptAnalyzer() {
 
   return (
     <div style={styles.container}>
-      <h2 style={styles.title}>Receipt Analyzer</h2>
+      {/* <h2 style={styles.title}>Receipt Analyzer</h2> */}
       {!response && (
         <div style={styles.dropzone} {...getRootProps()}>
           <input {...getInputProps()} />
