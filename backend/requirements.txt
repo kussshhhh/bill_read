@@ -4,3 +4,4 @@ gunicorn
 moondream 
 CORS
 flask_cors
+google-generativeai
