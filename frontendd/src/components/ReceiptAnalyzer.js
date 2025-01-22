@@ -171,7 +171,7 @@ const styles = {
     borderRadius: '4px',
   },
   button: {
-    backgroundColor: '#4CAF50',
+    backgroundColor: '#b39ddb',
     border: 'none',
     color: 'white',
     padding: '10px 20px',
