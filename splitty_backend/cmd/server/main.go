@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 	"net/http"
-	"github.com/bufbuild/connect-go"
+	"connectrpc.com/connect"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 	
@@ -12,16 +12,16 @@ import (
 	"github.com/kussshhhh/splitty/splitty_backend/gen/splitty/v1/v1connect"
 )
 
-type SplittyServer struct()
+type SplittyServer struct{}
 
 func(s *SplittyServer) Signup(
 	ctx context.Context,
 	req *connect.Request[splittyv1.SignupRequest],
-) (*connect.Response[splitty.v1.SignupResponse], error) {
-	log.Printf("recieved signup request for email: %s" req.Msq.Email) ;
+) (*connect.Response[splittyv1.SignupResponse], error) {
+	log.Printf("recieved signup request for email: %s", req.Msg.Email) ;
 
 	response := &splittyv1.SignupResponse{
-		UserId: "something" // logic
+		UserId: "something", // logic
 	}
 
 	return connect.NewResponse(response), nil
@@ -30,7 +30,7 @@ func(s *SplittyServer) Signup(
 func(s *SplittyServer) Login(
 	ctx context.Context,
 	req *connect.Request[splittyv1.LoginRequest],
-) (*connect.Response[splittyv1.LoginResponse, error]) {
+) (*connect.Response[splittyv1.LoginResponse], error) {
 	log.Printf("recieved login request email: %s", req.Msg.Email) ;
 	response := &splittyv1.LoginResponse{
 		JwtToken: "random_token", // logic
@@ -66,17 +66,14 @@ func (s *SplittyServer) ReceiptAnalyze(
 		Total: 9.99,
 	}
 	
-	// Set tax as "not applicable" for now
 	response.Tax = &splittyv1.ReceiptAnalyzeResponse_TaxNa{
 		TaxNa: true,
 	}
 	
-	// Set tip as "not applicable" for now
 	response.Tip = &splittyv1.ReceiptAnalyzeResponse_TipNa{
 		TipNa: true,
 	}
 	
-	// Set additional charges as "not applicable" for now
 	response.AdditionalCharges = &splittyv1.ReceiptAnalyzeResponse_AdditionalChargesNa{
 		AdditionalChargesNa: true,
 	}
@@ -93,7 +90,7 @@ func main(){
 	mux.Handle(path, handler) 
 
 	address := ":8080"
-	log.Printf("server running on %s" address) ;
+	log.Printf("server running on %s", address) ;
 	err := http.ListenAndServe(
 		address,
 		h2c.NewHandler(mux, &http2.Server{}),
