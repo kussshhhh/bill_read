@@ -8,7 +8,7 @@ import (
 	connect "connectrpc.com/connect"
 	context "context"
 	errors "errors"
-	v1 "example/gen/splitty/v1"
+	v1 "github.com/kussshhhh/splitty/splitty_backend/v1"
 	http "net/http"
 	strings "strings"
 )

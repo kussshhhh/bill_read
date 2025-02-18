@@ -1,6 +1,6 @@
 syntax = "proto3" ;
 package splitty.v1 ;
-option go_package = "example/gen/splitty/v1";
+option go_package = "github.com/kussshhhh/splitty/splitty_backend/v1";
 
 service SplittyService {
     rpc Signup(SignupRequest) returns (SignupResponse);
