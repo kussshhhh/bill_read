@@ -8,8 +8,8 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 	
-	splittyv1 "github.com/kussshhhh/splitty/splitty_backend/v1"
-	"github.com/kussshhhh/splitty/splitty_backend/v1/v1connect"
+	splittyv1 "github.com/kussshhhh/splitty/splitty_backend/gen/splitty/v1"
+	"github.com/kussshhhh/splitty/splitty_backend/gen/splitty/v1/v1connect"
 )
 
 type SplittyServer struct()
