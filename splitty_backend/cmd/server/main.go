@@ -8,8 +8,10 @@ import (
 	"connectrpc.com/connect"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgtype"
+	// "github.com/jackc/pgx/v5"
+	// "github.com/jackc/pgx/v5/pgtype"
+	"os"
+    "github.com/joho/godotenv"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"golang.org/x/crypto/bcrypt"
 	"github.com/kussshhhh/splitty/splitty_backend/db/sqlc"	
@@ -43,22 +45,25 @@ func(s *SplittyServer) Signup(
 
 	hashed, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
 	if(err != nil){
-		return nil, connectNewError(
+		return nil, connect.NewError(
 			connect.CodeInternal,
 			fmt.Errorf("failed to hash: %v", err),
 		)
 	}
-
-	UserId, err = s.queries.CreateUser(ctx, email, string(hashedPassword))
+	params := db.CreateUserParams{
+		Email:        email,
+		PasswordHash: string(hashed),
+	}
+	userId, err := s.queries.CreateUser(ctx, params)
 	
 	if(err != nil){
 		return nil, connect.NewError(
 				connect.CodeAlreadyExists,
-				fmt.Errorf("email already registered"),
+				fmt.Errorf("error: %v", err),
 		)
 	}
 	response := &splittyv1.SignupResponse{
-		UserId: UserId.String(),
+		UserId: userId.String(),
 	}
 	return connect.NewResponse(response), nil
 }
@@ -118,8 +123,13 @@ func (s *SplittyServer) ReceiptAnalyze(
 }
 
 func main(){
-	dburl := "postgresql://postgres@localhost:5432/splitty?sslmode=disable"
-	var err error
+	err := godotenv.Load()
+    if err != nil {
+        log.Printf("env not loaded error: %v", err)
+    }
+	dbPassword := os.Getenv("DB_PASSWORD")
+	dburl := "postgresql://postgres:" + dbPassword + "@localhost:5432/splitty?sslmode=disable"
+	// var err error
 	dbPool, err = pgxpool.New(context.Background(), dburl) 
 	if(err != nil){
 		log.Fatalf("Unable to connect to db error: %v", err)
@@ -138,7 +148,7 @@ func main(){
 
 	address := ":8080"
 	log.Printf("server running on %s", address) ;
-	err := http.ListenAndServe(
+	err = http.ListenAndServe(
 		address,
 		h2c.NewHandler(mux, &http2.Server{}),
 	)
