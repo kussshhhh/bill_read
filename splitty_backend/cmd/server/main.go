@@ -10,6 +10,8 @@ import (
 	"golang.org/x/net/http2/h2c"
 	// "github.com/jackc/pgx/v5"
 	// "github.com/jackc/pgx/v5/pgtype"
+	"time"
+	"github.com/golang-jwt/jwt/v5"
 	"os"
     "github.com/joho/godotenv"
 	"github.com/jackc/pgx/v5/pgxpool"
@@ -33,7 +35,24 @@ type User struct {
 
 
 
-var users = make(map[string]*User) 
+var users = make(map[string]*User)
+var jwtkey []byte
+func init(){
+	err := godotenv.Load()
+    if err != nil {
+        log.Printf("env not loaded error: %v", err)
+    }
+	jwtkey = []byte(os.Getenv("KEY"))
+}
+
+func generateJWT(userID string) (string, error) {
+	claims := jwt.MapClaims{
+		"user_id": userID,
+		"exp":     time.Now().Add(time.Hour * 24).Unix(), // Token expires in 24 hours
+	}
+	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
+	return token.SignedString(jwtkey)
+}
 
 func(s *SplittyServer) Signup(
 	ctx context.Context,
@@ -72,9 +91,36 @@ func(s *SplittyServer) Login(
 	ctx context.Context,
 	req *connect.Request[splittyv1.LoginRequest],
 ) (*connect.Response[splittyv1.LoginResponse], error) {
-	log.Printf("recieved login request email: %s", req.Msg.Email) ;
+	email := req.Msg.Email
+	password := req.Msg.Password
+	log.Printf("recieved login request email: %s", email) ;
+
+	user, err := s.queries.GetUserByEmail(ctx, email)
+	if(err != nil){
+		return nil, connect.NewError(
+			connect.CodeNotFound,
+			fmt.Errorf("user not found error: %v", err),
+		)
+	}
+
+	err = bcrypt.CompareHashAndPassword([]byte(user.PasswordHash), []byte(password))
+	if err != nil {
+		return nil, connect.NewError(
+			connect.CodeUnauthenticated,
+			fmt.Errorf("invalid credentials"),
+		)
+	}
+
+	token, err := generateJWT(user.UserID.String())
+	if(err != nil){
+		return nil, connect.NewError(
+			connect.CodeInternal,
+			fmt.Errorf("failer to generate token"),
+		)
+	}
+
 	response := &splittyv1.LoginResponse{
-		JwtToken: "random_token", // logic
+		JwtToken: token, // logic
 		Valid: true,
 	}
 
@@ -123,14 +169,11 @@ func (s *SplittyServer) ReceiptAnalyze(
 }
 
 func main(){
-	err := godotenv.Load()
-    if err != nil {
-        log.Printf("env not loaded error: %v", err)
-    }
+	
 	dbPassword := os.Getenv("DB_PASSWORD")
 	dburl := "postgresql://postgres:" + dbPassword + "@localhost:5432/splitty?sslmode=disable"
 	// var err error
-	dbPool, err = pgxpool.New(context.Background(), dburl) 
+	dbPool, err := pgxpool.New(context.Background(), dburl) 
 	if(err != nil){
 		log.Fatalf("Unable to connect to db error: %v", err)
 	}
