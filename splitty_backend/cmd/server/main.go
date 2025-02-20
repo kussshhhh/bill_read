@@ -5,6 +5,7 @@ import (
 	"context"
 	"log"
 	"net/http"
+	"strings"
 	"connectrpc.com/connect"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
@@ -33,7 +34,8 @@ type User struct {
 	PasswordHash string
 }
 
-
+type contextKey string
+const userIDKey contextKey = "userID"
 
 var users = make(map[string]*User)
 var jwtkey []byte
@@ -44,6 +46,41 @@ func init(){
     }
 	jwtkey = []byte(os.Getenv("KEY"))
 }
+
+func AuthMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		authHeader := r.Header.Get("Authorization")
+		if authHeader == "" {
+			http.Error(w, "missing auth header", http.StatusUnauthorized)
+			return
+		}
+
+		tokenStr := strings.TrimPrefix(authHeader, "Bearer ")
+		token, err := jwt.Parse(tokenStr, func(token *jwt.Token) (interface{}, error) {
+			return jwtkey, nil
+		})
+
+		if err != nil || !token.Valid {
+			http.Error(w, "invalid token", http.StatusUnauthorized)
+			return
+		}
+
+		claims, ok := token.Claims.(jwt.MapClaims)
+		if !ok {
+			http.Error(w, "invalid token claims", http.StatusUnauthorized)
+			return
+		}
+
+		userID, ok := claims["user_id"].(string)
+		if !ok {
+			http.Error(w, "invalid user ID in token", http.StatusUnauthorized)
+			return
+		}
+
+		ctx := context.WithValue(r.Context(), userIDKey, userID)
+		next.ServeHTTP(w, r.WithContext(ctx))
+	})
+}		
 
 func generateJWT(userID string) (string, error) {
 	claims := jwt.MapClaims{
@@ -120,7 +157,7 @@ func(s *SplittyServer) Login(
 	}
 
 	response := &splittyv1.LoginResponse{
-		JwtToken: token, // logic
+		JwtToken: token, 
 		Valid: true,
 	}
 
@@ -134,6 +171,13 @@ func (s *SplittyServer) ReceiptAnalyze(
 ) (*connect.Response[splittyv1.ReceiptAnalyzeResponse], error) {
 	log.Printf("Received receipt analyze request with %d bytes", len(req.Msg.Image))
 	
+	_, ok := ctx.Value(userIDKey).(string)
+	if(!ok){
+		return nil, connect.NewError(
+			connect.CodeUnauthenticated,
+			fmt.Errorf("unauthorized request"),
+		)
+	}
 	// Simple placeholder response
 	response := &splittyv1.ReceiptAnalyzeResponse{
 		ReceiptId: "receipt-123",
@@ -184,10 +228,13 @@ func main(){
 
 	server := &SplittyServer{queries: queries} 
 
-	path, handler := v1connect.NewSplittyServiceHandler(server)
 
 	mux := http.NewServeMux() 
-	mux.Handle(path, handler) 
+	path, handler := v1connect.NewSplittyServiceHandler(server)
+
+	mux.Handle(path, handler)
+	
+	mux.Handle("/splitty.v1.SplittyService/ReceiptAnalyze", AuthMiddleware(handler))
 
 	address := ":8080"
 	log.Printf("server running on %s", address) ;
