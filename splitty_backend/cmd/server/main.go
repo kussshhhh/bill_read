@@ -28,11 +28,11 @@ type SplittyServer struct{
 
 var dbPool *pgxpool.Pool 
 
-type User struct {
-	UserId string
-	Email string
-	PasswordHash string
-}
+// type User struct {
+// 	UserId string
+// 	Email string
+// 	PasswordHash string
+// }
 
 type contextKey string
 const userIDKey contextKey = "userID"
@@ -168,9 +168,7 @@ func(s *SplittyServer) Login(
 func (s *SplittyServer) ReceiptAnalyze(
 	ctx context.Context,
 	req *connect.Request[splittyv1.ReceiptAnalyzeRequest],
-) (*connect.Response[splittyv1.ReceiptAnalyzeResponse], error) {
-	log.Printf("Received receipt analyze request with %d bytes", len(req.Msg.Image))
-	
+) (*connect.Response[splittyv1.ReceiptAnalyzeResponse], error) {	
 	_, ok := ctx.Value(userIDKey).(string)
 	if(!ok){
 		return nil, connect.NewError(
@@ -178,7 +176,7 @@ func (s *SplittyServer) ReceiptAnalyze(
 			fmt.Errorf("unauthorized request"),
 		)
 	}
-	// Simple placeholder response
+	// placeholder response
 	response := &splittyv1.ReceiptAnalyzeResponse{
 		ReceiptId: "receipt-123",
 		Status: true,
@@ -212,12 +210,27 @@ func (s *SplittyServer) ReceiptAnalyze(
 	return connect.NewResponse(response), nil
 }
 
+func corsMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Access-Control-Allow-Origin", "http://localhost:5173") // frontend url
+		w.Header().Set("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+		w.Header().Set("Access-Control-Allow-Headers", "Authorization, Content-Type, Connect-Protocol-Version")
+
+		if r.Method == "OPTIONS" {
+			w.WriteHeader(http.StatusOK)
+			return
+		}
+		next.ServeHTTP(w, r)
+	})
+}
+	
+
 func main(){
 	
 	dbPassword := os.Getenv("DB_PASSWORD")
 	dburl := "postgresql://postgres:" + dbPassword + "@localhost:5432/splitty?sslmode=disable"
 	// var err error
-	dbPool, err := pgxpool.New(context.Background(), dburl) 
+	dbPool, err := pgxpool.New(context.Background(), dburl) // shoudl i use .Connect instead? 
 	if(err != nil){
 		log.Fatalf("Unable to connect to db error: %v", err)
 	}
@@ -232,9 +245,20 @@ func main(){
 	mux := http.NewServeMux() 
 	path, handler := v1connect.NewSplittyServiceHandler(server)
 
-	mux.Handle(path, handler)
+		
+
+
+	// mux.Handle(path, corsMiddleware(handler))
 	
-	mux.Handle("/splitty.v1.SplittyService/ReceiptAnalyze", AuthMiddleware(handler))
+	// mux.Handle("/splitty.v1.SplittyService/ReceiptAnalyze", AuthMiddleware(corsMiddleware(handler) ))
+
+	mux.Handle(path, corsMiddleware(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+	    if strings.Contains(r.URL.Path, "ReceiptAnalyze") {
+	        AuthMiddleware(handler).ServeHTTP(w, r)
+	    } else {
+	        handler.ServeHTTP(w, r)
+	    }
+	})))
 
 	address := ":8080"
 	log.Printf("server running on %s", address) ;

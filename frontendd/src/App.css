@@ -1,38 +1,244 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* App Container */
 .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 5;
+  height: 64px;
+}
+
+.title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Buttons */
+.menu-button,
+.home-button,
+.logout-button {
+  background-color: #b39ddb;
+  border: none;
+  color: white;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logout-button {
+  background-color: #e53935;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 300px;
+  background-color: white;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+/* Sidebar Header */
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+  height: 64px;
+}
+
+.sidebar-title {
+  margin: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+/* Bills List */
+.bills-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.bill-item {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.bill-title {
+  margin: 0 0 8px 0;
+  color: #333;
+  font-weight: bold;
+}
+
+.bill-details {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 4px;
+}
+
+.empty-state {
+  text-align: center;
+  color: #666;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+/* Main Content */
+/* Ensure the main container takes full width */
+.main-content {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 20px;
+  width: 100vw; /* Full width of viewport */
+  max-width: 100%; /* Prevent any unintended restriction */
+}
+
+/* Make the dropbox expand fully */
+.dropbox-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.dropbox {
+  width: 90%; /* Adjust to take most of the screen */
+  max-width: none; /* Remove max width restriction */
+  min-height: 200px; /* Slightly taller for better UX */
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* Header container */
+.header {
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  align-items: center; /* Ensure vertical alignment */
+  justify-content: space-between; /* Spread items across */
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+/* Left section: Sidebar button */
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Right section: Home & Logout buttons */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between buttons */
+}
+
+/* Buttons styling */
+.logout-button, .home-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Specific colors for buttons */
+.logout-button {
+  background-color: #a78bfa;;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Home button styling */
+.home-button {
+  width: 40px; /* Same size as sidebar button */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a78bfa; /* Match sidebar button color */
+  color: white;
+  border: none;
+  border-radius: 50%; /* Make it round */
+  cursor: pointer;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

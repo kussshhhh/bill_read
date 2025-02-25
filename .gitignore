@@ -11,3 +11,4 @@ venv/
 .env.local
 .env.*.local
 test.py
+splitty_backend/.env

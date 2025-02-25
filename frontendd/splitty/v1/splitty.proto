@@ -1,0 +1,89 @@
+syntax = "proto3" ;
+package splitty.v1 ;
+option go_package = "github.com/kussshhhh/splitty/splitty_backend/gen/splitty/v1";
+
+service SplittyService {
+    rpc Signup(SignupRequest) returns (SignupResponse);
+    rpc Login(LoginRequest) returns (LoginResponse);
+    
+    rpc ReceiptAnalyze(ReceiptAnalyzeRequest) returns(ReceiptAnalyzeResponse);
+}
+
+message SignupRequest{
+    string email = 1;
+    string password = 2;
+}
+
+message SignupResponse{
+    string user_id = 1; 
+}
+
+message LoginRequest {
+    string email = 1 ;
+    string password = 2 ;
+}
+
+message LoginResponse {
+    string jwt_token = 1;
+    bool valid = 2;   // if credentials are true or false 
+}
+
+message ReceiptAnalyzeRequest{
+    bytes image = 1;
+}
+
+message ReceiptItem {
+    string name = 1;
+    int32 quantity = 2;
+    float price_per_item = 3;
+    float total_price = 4;
+}
+
+message ReceiptAnalyzeResponse{
+    string receipt_id = 1;
+    bool status = 2;
+    
+    string name_of_establishment  = 3;
+    string currency = 4;
+    repeated ReceiptItem items = 5;
+    int32 number_of_items = 6;
+    float subtotal = 7;
+    oneof tax  {
+        float tax_value = 8 ;
+        bool tax_na = 9 ;
+    }
+
+    oneof tip {
+        float tip_value = 10 ;
+        bool tip_na = 11 ;
+    }
+
+    oneof additional_charges {
+        float additional_charges_value = 12 ;
+        bool additional_charges_na = 13 ;
+    }
+
+    float total = 14 ;
+    
+}
+
+// one of 
+// map
+// {
+//     "name_of_establishment": "name of store/restaurant",
+//     "currency": "$" or "rupees" any other,
+//     "items": [
+//         {
+//             "name": "item name",
+//             "quantity": number,
+//             "price_per_item": price,
+//             "total_price": quantity * price
+//         }
+//     ],
+//     "number_of_items": total count of unique items,
+//     "subtotal": subtotal amount,
+//     "tax": tax amount or "NA" if none,
+//     "tip": tip amount or "NA" if none,
+//     "additional_charges": additional charges or "NA" if none,
+//     "total": final total amount
+// }
