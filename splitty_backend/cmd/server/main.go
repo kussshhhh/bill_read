@@ -14,6 +14,8 @@ import (
 	"time"
 	"github.com/golang-jwt/jwt/v5"
 	"os"
+	"github.com/google/generative-ai-go/genai"
+    "google.golang.org/api/option"
     "github.com/joho/godotenv"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"golang.org/x/crypto/bcrypt"
@@ -21,6 +23,7 @@ import (
 	splittyv1 "github.com/kussshhhh/splitty/splitty_backend/gen/splitty/v1"
 	"github.com/kussshhhh/splitty/splitty_backend/gen/splitty/v1/v1connect"
 )
+
 
 type SplittyServer struct{
 	queries *db.Queries 
@@ -37,7 +40,7 @@ var dbPool *pgxpool.Pool
 type contextKey string
 const userIDKey contextKey = "userID"
 
-var users = make(map[string]*User)
+// var users = make(map[string]*User)
 var jwtkey []byte
 func init(){
 	err := godotenv.Load()
@@ -176,6 +179,38 @@ func (s *SplittyServer) ReceiptAnalyze(
 			fmt.Errorf("unauthorized request"),
 		)
 	}
+	apikey := os.Getenv("GEMINI_API_KEY")
+	image_data := req.Msg.GetImage()
+	client, err := genai.NewClient(ctx, option.WithAPIKey(apikey))
+	model := client.GenerativeModel("gemini-2.0-flash")
+
+	request := []genai.Part{
+		genai.ImageData("jpeg", image_data),
+		genai.Text("caption this image"),
+	}
+	resp, err := model.GenerateContent(ctx, request...)
+	if(err != nil){
+		panic(err) ;
+	}
+	// Print the full response structure with field names
+fmt.Printf("%+v\n", resp)
+
+// Access specific parts of the response
+for i, candidate := range resp.Candidates {
+    fmt.Printf("Candidate %d:\n", i)
+    for j, part := range candidate.Content.Parts {
+        fmt.Printf("  Part %d type: %T\n", j, part)
+        fmt.Printf("  Part %d value: %v\n", j, part)
+    }
+    
+    // Print safety ratings if available
+    if len(candidate.SafetyRatings) > 0 {
+        fmt.Println("  Safety Ratings:")
+        for _, rating := range candidate.SafetyRatings {
+            fmt.Printf("    Category: %v, Score: %v\n", rating.Category, rating.Probability)
+        }
+    }
+}
 	// placeholder response
 	response := &splittyv1.ReceiptAnalyzeResponse{
 		ReceiptId: "receipt-123",
